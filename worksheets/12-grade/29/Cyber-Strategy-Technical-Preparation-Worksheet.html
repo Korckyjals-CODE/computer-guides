@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Ready for: Cyber Strategy – Technical Foundations – Grade 12</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      color: #1a1a1a;
+      line-height: 1.5;
+      background: #fff;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #1a5276;
+      border-bottom: 3px solid #1a5276;
+      padding-bottom: 0.25rem;
+      margin-top: 0;
+    }
+    .subtitle {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      color: #1a5276;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box {
+      background: #e3f2fd;
+      border-left: 4px solid #1a5276;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+    }
+    .part {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid #bbb;
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+    }
+    th { background: #e3f2fd; }
+    .fill-line {
+      border-bottom: 1px solid #999;
+      min-height: 1.4em;
+      display: block;
+    }
+    .scenario-box {
+      background: #f5f5f5;
+      border-left: 3px solid #1a5276;
+      padding: 0.5rem 1rem;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.35rem 1.5rem;
+      align-items: baseline;
+      margin-bottom: 1.25rem;
+      padding: 0.75rem 1rem;
+      background: #f5f5f5;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #666;
+    }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .part { page-break-inside: avoid; break-inside: avoid; }
+      .scenario-box { page-break-inside: avoid; break-inside: avoid; }
+      table {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Get Ready for: Cyber Strategy – Technical Foundations</h1>
+  <p class="subtitle"><strong>Grade 12 · Preparation worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong>
+    <span class="fill-line"></span>
+    <strong>Grade/Section:</strong>
+    <span class="fill-line"></span>
+    <strong>Date:</strong>
+    <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Part 1 – Your mission <span class="time">(about 3 minutes)</span></h2>
+    <p><strong>What you will do in the project:</strong> A <strong>cyber strategy</strong> is a plan for how an organization protects its systems, data, and people from digital threats. In this project, you will work with <strong>threat modeling</strong>, <strong>risk assessment</strong>, and <strong>security architecture</strong>—the technical building blocks of cyber strategy. You will learn how to identify risks, design layered defenses, and plan for incidents.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>In one sentence</strong>, what is a cyber strategy?<br>
+        <span class="fill-line" style="margin-top: 0.25rem;"></span><br>
+        <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+      <li><strong>Name two technical elements</strong> of cyber strategy that you will explore in this project.<br>
+        <span class="fill-line" style="width: 180px; margin-top: 0.25rem; display: inline-block;"></span>
+        <span class="fill-line" style="width: 180px; margin-top: 0.25rem; display: inline-block;"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 2 – Threat modeling and risk <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Threat modeling</strong> means thinking about who might attack (e.g. hackers, insiders) and how (e.g. through email, weak passwords, unpatched software). An <strong>attack surface</strong> is all the points where an attacker could try to get in. <strong>Risk</strong> is the chance that a threat will happen and how bad the impact would be.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A small clinic stores patient records on one computer. The computer has no backup, the staff use simple passwords, and they open emails from unknown senders. One day, <strong>ransomware</strong> locks all files. The clinic cannot access patient data and must decide whether to pay the ransom.
+    </div>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>List 3 risks</strong> the clinic had before the attack. (Think about what made them vulnerable.)<br>
+        <span class="fill-line" style="margin-top: 0.25rem;"></span><br>
+        <span class="fill-line" style="margin-top: 0.25rem;"></span><br>
+        <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+      <li><strong>Rank these risks from 1 (most important to fix first) to 3.</strong> Write your order and one reason for your top priority.<br>
+        Order: <span class="fill-line" style="width: 80px; display: inline-block;"></span> , <span class="fill-line" style="width: 80px; display: inline-block;"></span> , <span class="fill-line" style="width: 80px; display: inline-block;"></span><br>
+        Reason for #1: <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 3 – Defense-in-depth <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Defense-in-depth</strong> means using many layers of security. If one layer fails, others may still protect you. For example: strong passwords + two-factor authentication + firewalls + backups. No single layer is perfect.</p>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Why might one layer fail? Why do organizations use multiple layers instead of just one?</p>
+    <p><strong>Do this:</strong> Match each security control to a typical layer. Use the word bank.</p>
+    <p><strong>Word bank:</strong> <em>Network / Perimeter</em> · <em>User / Identity</em> · <em>Data / Backup</em></p>
+    <table>
+      <thead>
+        <tr><th>Control</th><th>Layer (your answer)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Firewall that blocks unwanted traffic</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Two-factor authentication (2FA)</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Daily backup of important files</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 4 – Incident response <span class="time">(about 5 minutes)</span></h2>
+    <p>When a <strong>security incident</strong> happens (e.g. data breach, ransomware), organizations follow an <strong>incident response</strong> process: <strong>Detect</strong> → <strong>Respond</strong> → <strong>Recover</strong>. The order matters.</p>
+    <div class="scenario-box">
+      <strong>Scenario:</strong> A company discovers that customer data has been stolen. Some employees want to shut down everything immediately. Others want to investigate first.
+    </div>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Number these steps 1, 2, 3</strong> in the order you think they should happen:<br>
+        <span class="fill-line" style="width: 30px; display: inline-block;"></span> Contain the breach (stop more data from leaving)<br>
+        <span class="fill-line" style="width: 30px; display: inline-block;"></span> Notify affected customers and authorities (if required)<br>
+        <span class="fill-line" style="width: 30px; display: inline-block;"></span> Investigate what was taken and how it happened</li>
+      <li><strong>In one or two sentences</strong>, why is the order of these steps important?<br>
+        <span class="fill-line" style="margin-top: 0.25rem;"></span><br>
+        <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 5 – Security trade-offs <span class="time">(about 5 minutes)</span></h2>
+    <p>Security decisions often involve <strong>trade-offs</strong>: more security can mean more cost or less convenience. For example, <strong>stricter passwords</strong> might reduce risk but frustrate users; <strong>multi-factor authentication (MFA)</strong> adds a step but blocks many attacks.</p>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Would you rather use stricter passwords (longer, more complex) or add MFA (an extra step when you log in)? Why?</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Compare two approaches</strong> for a school’s student portal:<br>
+        <strong>Option A:</strong> Passwords must be 16 characters with symbols. No MFA.<br>
+        <strong>Option B:</strong> Passwords can be 8 characters. MFA required (e.g. code on phone).</li>
+      <li><strong>Which option do you think is better?</strong> Circle A or B. <strong>In one sentence</strong>, explain your choice.<br>
+        Choice: <span class="fill-line" style="width: 40px; display: inline-block;"></span><br>
+        Reason: <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+    </ol>
+  </div>
+
+  <div class="part checklist-wrapper">
+    <h2>Part 6 – Before you sit at the computer <span class="time">(about 2 minutes)</span></h2>
+    <p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+    <ul class="checklist">
+      <li>□ I know what a cyber strategy is and its technical focus.</li>
+      <li>□ I understand threat modeling and risk (threat actors, attack surface, risk ranking).</li>
+      <li>□ I understand defense-in-depth (layered security).</li>
+      <li>□ I understand incident response (Detect, Respond, Recover).</li>
+      <li>□ I have thought about security trade-offs (cost, usability, risk).</li>
+    </ul>
+    <p>When all boxes are checked, you are ready to start the project on the computer.</p>
+  </div>
+
+  <p class="footer">Preparation worksheet for the project "Cyber Strategy – Technical Foundations" (Technology Box Inc. / TBox). Central topic: Cyber strategy. Main technology area: Security systems.</p>
+
+</body>
+</html>
