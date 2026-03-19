@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security Layers: Technical Worksheet – Grade 7</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      color: #1a1a1a;
+      line-height: 1.5;
+      background: #fff;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #0d5a7c;
+      border-bottom: 3px solid #0d5a7c;
+      padding-bottom: 0.25rem;
+      margin-top: 0;
+    }
+    .subtitle {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      color: #0d5a7c;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box {
+      background: #e3f2fd;
+      border-left: 4px solid #0d5a7c;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+    }
+    .part {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid #bbb;
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+    }
+    th { background: #e3f2fd; }
+    .fill-line {
+      border-bottom: 1px solid #999;
+      min-height: 1.4em;
+      display: block;
+    }
+    .scenario-box {
+      background: #f5f5f5;
+      border-left: 3px solid #0d5a7c;
+      padding: 0.5rem 1rem;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    .sketch-box {
+      border: 2px solid #999;
+      min-height: 120px;
+      margin: 0.5rem 0;
+      background: #fafafa;
+    }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.35rem 1.5rem;
+      align-items: baseline;
+      margin-bottom: 1.25rem;
+      padding: 0.75rem 1rem;
+      background: #f5f5f5;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #666;
+    }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .part { page-break-inside: avoid; break-inside: avoid; }
+      .scenario-box { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { page-break-inside: avoid; break-inside: avoid; }
+      table {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Security Layers: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 7 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong>
+    <span class="fill-line"></span>
+    <strong>Grade/Section:</strong>
+    <span class="fill-line"></span>
+    <strong>Date:</strong>
+    <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+    <p><strong>What you will learn:</strong> <strong>Security layers</strong> are different levels of protection around your devices and data. Think of it like a castle with walls, a gate, and locked doors inside. If someone gets past one layer, others can still protect you. In this worksheet you will learn about the physical, account, network, software, and data layers—and why having multiple layers helps keep you safer.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>In one sentence</strong>, what is a security layer?<br>
+        <span class="fill-line" style="margin-top: 0.25rem;"></span><br>
+        <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+      <li><strong>Name two security layers</strong> you will learn in this worksheet.<br>
+        <span class="fill-line" style="width: 180px; margin-top: 0.25rem; display: inline-block;"></span>
+        <span class="fill-line" style="width: 180px; margin-top: 0.25rem; display: inline-block;"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 2 – Physical and account layers <span class="time">(about 5 minutes)</span></h2>
+    <p>The <strong>physical layer</strong> means who can touch your device. Keep it locked when you are not using it. Use it in places where strangers cannot grab it. The <strong>account layer</strong> means your passwords and logins. Use a strong password and never share it with anyone.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A friend leaves their laptop unlocked in the school cafeteria while they get lunch. When they come back, someone has changed their wallpaper and opened their social media. Nothing was stolen, but the friend felt unsafe.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Why might one layer fail? What would have happened if the friend had also used a strong password and locked the screen?</p>
+    <p><strong>Do this:</strong> Match each control to a layer. Use the word bank.</p>
+    <p><strong>Word bank:</strong> <em>Physical</em> · <em>Account</em></p>
+    <table>
+      <thead>
+        <tr><th>Control</th><th>Layer (your answer)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lock the screen when you step away</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Use a strong, unique password</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Keep your phone in your bag, not on the table</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 3 – Network and software layers <span class="time">(about 5 minutes)</span></h2>
+    <p>The <strong>network layer</strong> is about how your device connects to the internet. Home Wi‑Fi is usually safer than public Wi‑Fi (e.g. at a café) because you control it. A <strong>firewall</strong> is a barrier that blocks unwanted traffic. The <strong>software layer</strong> means keeping your apps and system updated. Updates often fix security problems. <strong>Antivirus</strong> software helps detect and block malware.</p>
+    <div class="scenario-box">
+      <strong>Scenario:</strong> A student uses free public Wi‑Fi at a mall to check their bank balance. Later they notice strange charges. Someone may have intercepted their data on the public network.
+    </div>
+    <p><strong>Critical thinking:</strong> Rank these from 1 (highest risk) to 3 (lowest risk): Using public Wi‑Fi for banking | Using public Wi‑Fi for watching videos | Using home Wi‑Fi for banking. Write your order and one reason.<br>
+      Order: <span class="fill-line" style="width: 60px; display: inline-block;"></span> , <span class="fill-line" style="width: 60px; display: inline-block;"></span> , <span class="fill-line" style="width: 60px; display: inline-block;"></span><br>
+      Reason: <span class="fill-line" style="margin-top: 0.25rem;"></span></p>
+    <p><strong>Do this:</strong> Match each control to a layer. Use the word bank.</p>
+    <p><strong>Word bank:</strong> <em>Network</em> · <em>Software</em></p>
+    <table>
+      <thead>
+        <tr><th>Control</th><th>Layer (your answer)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Install software updates when prompted</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Use home Wi‑Fi for sensitive tasks (e.g. passwords, banking)</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Run antivirus scans regularly</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 4 – Data layer and backups <span class="time">(about 5 minutes)</span></h2>
+    <p>The <strong>data layer</strong> protects your files and information. A <strong>backup</strong> is a copy of your important files stored in another place (e.g. cloud, external drive). If your device is lost, stolen, or hit by <strong>ransomware</strong> (malware that locks your files), a backup lets you recover without paying or losing everything.</p>
+    <div class="scenario-box">
+      <strong>Scenario:</strong> Ransomware locks all files on the school computers. Only one student had backed up their project to the cloud. Everyone else lost their work and had to start over.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Why are backups a separate layer? How do they help when other layers fail?</p>
+    <p><strong>Do this:</strong> List 3 things you would back up (e.g. photos, school work, passwords in a safe place).<br>
+      <span class="fill-line" style="margin-top: 0.25rem;"></span><br>
+      <span class="fill-line" style="margin-top: 0.25rem;"></span><br>
+      <span class="fill-line" style="margin-top: 0.25rem;"></span></p>
+  </div>
+
+  <div class="part">
+    <h2>Part 5 – Putting layers together <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Defense-in-depth</strong> means using many layers of security. No single layer is perfect. If one fails, others can still protect you. Compare: <strong>Setup A</strong> has one very strong password but no backup and no screen lock. <strong>Setup B</strong> has a good password, screen lock, regular backups, and updated software. Which is safer if someone steals the device?</p>
+    <p><strong>Critical thinking:</strong> In one sentence, why is Setup B safer?<br>
+      <span class="fill-line" style="margin-top: 0.25rem;"></span></p>
+    <p><strong>Do this:</strong> Draw 3 security layers for your own device (e.g. phone or laptop). You can draw simple shapes or labels. Example: "Lock screen" + "Strong password" + "Backup photos."<br>
+      <div class="sketch-box"></div></p>
+  </div>
+
+  <div class="part checklist-wrapper">
+    <h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+    <p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+    <ul class="checklist">
+      <li>□ I know what security layers are.</li>
+      <li>□ I can name at least 3 layers (physical, account, network, software, or data).</li>
+      <li>□ I understand why multiple layers help (if one fails, others can still protect you).</li>
+      <li>□ I know what a backup is and why it matters.</li>
+      <li>□ I have thought about layers for my own devices.</li>
+    </ul>
+    <p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+  </div>
+
+  <p class="footer">Worksheet on Security Layers (Technical). Central topic: Safety. Main technology area: Security layers.</p>
+
+</body>
+</html>
