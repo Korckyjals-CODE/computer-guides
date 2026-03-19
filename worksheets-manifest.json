@@ -1,0 +1,65 @@
+﻿{
+    "lastUpdated":  "2026-03-19T13:10:16Z",
+    "items":  [
+                  {
+                      "week":  29,
+                      "worksheets":  [
+                                         {
+                                             "file":  "Safe-Internet-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "Safe-Internet-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  2,
+                      "topic":  "Safe internet"
+                  },
+                  {
+                      "week":  29,
+                      "worksheets":  [
+                                         {
+                                             "file":  "Protection-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "Protection-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  4,
+                      "topic":  "Protection"
+                  },
+                  {
+                      "week":  29,
+                      "worksheets":  [
+                                         {
+                                             "file":  "Security-Layers-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "Security-Layers-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  7,
+                      "topic":  "Cyber basics"
+                  },
+                  {
+                      "week":  29,
+                      "worksheets":  [
+                                         {
+                                             "file":  "Cyber-Strategy-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "Cyber-Strategy-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  12,
+                      "topic":  "Cyber strategy"
+                  }
+              ]
+}

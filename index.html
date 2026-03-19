@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Worksheet Viewer – Computer Guides</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      color: #1a1a1a;
+      line-height: 1.5;
+      background: #f8f9fa;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #2c3e50;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+    .subtitle {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .filter-group label {
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    .filter-group select {
+      padding: 0.4rem 0.6rem;
+      font-size: 0.9rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background: #fff;
+      min-width: 5rem;
+    }
+    .results {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .item {
+      padding: 1rem 1.25rem;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+    .item-header {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      font-size: 1.05rem;
+    }
+    .item-meta {
+      font-size: 0.85rem;
+      color: #666;
+      margin-bottom: 0.5rem;
+    }
+    .item-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .item-links a {
+      display: inline-block;
+      padding: 0.35rem 0.6rem;
+      font-size: 0.85rem;
+      background: #2c3e50;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .item-links a:hover {
+      background: #34495e;
+    }
+    .empty-state, .error-state, .loading-state {
+      padding: 2rem;
+      text-align: center;
+      background: #fff;
+      border-radius: 8px;
+      color: #666;
+    }
+    .error-state { color: #c0392b; }
+    .loading-state { color: #7f8c8d; }
+    .manifest-meta {
+      font-size: 0.8rem;
+      color: #888;
+      margin-top: 1rem;
+    }
+    @media print {
+      body { background: #fff; }
+      .filters { display: none; }
+      .item { box-shadow: none; border: 1px solid #ddd; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Worksheet Viewer</h1>
+  <p class="subtitle">Browse available worksheets by grade and week</p>
+
+  <div class="filters" id="filters" style="display: none;">
+    <div class="filter-group">
+      <label for="grade">Grade</label>
+      <select id="grade">
+        <option value="">All</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="week">Week</label>
+      <select id="week">
+        <option value="">All</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="content">
+    <div class="loading-state" id="loading">Loading worksheets…</div>
+  </div>
+
+  <p class="manifest-meta" id="manifest-meta" style="display: none;"></p>
+
+  <script>
+    (function () {
+      const gradeSelect = document.getElementById('grade');
+      const weekSelect = document.getElementById('week');
+      const contentEl = document.getElementById('content');
+      const filtersEl = document.getElementById('filters');
+      const manifestMeta = document.getElementById('manifest-meta');
+
+      for (let w = 1; w <= 40; w++) {
+        const opt = document.createElement('option');
+        opt.value = w;
+        opt.textContent = w;
+        weekSelect.appendChild(opt);
+      }
+
+      function getQueryParams() {
+        const p = new URLSearchParams(window.location.search);
+        return { grade: p.get('grade') || '', week: p.get('week') || '' };
+      }
+
+      function applyQueryParams(grade, week) {
+        gradeSelect.value = grade || '';
+        weekSelect.value = week || '';
+      }
+
+      function updateUrl(grade, week) {
+        const p = new URLSearchParams();
+        if (grade) p.set('grade', grade);
+        if (week) p.set('week', week);
+        const q = p.toString();
+        const url = q ? '?' + q : window.location.pathname;
+        if (window.location.search !== (q ? '?' + q : '')) {
+          history.replaceState({}, '', url);
+        }
+      }
+
+      function filterItems(items, grade, week) {
+        return items.filter(function (item) {
+          if (grade && item.grade !== parseInt(grade, 10)) return false;
+          if (week && item.week !== parseInt(week, 10)) return false;
+          return true;
+        });
+      }
+
+      function render(items) {
+        const grade = gradeSelect.value;
+        const week = weekSelect.value;
+        const filtered = filterItems(items, grade, week);
+
+        if (filtered.length === 0) {
+          contentEl.innerHTML = '<div class="empty-state">No worksheets match the selected filters.</div>';
+          return;
+        }
+
+        contentEl.innerHTML = filtered.map(function (item) {
+          const path = 'worksheets/' + item.grade + '-grade/' + item.week + '/';
+          const links = item.worksheets.map(function (w) {
+            const href = path + encodeURIComponent(w.file);
+            const label = w.type === 'technical' ? 'Technical' : w.type === 'social' ? 'Social' : 'Worksheet';
+            return '<a href="' + href + '" target="_blank" rel="noopener">' + label + '</a>';
+          }).join('');
+          return (
+            '<div class="item">' +
+            '<div class="item-header">' + escapeHtml(item.topic) + '</div>' +
+            '<div class="item-meta">Grade ' + item.grade + ' · Week ' + item.week + '</div>' +
+            '<div class="item-links">' + links + '</div>' +
+            '</div>'
+          );
+        }).join('');
+      }
+
+      function escapeHtml(s) {
+        const div = document.createElement('div');
+        div.textContent = s;
+        return div.innerHTML;
+      }
+
+      function onFilterChange() {
+        const grade = gradeSelect.value;
+        const week = weekSelect.value;
+        updateUrl(grade, week);
+        if (window.manifestData) render(window.manifestData.items);
+      }
+
+      gradeSelect.addEventListener('change', onFilterChange);
+      weekSelect.addEventListener('change', onFilterChange);
+
+      fetch('worksheets-manifest.json')
+        .then(function (r) {
+          if (!r.ok) throw new Error('Manifest not found');
+          return r.json();
+        })
+        .then(function (data) {
+          document.getElementById('loading').style.display = 'none';
+          filtersEl.style.display = 'flex';
+          window.manifestData = data;
+
+          const q = getQueryParams();
+          if (q.grade || q.week) applyQueryParams(q.grade, q.week);
+
+          render(data.items);
+          manifestMeta.textContent = 'Last updated: ' + (data.lastUpdated || 'unknown');
+          manifestMeta.style.display = 'block';
+        })
+        .catch(function () {
+          contentEl.innerHTML = '<div class="error-state">Manifest not yet generated. Push to the repo to trigger generation.</div>';
+          document.getElementById('loading').style.display = 'none';
+        });
+    })();
+  </script>
+</body>
+</html>

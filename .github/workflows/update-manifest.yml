@@ -1,0 +1,33 @@
+name: Update Worksheet Manifest
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "worksheets/**"
+      - "Topic Matrix.csv"
+      - "scripts/generate-worksheet-manifest.ps1"
+
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate manifest
+        run: pwsh -File scripts/generate-worksheet-manifest.ps1
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet worksheets-manifest.json; then
+            echo "No changes to manifest"
+          else
+            git add worksheets-manifest.json
+            git commit -m "chore: update worksheet manifest"
+            git push
+          fi
