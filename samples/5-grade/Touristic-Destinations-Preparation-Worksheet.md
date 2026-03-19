@@ -1,6 +1,6 @@
-# Get Ready for: Touristic Destinations
+﻿# Touristic Destinations: Email and Design
 
-**Grade 5 · Preparation worksheet · About 25 minutes**  
+**Grade 5 · Worksheet · About 25 minutes**  
 *Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.*
 
 ---
@@ -13,9 +13,9 @@
 
 ---
 
-## Part 1 – Your mission (about 3 minutes)
+## Part 1 – What you will learn (about 3 minutes)
 
-**What you will do in the project:** You will choose a city in your country and use **email** to share **graphic materials** (posters, flyers, images) that promote that city as a place to visit. You will also learn what **spam** is and how to avoid it.
+**What you will learn:** In this worksheet you will learn about **email** (how it works and its main parts), **spam** (what it is and how to stay safe), and **graphic materials** (posters and flyers that promote a place). Imagine promoting a city as a tourist destination—you will plan an email and a flyer for it.
 
 **Do this:**
 
@@ -34,7 +34,7 @@
 
 ## Part 2 – Parts of an email (about 6 minutes)
 
-When you send an email, it has different **parts**. Later, you will use them on the computer. For now, match each part to what it is for.
+When you send an email, it has different **parts**. Match each part to what it is for.
 
 **Word bank:** *To* · *From* · *Subject* · *Message (body)* · *Attachment*
 
@@ -73,7 +73,7 @@ When you send an email, it has different **parts**. Later, you will use them on 
 
 ## Part 4 – Graphic materials: what goes on a poster or flyer? (about 5 minutes)
 
-In the project you will use a **graphic design** tool to make materials that promote your city (e.g. a poster or a flyer). Good promotional materials use **text**, **images** (or drawings), and sometimes **shapes** and **colors**.
+Good promotional materials (like a poster or flyer for a city) use **text**, **images** (or drawings), and sometimes **shapes** and **colors**. You can make them with a computer or by hand.
 
 **Do this:**
 
@@ -95,9 +95,9 @@ In the project you will use a **graphic design** tool to make materials that pro
 
 ---
 
-## Part 5 – Plan your first email (about 4 minutes)
+## Part 5 – Plan an email (about 4 minutes)
 
-Imagine you are about to send your **first email** to share your city as a tourist destination. Fill in the following as if you were preparing that email.
+Imagine you want to share your city as a tourist destination. Fill in the following as if you were preparing an email to do that.
 
 - **To (who would you send it to?):** _________________________________________
 
@@ -112,17 +112,17 @@ Imagine you are about to send your **first email** to share your city as a touri
 
 ---
 
-## Part 6 – Before you sit at the computer (about 2 minutes)
+## Part 6 – Check what you learned (about 2 minutes)
 
 **Checklist.** Put a ✓ in the box when it is true for you.
 
-- [ ] I chose my city.
 - [ ] I know the main parts of an email (To, From, Subject, Message, Attachment).
 - [ ] I know what spam is and at least one way to avoid it.
-- [ ] I have an idea for my graphic material (poster or flyer).
+- [ ] I have an idea for a promotional poster or flyer.
+- [ ] I can plan an email with a clear subject and message.
 
-When all boxes are checked, you are ready to start the project on the computer.
+When all boxes are checked, you have reviewed the main ideas from this worksheet.
 
 ---
 
-*Preparation worksheet for the project “Touristic Destinations” (Technology Box Inc. / TBox). Central topic: Citizens of the world. Main technology area: Email.*
+*Worksheet on Touristic Destinations: Email and Design. Central topic: Citizens of the world. Main technology area: Email.*

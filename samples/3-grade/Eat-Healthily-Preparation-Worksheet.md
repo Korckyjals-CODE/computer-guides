@@ -1,6 +1,6 @@
-# Get Ready for: Eat Healthily!
+﻿# Eat Healthily: Data, Tables, and Charts
 
-**Grade 3 · Preparation worksheet · About 25 minutes**  
+**Grade 3 · Worksheet · About 25 minutes**  
 *Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.*
 
 ---
@@ -13,9 +13,9 @@
 
 ---
 
-## Part 1 – Your mission (about 3 minutes)
+## Part 1 – What you will learn (about 3 minutes)
 
-**What you will do in the project:** TBox City is making an **app** to help children and teenagers eat healthily. You will use a **spreadsheet** (like Excel) to do calculations and make **charts** (graphs). Those charts will help app users see what variety of foods their body needs.
+**What you will learn:** In this worksheet you will learn about **data** (information we collect), **tables** (how we organize it), **calculations** (adding and working with numbers), and **charts** (pictures that show data). These ideas help us understand healthy eating and can be used with spreadsheets or apps too.
 
 **Do this:**
 
@@ -32,7 +32,7 @@
 
 ## Part 2 – Data: what can we collect? (about 5 minutes)
 
-In the project you will **collect data**. Data is information we gather—like numbers or names. For a healthy-eating app, we might ask: *How many fruits did you eat today?* or *What is your favourite vegetable?*
+**Data** is information we gather—like numbers or names. When we study healthy eating, we might ask: *How many fruits did you eat today?* or *What is your favourite vegetable?*
 
 **Do this:**
 
@@ -70,7 +70,7 @@ A **spreadsheet** is like a big grid. It has **rows** (across) and **columns** (
 
 ## Part 4 – Calculations: what can numbers tell us? (about 5 minutes)
 
-In the project you will use the computer to **add** and do other maths with the numbers in the table. For example: *How many fruits did someone eat in one week?* The spreadsheet does the calculation for you.
+We can **add** and do other maths with the numbers in a table. For example: *How many fruits did someone eat in one week?* A spreadsheet (like Excel) can do the calculation for you, but you can also add with a pencil!
 
 **Do this:**
 
@@ -86,7 +86,7 @@ In the project you will use the computer to **add** and do other maths with the 
 
 ## Part 5 – Charts: showing data with pictures (about 4 minutes)
 
-**Charts** (like bar charts or pie charts) let people **see** numbers quickly. In the project you will make charts from the data in the spreadsheet so app users can understand what to eat at a glance.
+**Charts** (like bar charts or pie charts) let people **see** numbers quickly. We can make charts from data to show things like how many fruits someone ate—so people can understand at a glance.
 
 **Do this:**
 
@@ -108,17 +108,17 @@ In the project you will use the computer to **add** and do other maths with the 
 
 ---
 
-## Part 6 – Before you sit at the computer (about 2 minutes)
+## Part 6 – Check what you learned (about 2 minutes)
 
 **Checklist.** Put a ✓ in the box when it is true for you.
 
-- [ ] I know what the project is about (healthy-eating app, spreadsheet, charts).
 - [ ] I know we collect **data** (information) about eating.
 - [ ] I know data can be put in a **table** with rows and columns.
 - [ ] I know we use **calculations** (like adding) and **charts** to show the data.
+- [ ] I can explain why a chart helps people understand numbers.
 
-When all boxes are checked, you are ready to start the project on the computer.
+When all boxes are checked, you have reviewed the main ideas from this worksheet.
 
 ---
 
-*Preparation worksheet for the project “Eat healthily!” (Technology Box Inc. / TBox). Central topic: Healthy life. Main technology area: Spreadsheets.*
+*Worksheet on Eat Healthily: Data, Tables, and Charts. Central topic: Healthy life. Main technology area: Spreadsheets.*
