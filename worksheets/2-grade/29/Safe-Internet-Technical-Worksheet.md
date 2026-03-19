@@ -1,6 +1,6 @@
-# Get Ready for: Safe Internet – Technical
+# Safe Internet: Technical Worksheet
 
-**Grade 2 · Preparation worksheet · About 25 minutes**
+**Grade 2 · Worksheet · About 25 minutes**
 
 Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.
 
@@ -20,9 +20,9 @@ Work with pen and paper. Use color pencils if you like. You do not need a comput
 
 ---
 
-## Part 1 – Your mission (about 3 minutes)
+## Part 1 – What you will learn (about 3 minutes)
 
-**What you will do in the project:** You will learn how to stay safe on the internet. You will find out what is safe and what is not. You will learn what to look for and what to avoid when you use a computer or a tablet.
+**What you will learn:** In this worksheet you will learn how to stay safe on the internet. You will find out what is safe and what is not. You will learn what to look for and what to avoid when you use a computer or a tablet.
 
 **Do this:**
 
@@ -97,7 +97,7 @@ When something feels wrong or you do not know what to do, **stop** and **tell a 
 
 ---
 
-## Part 6 – Before you sit at the computer (about 2 minutes)
+## Part 6 – Check what you learned (about 2 minutes)
 
 **Checklist.** Put a ✓ in the box when it is true for you.
 
@@ -106,8 +106,8 @@ When something feels wrong or you do not know what to do, **stop** and **tell a 
 - [ ] I know to keep my password secret.
 - [ ] I know to tell a grown-up when I am unsure or see something strange.
 
-When all boxes are checked, you are ready to start the project on the computer.
+When all boxes are checked, you have reviewed the main ideas from this worksheet.
 
 ---
 
-Preparation worksheet for the project "Safe Internet – Technical" (Technology Box Inc. / TBox). Central topic: Safety. Main technology area: Internet safety basics.
+Worksheet on Safe Internet (Technical). Central topic: Safety. Main technology area: Internet safety basics.

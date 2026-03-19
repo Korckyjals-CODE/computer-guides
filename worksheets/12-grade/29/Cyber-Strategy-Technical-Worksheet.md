@@ -1,6 +1,6 @@
-# Get Ready for: Cyber Strategy – Technical Foundations
+# Cyber Strategy: Technical Worksheet
 
-**Grade 12 · Preparation worksheet · About 25 minutes**  
+**Grade 12 · Worksheet · About 25 minutes**  
 *Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.*
 
 ---
@@ -13,9 +13,9 @@
 
 ---
 
-## Part 1 – Your mission (about 3 minutes)
+## Part 1 – What you will learn (about 3 minutes)
 
-**What you will do in the project:** A **cyber strategy** is a plan for how an organization protects its systems, data, and people from digital threats. In this project, you will work with **threat modeling**, **risk assessment**, and **security architecture**—the technical building blocks of cyber strategy. You will learn how to identify risks, design layered defenses, and plan for incidents.
+**What you will learn:** A **cyber strategy** is a plan for how an organization protects its systems, data, and people from digital threats. In this worksheet you will learn about **threat modeling**, **risk assessment**, and **security architecture**—the technical building blocks of cyber strategy. You will learn how to identify risks, design layered defenses, and plan for incidents.
 
 **Do this:**
 
@@ -24,7 +24,7 @@
    _________________________________________  
    _________________________________________
 
-2. **Name two technical elements** of cyber strategy that you will explore in this project.
+2. **Name two technical elements** of cyber strategy that you will learn in this worksheet.
 
    - 1. _________________________  2. _________________________
 
@@ -112,7 +112,7 @@ Security decisions often involve **trade-offs**: more security can mean more cos
 
 ---
 
-## Part 6 – Before you sit at the computer (about 2 minutes)
+## Part 6 – Check what you learned (about 2 minutes)
 
 **Checklist.** Put a ✓ in the box when it is true for you.
 
@@ -122,8 +122,8 @@ Security decisions often involve **trade-offs**: more security can mean more cos
 - [ ] I understand incident response (Detect, Respond, Recover).
 - [ ] I have thought about security trade-offs (cost, usability, risk).
 
-When all boxes are checked, you are ready to start the project on the computer.
+When all boxes are checked, you have reviewed the main ideas from this worksheet.
 
 ---
 
-*Preparation worksheet for the project “Cyber Strategy – Technical Foundations” (Technology Box Inc. / TBox). Central topic: Cyber strategy. Main technology area: Security systems.*
+*Worksheet on Cyber Strategy (Technical). Central topic: Cyber strategy. Main technology area: Security systems.*

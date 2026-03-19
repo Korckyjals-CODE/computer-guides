@@ -1,6 +1,6 @@
-# Get Ready for: Safe Internet – Social
+# Safe Internet: Social Worksheet
 
-**Grade 2 · Preparation worksheet · About 25 minutes**
+**Grade 2 · Worksheet · About 25 minutes**
 
 Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.
 
@@ -20,9 +20,9 @@ Work with pen and paper. Use color pencils if you like. You do not need a comput
 
 ---
 
-## Part 1 – Your mission (about 3 minutes)
+## Part 1 – What you will learn (about 3 minutes)
 
-**What you will do in the project:** You will learn how to stay safe on the internet by being kind and knowing who to trust. You will find out how to treat people online, when to be careful, and who to tell if something feels wrong.
+**What you will learn:** In this worksheet you will learn how to stay safe on the internet by being kind and knowing who to trust. You will find out how to treat people online, when to be careful, and who to tell if something feels wrong.
 
 **Do this:**
 
@@ -95,7 +95,7 @@ If a friend tells you something bad happened online, you can help. You can tell 
 
 ---
 
-## Part 6 – Before you sit at the computer (about 2 minutes)
+## Part 6 – Check what you learned (about 2 minutes)
 
 **Checklist.** Put a ✓ in the box when it is true for you.
 
@@ -104,8 +104,8 @@ If a friend tells you something bad happened online, you can help. You can tell 
 - [ ] I know to tell a grown-up when something feels wrong.
 - [ ] I know I can help a friend by telling a grown-up together.
 
-When all boxes are checked, you are ready to start the project on the computer.
+When all boxes are checked, you have reviewed the main ideas from this worksheet.
 
 ---
 
-Preparation worksheet for the project "Safe Internet – Social" (Technology Box Inc. / TBox). Central topic: Safety. Main technology area: Online behaviour / Digital citizenship.
+Worksheet on Safe Internet (Social). Central topic: Safety. Main technology area: Online behaviour / Digital citizenship.

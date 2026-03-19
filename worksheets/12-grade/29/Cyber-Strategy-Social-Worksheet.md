@@ -1,6 +1,6 @@
-# Get Ready for: Cyber Strategy – Social Dimensions
+# Cyber Strategy: Social Worksheet
 
-**Grade 12 · Preparation worksheet · About 25 minutes**  
+**Grade 12 · Worksheet · About 25 minutes**  
 *Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.*
 
 ---
@@ -13,9 +13,9 @@
 
 ---
 
-## Part 1 – Your mission (about 3 minutes)
+## Part 1 – What you will learn (about 3 minutes)
 
-**What you will do in the project:** A **cyber strategy** is not only about technology. It also involves **people**, **policies**, **culture**, and **ethics**. In this project, you will explore the social side of cyber strategy: how human behaviour affects security, who is responsible for protecting data, and what ethical choices we face online.
+**What you will learn:** A **cyber strategy** is not only about technology. It also involves **people**, **policies**, **culture**, and **ethics**. In this worksheet you will learn about the social side of cyber strategy: how human behaviour affects security, who is responsible for protecting data, and what ethical choices we face online.
 
 **Do this:**
 
@@ -24,7 +24,7 @@
    _________________________________________  
    _________________________________________
 
-2. **Name two social elements** of cyber strategy that you will explore in this project.
+2. **Name two social elements** of cyber strategy that you will learn in this worksheet.
 
    - 1. _________________________  2. _________________________
 
@@ -109,7 +109,7 @@ _________________________________________
 
 ---
 
-## Part 6 – Before you sit at the computer (about 2 minutes)
+## Part 6 – Check what you learned (about 2 minutes)
 
 **Checklist.** Put a ✓ in the box when it is true for you.
 
@@ -119,8 +119,8 @@ _________________________________________
 - [ ] I have thought about ethical choices in cyber security.
 - [ ] I understand the difference between security culture and blame culture.
 
-When all boxes are checked, you are ready to start the project on the computer.
+When all boxes are checked, you have reviewed the main ideas from this worksheet.
 
 ---
 
-*Preparation worksheet for the project “Cyber Strategy – Social Dimensions” (Technology Box Inc. / TBox). Central topic: Cyber strategy. Main technology area: Policy / Human factors in security.*
+*Worksheet on Cyber Strategy (Social). Central topic: Cyber strategy. Main technology area: Policy / Human factors in security.*
