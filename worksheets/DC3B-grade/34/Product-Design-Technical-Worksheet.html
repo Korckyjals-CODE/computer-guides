@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diseño de producto: Hoja de trabajo técnica – DC3B</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      color: #1a1a1a;
+      line-height: 1.5;
+      background: #fff;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #1565c0;
+      border-bottom: 3px solid #1565c0;
+      padding-bottom: 0.25rem;
+      margin-top: 0;
+    }
+    .subtitle {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      color: #1565c0;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box {
+      background: #e3f2fd;
+      border-left: 4px solid #1565c0;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+    }
+    .part {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid #bbb;
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+    }
+    th { background: #e3f2fd; }
+    .fill-line {
+      border-bottom: 1px solid #999;
+      min-height: 1.4em;
+      display: block;
+    }
+    .scenario-box {
+      background: #f5f5f5;
+      border-left: 3px solid #1565c0;
+      padding: 0.5rem 1rem;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    .sketch-box {
+      min-height: 140px;
+      background: #f0f0f0;
+      border: 1px solid #bbb;
+      margin: 0.75rem 0;
+      padding: 0.5rem;
+    }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.35rem 1.5rem;
+      align-items: baseline;
+      margin-bottom: 1.25rem;
+      padding: 0.75rem 1rem;
+      background: #f5f5f5;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #666;
+      page-break-before: avoid;
+      break-before: avoid;
+    }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .part { page-break-inside: avoid; break-inside: avoid; }
+      .scenario-box { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box {
+        page-break-inside: avoid;
+        break-inside: avoid;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      table {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Diseño de producto: Hoja de trabajo técnica</h1>
+  <p class="subtitle"><strong>DC3B · Hoja de trabajo · Unos 25 minutos</strong><br>
+  Trabaja con bolígrafo y papel. Puedes usar colores si quieres. No necesitas computadora ni internet.</p>
+
+  <div class="student-info">
+    <strong>Nombre:</strong>
+    <span class="fill-line"></span>
+    <strong>Grado o grupo:</strong>
+    <span class="fill-line"></span>
+    <strong>Fecha:</strong>
+    <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>Cómo usar esta hoja de trabajo</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Haz las partes <strong>en orden</strong>, de arriba abajo.</li>
+      <li>Cada parte indica un <strong>tiempo</strong> aproximado para que organices tu ritmo.</li>
+      <li>Lee cada instrucción antes de escribir. Puedes hacer esta actividad por tu cuenta.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Parte 1 – Qué aprenderás <span class="time">(unos 3 minutos)</span></h2>
+    <p><strong>Qué aprenderás:</strong> El <strong>diseño de producto</strong> es planificar con cuidado una herramienta para que las personas alcancen sus metas sin confusión innecesaria. En esta hoja aprenderás en qué se diferencia un <strong>objetivo del usuario</strong> de una <strong>función</strong>, cómo un <strong>diseño claro y buenas etiquetas</strong> orientan la atención, qué <strong>restricciones</strong> deben respetar quienes diseñan (accesibilidad, lenguaje, errores) y cómo los <strong>compromisos</strong> (tradeoffs) moldean el producto final.</p>
+    <p><strong>Haz esto:</strong></p>
+    <ol>
+      <li><strong>Escribe el nombre de una aplicación o sitio</strong> relacionado con el aprendizaje que uses (aula virtual, app de práctica, buscador de biblioteca: cualquier ejemplo).<br>
+        <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+      <li><strong>En una sola oración,</strong> describe un momento en el que esa herramienta te resultó confusa o más difícil de lo necesario.<br>
+        <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Parte 2 – Objetivos del usuario frente a funciones <span class="time">(unos 5 minutos)</span></h2>
+    <p>Un <strong>objetivo del usuario</strong> es lo que alguien intenta lograr (por ejemplo: “entregar mi práctica antes de medianoche con el formato correcto”). Una <strong>función</strong> es algo que el producto ofrece (por ejemplo: “arrastrar y soltar para subir archivo”, “cuenta regresiva hasta la fecha límite”). Un buen diseño parte de los objetivos y luego elige funciones que los apoyen de verdad, no al revés.</p>
+    <div class="scenario-box">
+      <strong>Escenario de la vida real:</strong> Una persona abre el curso en línea y ve cinco botones que suenan parecido: “Enviar”, “Entregar”, “Subir borrador”, “Compartir con el docente” y “Publicar”. Elige mal y el archivo queda en un foro en lugar de la bandeja de la tarea.
+    </div>
+    <p><strong>Comenta con un compañero o escribe tu reflexión:</strong> ¿Por qué <strong>demasiadas acciones parecidas</strong> aumentan los errores? ¿Qué <strong>cambio solo en el texto</strong> del botón haría más obvia la opción correcta?</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Haz esto:</strong> Escribe <strong>Objetivo</strong> o <strong>Función</strong> en cada línea.</p>
+    <table>
+      <thead>
+        <tr><th>Afirmación</th><th>¿Objetivo o función?</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>“Quiero ver si mi archivo se subió correctamente.”</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>“Un ícono de palomita verde cuando termina la subida.”</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>“Completar el registro en menos de tres minutos.”</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>“Guardar mis respuestas automáticamente cada 30 segundos.”</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Parte 3 – Jerarquía de la información y un wireframe sencillo <span class="time">(unos 5 minutos)</span></h2>
+    <p>La <strong>jerarquía de la información</strong> significa que la idea más importante aparece primero o destaca más (título, pasos, advertencias). Los <strong>mensajes de error en lenguaje claro</strong> explican qué falló y qué intentar después, no solo un código. Los <strong>patrones coherentes</strong> (la misma palabra para la misma acción en todo el sitio) reducen la carga de memoria.</p>
+    <p><strong>Haz esto:</strong></p>
+    <ol>
+      <li><strong>Enumera tres elementos</strong> que esperarías arriba de una pantalla de “Entregar tarea” (por ejemplo: título de la tarea, fecha límite, resumen de instrucciones).
+        <ol style="list-style-type: lower-alpha; margin-top: 0.35rem;">
+          <li><span class="fill-line" style="margin-top: 0.2rem;"></span></li>
+          <li><span class="fill-line" style="margin-top: 0.2rem;"></span></li>
+          <li><span class="fill-line" style="margin-top: 0.2rem;"></span></li>
+        </ol>
+      </li>
+      <li style="margin-top: 0.75rem;"><strong>Dibuja un wireframe sencillo</strong> en el recuadro de abajo. Solo <strong>cajas y etiquetas</strong> (sin dibujo artístico). Muestra una pantalla con título, un botón principal y un espacio breve para un mensaje de error.</li>
+    </ol>
+    <div class="sketch-box" aria-label="Espacio para tu wireframe"></div>
+  </div>
+
+  <div class="part">
+    <h2>Parte 4 – Restricciones con las que trabajan quienes diseñan <span class="time">(unos 5 minutos)</span></h2>
+    <p>Las <strong>restricciones</strong> son límites que el producto debe respetar: <strong>accesibilidad</strong> (tamaño de letra legible, subtítulos, no depender solo del color), <strong>lenguaje</strong> (vocabulario claro para distintos niveles de lectura), <strong>conexión lenta</strong> (video pesado frente a opción en texto) y <strong>recuperación ante errores</strong> (deshacer, volver a intentar, ruta de ayuda). Si se ignoran, el producto puede parecer potente pero excluye a personas o falla bajo estrés.</p>
+    <p><strong>Haz esto:</strong> Relaciona cada restricción con el mejor ejemplo de la lista de palabras.</p>
+    <p><strong>Lista de palabras:</strong> <em>Subtítulos en un videolección</em> · <em>Resumen en texto de la misma lección</em> · <em>Mensaje de error que diga qué corregir</em> · <em>Mismas etiquetas de botón con el mismo verbo en todo el sitio</em></p>
+    <table>
+      <thead>
+        <tr><th>Enfoque de la restricción</th><th>Tu respuesta (de la lista)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Alguien tiene conexión lenta</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Alguien usa subtítulos para seguir el audio hablado</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Alguien escribe mal una contraseña</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Alguien aprendió la app en la página A y ahora usa la página B</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Parte 5 – Notificaciones, fechas límite y compromisos <span class="time">(unos 5 minutos)</span></h2>
+    <p>Quienes diseñan suelen equilibrar <strong>rapidez</strong> (menos pasos) con <strong>claridad</strong> (más confirmaciones), y <strong>simplicidad</strong> (pocas opciones) con <strong>potencia</strong> (ajustes avanzados). Las <strong>notificaciones</strong> pueden recordar o saturar. Mostrar <strong>fechas límite</strong> puede estresar o ayudar a planear, según el texto, el momento y los valores predeterminados.</p>
+    <div class="scenario-box">
+      <strong>Escenario de la vida real:</strong> Una app de estudio envía tres recordatorios la noche anterior a una entrega: notificación push, correo y un aviso dentro de la app que bloquea la pantalla hasta cerrarlo. Algunas personas dicen que nunca olvidan la fecha; otras dicen que prefieren desactivar la app.
+    </div>
+    <p><strong>Pensamiento crítico:</strong> Nombra <strong>un beneficio</strong> y <strong>un perjuicio</strong> de este estilo de recordatorios. Luego propón <strong>una regla de diseño</strong> (por ejemplo: máximo de recordatorios al día, horas silenciosas, un solo correo resumen) que conserve el beneficio y reduzca el perjuicio.</p>
+    <p><strong>Beneficio:</strong><br><span class="fill-line"></span></p>
+    <p><strong>Perjuicio:</strong><br><span class="fill-line"></span></p>
+    <p><strong>Regla de diseño:</strong><br><span class="fill-line"></span></p>
+    <p><strong>Haz esto:</strong> Elige la mejor opción para una herramienta <strong>obligatoria</strong> en toda la escuela: <strong>A</strong> o <strong>B</strong> (escribe la letra).</p>
+    <table>
+      <thead>
+        <tr><th>Opción A</th><th>Opción B</th><th>Tu elección: A o B</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Un solo flujo: todos usan el mismo envío en tres pasos</td><td>Dos caminos: “Envío rápido” y “Envío guiado con verificaciones”</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Ocultar por completo los ajustes avanzados</td><td>Ofrecer “Avanzado” colapsado para quien lo necesite</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part checklist-wrapper">
+    <h2>Parte 6 – Comprueba lo aprendido <span class="time">(unos 2 minutos)</span></h2>
+    <p><strong>Lista de comprobación.</strong> Marca con una ✓ cuando la afirmación sea cierta para ti.</p>
+    <ul class="checklist">
+      <li>□ Puedo separar un <strong>objetivo del usuario</strong> de una <strong>función</strong> y explicar por qué importa.</li>
+      <li>□ Puedo describir la <strong>jerarquía de la información</strong> y por qué ayudan los errores en lenguaje claro.</li>
+      <li>□ Puedo nombrar <strong>restricciones</strong> como accesibilidad, lenguaje, ancho de banda y coherencia de patrones.</li>
+      <li>□ Puedo comentar <strong>compromisos</strong> entre rapidez, claridad, simplicidad y potencia.</li>
+      <li>□ Puedo relacionar el <strong>diseño de recordatorios y fechas límite</strong> con resultados útiles y dañinos.</li>
+    </ul>
+    <p>Cuando tengas todas las casillas marcadas, has repasado las ideas principales de esta hoja de trabajo.</p>
+  </div>
+
+  <p class="footer">Hoja de trabajo sobre diseño de producto. Tema central: Diseño de productos para el aprendizaje. Área tecnológica principal: Experiencia de usuario (UX) / diseño de software educativo.</p>
+
+</body>
+</html>
