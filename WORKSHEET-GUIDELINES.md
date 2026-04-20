@@ -18,7 +18,7 @@ This document defines how to create and maintain **Worksheets** for technology a
 
 ### 2.1 Location and naming
 
-- Use one folder per grade: `1-grade/`, `3-grade/`, `5-grade/`, etc.
+- Use one folder per grade or curriculum track: `1-grade/`, `3-grade/`, `5-grade/`, etc. The **Topic Matrix** also defines named tracks **`DC3A`**, **`DC3B`**, and **`DC3B-SEC`**; use matching folders `DC3A-grade/`, `DC3B-grade/`, and `DC3B-SEC-grade/` with the same week layout as numeric grades.
 - Worksheet files use one of these patterns:
   - **`[Topic-Name]-[Technical|Social]-Worksheet`** — when creating two worksheets per topic (one technical, one social perspective).
   - **`[Topic-Name]-Worksheet`** — when creating a single worksheet per topic.
@@ -33,6 +33,7 @@ This document defines how to create and maintain **Worksheets** for technology a
 - `3-grade/Eat-Healthily-Worksheet.html`
 - `5-grade/Touristic-Destinations-Worksheet.html`
 - `12-grade/29/Cyber-Strategy-Social-Worksheet.html`
+- `DC3A-grade/<week>/<Topic-Name>-Technical-Worksheet.html` (named track; same week and file patterns as `X-grade/`)
 
 ### 2.2 Teacher-facing description
 
@@ -200,7 +201,7 @@ If one part is concept-heavy or has more tasks, give it up to 6 minutes and shor
 
 ## 8. Checklist before publishing
 
-- [ ] Folder name matches grade (`X-grade/`).
+- [ ] Folder name matches grade or track (`X-grade/`, `DC3A-grade/`, etc.).
 - [ ] File names: `[Topic-Name]-[Technical|Social]-Worksheet.html` (or `[Topic-Name]-Worksheet.html`) and `.md`.
 - [ ] Title is topic-focused (e.g. “[Topic Name]: Technical Worksheet”), not “Get Ready for: [Project]”.
 - [ ] Subtitle includes grade, “Worksheet”, “About 25 minutes”, and the pen-and-paper line.

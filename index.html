@@ -121,18 +121,6 @@
       <label for="grade">Grade</label>
       <select id="grade">
         <option value="">All</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
       </select>
     </div>
     <div class="filter-group">
@@ -151,11 +139,45 @@
 
   <script>
     (function () {
+      const GRADE_SLUG_ORDER = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', 'DC3A', 'DC3B', 'DC3B-SEC'];
+
       const gradeSelect = document.getElementById('grade');
       const weekSelect = document.getElementById('week');
       const contentEl = document.getElementById('content');
       const filtersEl = document.getElementById('filters');
       const manifestMeta = document.getElementById('manifest-meta');
+
+      function gradeSortKey(slug) {
+        const s = String(slug);
+        const i = GRADE_SLUG_ORDER.indexOf(s);
+        return i === -1 ? 1000 : i;
+      }
+
+      function populateGradeSelect(items) {
+        const seen = {};
+        const list = [];
+        items.forEach(function (item) {
+          const g = String(item.grade);
+          if (!seen[g]) {
+            seen[g] = true;
+            list.push(g);
+          }
+        });
+        list.sort(function (a, b) {
+          return gradeSortKey(a) - gradeSortKey(b);
+        });
+        gradeSelect.innerHTML = '';
+        const allOpt = document.createElement('option');
+        allOpt.value = '';
+        allOpt.textContent = 'All';
+        gradeSelect.appendChild(allOpt);
+        list.forEach(function (g) {
+          const opt = document.createElement('option');
+          opt.value = g;
+          opt.textContent = g;
+          gradeSelect.appendChild(opt);
+        });
+      }
 
       for (let w = 1; w <= 40; w++) {
         const opt = document.createElement('option');
@@ -187,8 +209,8 @@
 
       function filterItems(items, grade, week) {
         return items.filter(function (item) {
-          if (grade && item.grade !== parseInt(grade, 10)) return false;
-          if (week && item.week !== parseInt(week, 10)) return false;
+          if (grade && String(item.grade) !== grade) return false;
+          if (week && String(item.week) !== String(week)) return false;
           return true;
         });
       }
@@ -204,7 +226,7 @@
         }
 
         contentEl.innerHTML = filtered.map(function (item) {
-          const path = 'worksheets/' + item.grade + '-grade/' + item.week + '/';
+          const path = 'worksheets/' + String(item.grade) + '-grade/' + item.week + '/';
           const links = item.worksheets.map(function (w) {
             const href = path + encodeURIComponent(w.file);
             const label = w.type === 'technical' ? 'Technical' : w.type === 'social' ? 'Social' : 'Worksheet';
@@ -213,7 +235,7 @@
           return (
             '<div class="item">' +
             '<div class="item-header">' + escapeHtml(item.topic) + '</div>' +
-            '<div class="item-meta">Grade ' + item.grade + ' · Week ' + item.week + '</div>' +
+            '<div class="item-meta">Grade ' + escapeHtml(String(item.grade)) + ' · Week ' + escapeHtml(String(item.week)) + '</div>' +
             '<div class="item-links">' + links + '</div>' +
             '</div>'
           );
@@ -246,7 +268,23 @@
           filtersEl.style.display = 'flex';
           window.manifestData = data;
 
+          populateGradeSelect(data.items);
           const q = getQueryParams();
+          if (q.grade) {
+            let hasGrade = false;
+            for (let oi = 0; oi < gradeSelect.options.length; oi++) {
+              if (gradeSelect.options[oi].value === q.grade) {
+                hasGrade = true;
+                break;
+              }
+            }
+            if (!hasGrade) {
+              const opt = document.createElement('option');
+              opt.value = q.grade;
+              opt.textContent = q.grade;
+              gradeSelect.appendChild(opt);
+            }
+          }
           if (q.grade || q.week) applyQueryParams(q.grade, q.week);
 
           render(data.items);

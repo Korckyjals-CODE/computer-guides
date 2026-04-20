@@ -13,22 +13,61 @@ if (-not (Test-Path $worksheetsPath)) {
     exit 1
 }
 
-# Build topic matrix: (grade, week) -> topic string
-$topicMatrix = @{}
-if (Test-Path $matrixPath) {
-    $gradeCols = @("1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th", "10th", "11th", "12th")
-    $rows = Import-Csv $matrixPath
-    $weekNum = 1
-    foreach ($row in $rows) {
-        for ($g = 1; $g -le 12; $g++) {
-            $col = $gradeCols[$g - 1]
-            $topic = $row.$col
-            if ($topic) {
-                $topicMatrix["$g-$weekNum"] = $topic.Trim()
-            }
-        }
-        $weekNum++
+function Get-SlugForMatrixColumn {
+    param([string]$ColumnName)
+    $ordinal = @{
+        '1st' = '1'; '2nd' = '2'; '3rd' = '3'; '4th' = '4'; '5th' = '5'; '6th' = '6'
+        '7th' = '7'; '8th' = '8'; '9th' = '9'; '10th' = '10'; '11th' = '11'; '12th' = '12'
     }
+    if ($ordinal.ContainsKey($ColumnName)) {
+        return $ordinal[$ColumnName]
+    }
+    return $ColumnName
+}
+
+# Build topic matrix: (slug-week) -> topic string; collect slug order from CSV
+$topicMatrix = @{}
+$slugOrder = @()
+if (Test-Path $matrixPath) {
+    $rows = Import-Csv $matrixPath
+    if ($rows.Count -eq 0) {
+        Write-Warning "Topic Matrix.csv has no data rows."
+    }
+    else {
+        $gradeColumns = @($rows[0].PSObject.Properties.Name | Where-Object { $_ -ne 'Week' })
+        foreach ($col in $gradeColumns) {
+            $slug = Get-SlugForMatrixColumn $col
+            $slugOrder += $slug
+        }
+
+        $weekNum = 1
+        foreach ($row in $rows) {
+            $i = 0
+            foreach ($col in $gradeColumns) {
+                $slug = $slugOrder[$i]
+                $topic = $row.$col
+                if ($topic) {
+                    $topicMatrix["$slug-$weekNum"] = $topic.Trim()
+                }
+                $i++
+            }
+            $weekNum++
+        }
+    }
+}
+
+if ($slugOrder.Count -eq 0) {
+    $slugOrder = @('1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12')
+}
+
+$validSlugs = @{}
+foreach ($s in $slugOrder) {
+    $validSlugs[$s] = $true
+}
+
+$slugRank = @{}
+for ($r = 0; $r -lt $slugOrder.Count; $r++) {
+    $slugRank[$slugOrder[$r]] = $r
 }
 
 # Infer worksheet type from filename
@@ -44,8 +83,12 @@ $items = @()
 $gradeDirs = Get-ChildItem -Path $worksheetsPath -Directory -Filter "*-grade" -ErrorAction SilentlyContinue
 
 foreach ($gradeDir in $gradeDirs) {
-    if ($gradeDir.Name -match "^(\d+)-grade$") {
-        $grade = [int]$Matches[1]
+    if ($gradeDir.Name -match '^(.+)-grade$') {
+        $slug = $Matches[1]
+        if (-not $validSlugs.ContainsKey($slug)) {
+            continue
+        }
+
         $weekDirs = Get-ChildItem -Path $gradeDir.FullName -Directory -ErrorAction SilentlyContinue
 
         foreach ($weekDir in $weekDirs) {
@@ -63,15 +106,15 @@ foreach ($gradeDir in $gradeDirs) {
                     }
 
                     $topic = "Week $week"
-                    $key = "$grade-$week"
+                    $key = "$slug-$week"
                     if ($topicMatrix.ContainsKey($key)) {
                         $topic = $topicMatrix[$key]
                     }
 
                     $items += @{
-                        grade     = $grade
-                        week      = $week
-                        topic     = $topic
+                        grade      = [string]$slug
+                        week       = $week
+                        topic      = $topic
                         worksheets = $worksheets
                     }
                 }
@@ -80,8 +123,9 @@ foreach ($gradeDir in $gradeDirs) {
     }
 }
 
-# Sort by grade, then week
-$items = $items | Sort-Object { $_.grade }, { $_.week }
+$items = $items | Sort-Object {
+    if ($slugRank.ContainsKey($_.grade)) { $slugRank[$_.grade] } else { 999 }
+}, { $_.week }
 
 $manifest = @{
     lastUpdated = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")

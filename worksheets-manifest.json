@@ -1,6 +1,21 @@
 ﻿{
-    "lastUpdated":  "2026-03-19T13:10:16Z",
+    "lastUpdated":  "2026-04-20T12:24:28Z",
     "items":  [
+                  {
+                      "week":  34,
+                      "worksheets":  [
+                                         {
+                                             "file":  "School-Tech-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "School-Tech-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  "1",
+                      "topic":  "School tech"
+                  },
                   {
                       "week":  29,
                       "worksheets":  [
@@ -13,8 +28,53 @@
                                              "type":  "technical"
                                          }
                                      ],
-                      "grade":  2,
+                      "grade":  "2",
                       "topic":  "Safe internet"
+                  },
+                  {
+                      "week":  34,
+                      "worksheets":  [
+                                         {
+                                             "file":  "Learning-Tools-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "Learning-Tools-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  "2",
+                      "topic":  "Learning tools"
+                  },
+                  {
+                      "week":  31,
+                      "worksheets":  [
+                                         {
+                                             "file":  "Solve-Creatively-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "Solve-Creatively-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  "3",
+                      "topic":  "Design ideas"
+                  },
+                  {
+                      "week":  34,
+                      "worksheets":  [
+                                         {
+                                             "file":  "Digital-Learning-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "Digital-Learning-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  "3",
+                      "topic":  "Digital learning"
                   },
                   {
                       "week":  29,
@@ -28,8 +88,38 @@
                                              "type":  "technical"
                                          }
                                      ],
-                      "grade":  4,
+                      "grade":  "4",
                       "topic":  "Protection"
+                  },
+                  {
+                      "week":  31,
+                      "worksheets":  [
+                                         {
+                                             "file":  "Design-Thinking-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "Design-Thinking-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  "6",
+                      "topic":  "Design thinking"
+                  },
+                  {
+                      "week":  34,
+                      "worksheets":  [
+                                         {
+                                             "file":  "EdTech-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "EdTech-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  "6",
+                      "topic":  "EdTech"
                   },
                   {
                       "week":  29,
@@ -43,8 +133,53 @@
                                              "type":  "technical"
                                          }
                                      ],
-                      "grade":  7,
+                      "grade":  "7",
                       "topic":  "Cyber basics"
+                  },
+                  {
+                      "week":  34,
+                      "worksheets":  [
+                                         {
+                                             "file":  "Education-Tech-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "Education-Tech-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  "9",
+                      "topic":  "Education tech"
+                  },
+                  {
+                      "week":  34,
+                      "worksheets":  [
+                                         {
+                                             "file":  "Product-Design-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "Product-Design-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  "10",
+                      "topic":  "Product design"
+                  },
+                  {
+                      "week":  34,
+                      "worksheets":  [
+                                         {
+                                             "file":  "EdTech-Business-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "EdTech-Business-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  "11",
+                      "topic":  "EdTech business"
                   },
                   {
                       "week":  29,
@@ -58,7 +193,7 @@
                                              "type":  "technical"
                                          }
                                      ],
-                      "grade":  12,
+                      "grade":  "12",
                       "topic":  "Cyber strategy"
                   }
               ]
