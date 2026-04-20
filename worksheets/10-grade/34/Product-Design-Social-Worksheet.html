@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Design: Social Worksheet – Grade 10</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      color: #1a1a1a;
+      line-height: 1.5;
+      background: #fff;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #1565c0;
+      border-bottom: 3px solid #1565c0;
+      padding-bottom: 0.25rem;
+      margin-top: 0;
+    }
+    .subtitle {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      color: #1565c0;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box {
+      background: #e3f2fd;
+      border-left: 4px solid #1565c0;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+    }
+    .part {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid #bbb;
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+    }
+    th { background: #e3f2fd; }
+    .fill-line {
+      border-bottom: 1px solid #999;
+      min-height: 1.4em;
+      display: block;
+    }
+    .scenario-box {
+      background: #f5f5f5;
+      border-left: 3px solid #1565c0;
+      padding: 0.5rem 1rem;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.35rem 1.5rem;
+      align-items: baseline;
+      margin-bottom: 1.25rem;
+      padding: 0.75rem 1rem;
+      background: #f5f5f5;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #666;
+      page-break-before: avoid;
+      break-before: avoid;
+    }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .part { page-break-inside: avoid; break-inside: avoid; }
+      .scenario-box { page-break-inside: avoid; break-inside: avoid; }
+      table {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Product Design: Social Worksheet</h1>
+  <p class="subtitle"><strong>Grade 10 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong>
+    <span class="fill-line"></span>
+    <strong>Grade/Section:</strong>
+    <span class="fill-line"></span>
+    <strong>Date:</strong>
+    <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+    <p><strong>What you will learn:</strong> Learning products do not affect everyone the same way. In this worksheet you will think about <strong>fairness and access</strong>, <strong>who benefits when products collect data</strong>, how <strong>student and family voices</strong> shape better tools, and <strong>ethical pressure</strong> in app design (nudges, guilt, and addictive loops). You will practice discussing choices that build <strong>trust</strong> instead of fear.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Circle</strong> the idea you want to explore most today: <em>Fair access</em> · <em>Data and privacy</em> · <em>Voice in decisions</em> · <em>Ethical design and well-being</em></li>
+      <li><strong>Write one sentence</strong> about why that idea matters in a real school you know.<br>
+        <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 2 – Equity: who the product “favors” <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Equitable design</strong> asks who might be left out if the “normal user” is assumed to have a new device, fast internet, quiet space, strong reading skills, or full mobility. Features that reward <strong>speed</strong>, <strong>visibility</strong>, or <strong>constant logins</strong> can accidentally punish students who work late shifts, share devices, or need more time.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A class app shows a <strong>public streak</strong> for daily logins. Students with stable homes climb the list; a student who cares for siblings after school drops off and feels labeled as “not trying.”
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> How could the same motivation goal be redesigned so <strong>effort</strong> is honored without shaming people who cannot log in every day?</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Write <strong>Helpful</strong> or <strong>Harmful</strong> for each idea when student situations vary a lot.</p>
+    <table>
+      <thead>
+        <tr><th>Idea</th><th>Helpful or Harmful?</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Teacher explains that streaks are optional and never used for grades</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Gradebook auto-sorts students by “last active” for parents night printouts</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Optional offline packet matches the same learning goals as the app lesson</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 3 – Data, nudges, and transparency <span class="time">(about 5 minutes)</span></h2>
+    <p>School tools may collect <strong>usage data</strong> (time on screen, clicks, quiz attempts). <strong>Nudges</strong> are small pushes—reminders, badges, red dots—meant to change behavior. They can support habits or create <strong>stress</strong>. <strong>Transparency</strong> means students and families understand what is collected, why, and who can see it, in language they can act on.</p>
+    <div class="scenario-box">
+      <strong>Scenario:</strong> A vendor’s privacy page is 40 screens long and says the company may use “aggregated” data for “product improvement.” Your school board is deciding whether to renew the contract.
+    </div>
+    <p><strong>Critical thinking:</strong> Who gains the most if almost no one reads the privacy page? Name <strong>two questions</strong> you would want a student representative to ask at a school meeting before renewal.</p>
+    <ol>
+      <li><span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+      <li><span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+    </ol>
+    <p><strong>Do this:</strong> Match each phrase to the best plain-language concern. Use the word bank.</p>
+    <p><strong>Word bank:</strong> <em>Who can see my clicks?</em> · <em>Can I turn off badges?</em> · <em>Will this follow me after graduation?</em></p>
+    <table>
+      <thead>
+        <tr><th>Phrase in a contract or ad</th><th>Your answer</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>“We personalize your experience.”</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>“Educators receive engagement dashboards.”</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>“Data may be retained per policy.”</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 4 – Participation and voice in product decisions <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Stakeholders</strong> include students, teachers, families, IT staff, and companies. Good processes invite <strong>feedback early</strong> (paper tests, pilot classes, surveys in home languages) instead of only fixing problems after a full launch. Ignoring <strong>edge cases</strong>—slow readers, new English learners, assistive tech users—often means those groups pay the hidden cost of “efficient” rollouts.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A district replaces a familiar gradebook with a new system over winter break. Training is one optional video. By February, teachers are exhausted and students cannot find old feedback.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> What are <strong>two</strong> respectful ways students could have been included <strong>before</strong> the switch (not only complaining after)?</p>
+    <ol>
+      <li><span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+      <li><span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+    </ol>
+    <p><strong>Do this:</strong> Write <strong>Student voice</strong> or <strong>Top-down only</strong> for each rollout habit.</p>
+    <table>
+      <thead>
+        <tr><th>Habit</th><th>Student voice or Top-down only?</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Student council tests tasks and suggests label changes</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Only administrators attend vendor demos</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Pilot teachers share tips, but no student usability session</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 5 – Ethics: guilt, pressure, and fair policies <span class="time">(about 5 minutes)</span></h2>
+    <p>Some interfaces use <strong>guilt messaging</strong> (“You are letting your team down!”), <strong>hidden costs</strong> (extra steps to say “no thanks”), or <strong>endless scroll</strong> that makes it hard to leave. <strong>Fair policies</strong> set limits: quiet hours, no grades based on optional streaks, clear rules for when nudges are allowed in school, and support for opting into accessibility modes without stigma.</p>
+    <div class="scenario-box">
+      <strong>Scenario:</strong> A wellness module in a learning app sends weekend push alerts: “Don’t lose your progress!” Students report anxiety and guilt even when they finished the required work on Friday.
+    </div>
+    <p><strong>Critical thinking:</strong> Write <strong>one sentence</strong> that could belong in a <strong>fair school policy</strong> about weekend notifications from required learning apps.</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> List <strong>two signs</strong> that a learning product is pressuring users instead of supporting them (e.g. hard-to-find “log out,” shame language).</p>
+    <ol>
+      <li><span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+      <li><span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+    </ol>
+  </div>
+
+  <div class="part checklist-wrapper">
+    <h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+    <p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+    <ul class="checklist">
+      <li>□ I can explain how <strong>assumptions about “normal” users</strong> affect fairness in learning products.</li>
+      <li>□ I can connect <strong>usage data</strong>, <strong>nudges</strong>, and <strong>transparency</strong> to trust questions at school.</li>
+      <li>□ I can describe why <strong>early student and family voice</strong> matters in rollouts.</li>
+      <li>□ I can recognize <strong>pressure tactics</strong> and contrast them with <strong>fair policy</strong> ideas.</li>
+      <li>□ I can ask <strong>critical questions</strong> about who benefits when technology shapes school life.</li>
+    </ul>
+    <p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+  </div>
+
+  <p class="footer">Worksheet on Product Design. Central topic: Ethics and social impact of learning products. Main technology area: Digital citizenship / EdTech society.</p>
+
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Design: Technical Worksheet – Grade 10</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      color: #1a1a1a;
+      line-height: 1.5;
+      background: #fff;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #1565c0;
+      border-bottom: 3px solid #1565c0;
+      padding-bottom: 0.25rem;
+      margin-top: 0;
+    }
+    .subtitle {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      color: #1565c0;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box {
+      background: #e3f2fd;
+      border-left: 4px solid #1565c0;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+    }
+    .part {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid #bbb;
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+    }
+    th { background: #e3f2fd; }
+    .fill-line {
+      border-bottom: 1px solid #999;
+      min-height: 1.4em;
+      display: block;
+    }
+    .scenario-box {
+      background: #f5f5f5;
+      border-left: 3px solid #1565c0;
+      padding: 0.5rem 1rem;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    .sketch-box {
+      min-height: 140px;
+      background: #f0f0f0;
+      border: 1px solid #bbb;
+      margin: 0.75rem 0;
+      padding: 0.5rem;
+    }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.35rem 1.5rem;
+      align-items: baseline;
+      margin-bottom: 1.25rem;
+      padding: 0.75rem 1rem;
+      background: #f5f5f5;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #666;
+      page-break-before: avoid;
+      break-before: avoid;
+    }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .part { page-break-inside: avoid; break-inside: avoid; }
+      .scenario-box { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box {
+        page-break-inside: avoid;
+        break-inside: avoid;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      table {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Product Design: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 10 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong>
+    <span class="fill-line"></span>
+    <strong>Grade/Section:</strong>
+    <span class="fill-line"></span>
+    <strong>Date:</strong>
+    <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+    <p><strong>What you will learn:</strong> <strong>Product design</strong> is the careful planning of a tool so real people can reach their goals without confusion. In this worksheet you will learn how a <strong>user goal</strong> differs from a <strong>feature</strong>, how <strong>clear layout and labels</strong> guide attention, what <strong>constraints</strong> designers must respect (accessibility, language, errors), and how <strong>tradeoffs</strong> shape a final product.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Name one learning-related app or site</strong> you use (course page, practice app, library search—any example).<br>
+        <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+      <li><strong>In one sentence,</strong> describe a moment when that tool felt confusing or harder than it needed to be.<br>
+        <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 2 – User goals vs features <span class="time">(about 5 minutes)</span></h2>
+    <p>A <strong>user goal</strong> is what someone is trying to accomplish (e.g. “turn in my lab before midnight with the right file type”). A <strong>feature</strong> is something the product offers (e.g. “drag-and-drop upload,” “due date countdown”). Good design starts from goals, then picks features that truly support them—not the other way around.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A student opens the course page and sees five buttons that all sound similar: “Submit,” “Turn in,” “Upload draft,” “Share to teacher,” and “Post.” They pick the wrong one and their file ends up in a discussion thread instead of the assignment inbox.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Why do <strong>too many similar actions</strong> increase mistakes? What is one <strong>label change</strong> (wording only) that could make the right choice obvious?</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Write <strong>Goal</strong> or <strong>Feature</strong> for each line.</p>
+    <table>
+      <thead>
+        <tr><th>Statement</th><th>Goal or Feature?</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>“Let me see whether my file uploaded successfully.”</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>“A green checkmark icon after upload completes.”</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>“Finish the registration form in under three minutes.”</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>“Save my answers automatically every 30 seconds.”</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 3 – Information hierarchy and a simple wireframe <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Information hierarchy</strong> means the most important idea appears first or looks strongest (title, steps, warnings). <strong>Plain-language errors</strong> tell you what went wrong and what to try next—not only error codes. <strong>Consistent patterns</strong> (same word for the same action everywhere) reduce memory load.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>List three elements</strong> you would expect at the top of a “Submit homework” screen (e.g. assignment title, due date, instructions summary).
+        <ol style="list-style-type: lower-alpha; margin-top: 0.35rem;">
+          <li><span class="fill-line" style="margin-top: 0.2rem;"></span></li>
+          <li><span class="fill-line" style="margin-top: 0.2rem;"></span></li>
+          <li><span class="fill-line" style="margin-top: 0.2rem;"></span></li>
+        </ol>
+      </li>
+      <li style="margin-top: 0.75rem;"><strong>Sketch a simple wireframe</strong> in the box below. Draw <strong>boxes and labels only</strong> (no art). Show one screen with a title, one main button, and one short error message area.</li>
+    </ol>
+    <div class="sketch-box" aria-label="Area for your wireframe sketch"></div>
+  </div>
+
+  <div class="part">
+    <h2>Part 4 – Constraints designers work with <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Constraints</strong> are limits the product must respect: <strong>accessibility</strong> (readable text size, captions, not relying on color alone), <strong>language</strong> (clear vocabulary for many reading levels), <strong>low bandwidth</strong> (heavy video vs text option), and <strong>error recovery</strong> (undo, try again, contact support path). Ignoring constraints creates products that look powerful but exclude people or break under stress.</p>
+    <p><strong>Do this:</strong> Match each constraint to the best example fix. Use the word bank.</p>
+    <p><strong>Word bank:</strong> <em>Captions on a video lesson</em> · <em>Text-only outline of the same lesson</em> · <em>Error text that says what to fix</em> · <em>Button labels use the same verb everywhere</em></p>
+    <table>
+      <thead>
+        <tr><th>Constraint focus</th><th>Your answer (from word bank)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Someone is on a slow connection</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Someone uses captions to follow spoken audio</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Someone mistypes a password</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Someone learned the app on page A and now uses page B</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 5 – Notifications, due dates, and tradeoffs <span class="time">(about 5 minutes)</span></h2>
+    <p>Designers often balance <strong>speed</strong> (fewer steps) with <strong>clarity</strong> (more confirmations), and <strong>simplicity</strong> (few options) with <strong>power</strong> (advanced settings). <strong>Notifications</strong> can remind—or overwhelm. <strong>Due date displays</strong> can stress—or help plan—depending on wording, timing, and defaults.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A learning app sends three reminders the night before a deadline: one push notification, one email, and one in-app banner that blocks the screen until dismissed. Some students say they never miss a date; others say they turn off the app entirely.
+    </div>
+    <p><strong>Critical thinking:</strong> Name <strong>one benefit</strong> and <strong>one harm</strong> of this reminder style. Then propose <strong>one design rule</strong> (e.g. max reminders per day, quiet hours, digest email) that keeps the benefit while reducing the harm.</p>
+    <p><strong>Benefit:</strong><br><span class="fill-line"></span></p>
+    <p><strong>Harm:</strong><br><span class="fill-line"></span></p>
+    <p><strong>Design rule:</strong><br><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Circle the better tradeoff for a <strong>required</strong> school-wide tool: <strong>A</strong> or <strong>B</strong> (write your letter).</p>
+    <table>
+      <thead>
+        <tr><th>Option A</th><th>Option B</th><th>Your circle: A or B</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>One path only: everyone uses the same three-step submit flow</td><td>Two paths: “Quick submit” and “Guided submit with checks”</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Hide advanced settings completely</td><td>Offer “Advanced” collapsed so experts can open it</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part checklist-wrapper">
+    <h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+    <p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+    <ul class="checklist">
+      <li>□ I can separate a <strong>user goal</strong> from a <strong>feature</strong> and explain why that matters.</li>
+      <li>□ I can describe <strong>information hierarchy</strong> and why plain-language errors help.</li>
+      <li>□ I can name <strong>constraints</strong> like accessibility, language, bandwidth, and consistency.</li>
+      <li>□ I can discuss <strong>tradeoffs</strong> between speed, clarity, simplicity, and power.</li>
+      <li>□ I can connect <strong>reminders and due-date design</strong> to both helpful and harmful outcomes.</li>
+    </ul>
+    <p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+  </div>
+
+  <p class="footer">Worksheet on Product Design. Central topic: Product design for learning. Main technology area: UX / educational software design.</p>
+
+</body>
+</html>
