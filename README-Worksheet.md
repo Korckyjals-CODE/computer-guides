@@ -31,6 +31,6 @@ Worksheets teach on their own. No computer project is required. If a TBox (or ot
 ## Folder structure
 
 - **samples/** — Example worksheets by grade (e.g. `1-grade/`, `3-grade/`, `5-grade/`).
-- **worksheets/** — Generated worksheets organized by grade (or track) and week: `1-grade/` … `12-grade/`, plus `DC3A-grade/`, `DC3B-grade/`, and `DC3B-SEC-grade/` when those Topic Matrix columns apply.
+- **worksheets/** — Generated worksheets organized by grade (or track) and week: `1-grade/` … `12-grade/`, plus `DC3A-grade/` and `DC3B-grade/` when those Topic Matrix columns apply.
 
 See **WORKSHEET-GUIDELINES.md** for full creation guidelines.

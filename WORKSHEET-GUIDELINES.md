@@ -18,7 +18,7 @@ This document defines how to create and maintain **Worksheets** for technology a
 
 ### 2.1 Location and naming
 
-- Use one folder per grade or curriculum track: `1-grade/`, `3-grade/`, `5-grade/`, etc. The **Topic Matrix** also defines named tracks **`DC3A`**, **`DC3B`**, and **`DC3B-SEC`**; use matching folders `DC3A-grade/`, `DC3B-grade/`, and `DC3B-SEC-grade/` with the same week layout as numeric grades.
+- Use one folder per grade or curriculum track: `1-grade/`, `3-grade/`, `5-grade/`, etc. The **Topic Matrix** also defines named tracks **`DC3A`** and **`DC3B`**; use matching folders `DC3A-grade/` and `DC3B-grade/` with the same week layout as numeric grades.
 - Worksheet files use one of these patterns:
   - **`[Topic-Name]-[Technical|Social]-Worksheet`** — when creating two worksheets per topic (one technical, one social perspective).
   - **`[Topic-Name]-Worksheet`** — when creating a single worksheet per topic.

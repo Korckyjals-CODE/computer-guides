@@ -12,7 +12,7 @@ for ($grade = 1; $grade -le 12; $grade++) {
     }
 }
 
-$additionalGrades = @('DC3A-grade', 'DC3B-grade', 'DC3B-SEC-grade')
+$additionalGrades = @('DC3A-grade', 'DC3B-grade')
 foreach ($name in $additionalGrades) {
     $gradePath = Join-Path $worksheetsPath $name
     New-Item -ItemType Directory -Path $gradePath -Force | Out-Null
@@ -21,4 +21,4 @@ foreach ($name in $additionalGrades) {
     }
 }
 
-Write-Host "Created worksheets structure: 12 numeric grades (1-grade..12-grade) + DC3A-grade, DC3B-grade, DC3B-SEC-grade, each with 40 week subfolders"
+Write-Host "Created worksheets structure: 12 numeric grades (1-grade..12-grade) + DC3A-grade, DC3B-grade, each with 40 week subfolders"
