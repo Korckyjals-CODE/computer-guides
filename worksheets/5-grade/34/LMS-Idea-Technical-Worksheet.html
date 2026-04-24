@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LMS Idea: Technical Worksheet – Grade 5</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      color: #1a1a1a;
+      line-height: 1.5;
+      background: #fff;
+      font-size: 1.05rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #0d6e7a;
+      border-bottom: 3px solid #0d6e7a;
+      padding-bottom: 0.25rem;
+      margin-top: 0;
+    }
+    .subtitle {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      color: #0d6e7a;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box {
+      background: #e6f4f6;
+      border-left: 4px solid #0d6e7a;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+    }
+    .part {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    th, td {
+      border: 1px solid #bbb;
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    thead th { background: #e6f4f6; }
+    tbody th { background: #f0fafb; font-weight: 600; }
+    .fill-line {
+      border-bottom: 1px solid #999;
+      min-height: 1.4em;
+      display: block;
+    }
+    .sketch-box {
+      border: 2px solid #999;
+      min-height: 120px;
+      margin: 0.5rem 0;
+      background: #fafafa;
+    }
+    .scenario-box {
+      background: #f5f9fa;
+      border: 1px solid #9cc5cb;
+      padding: 0.75rem 1rem;
+      margin: 0.75rem 0;
+      font-size: 0.98rem;
+    }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.35rem 1.5rem;
+      align-items: baseline;
+      margin-bottom: 1.25rem;
+      padding: 0.75rem 1rem;
+      background: #f5f5f5;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #666;
+      page-break-before: avoid;
+      break-before: avoid;
+    }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .part { page-break-inside: avoid; break-inside: avoid; }
+      table {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      thead th, tbody th { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .sketch-box {
+        page-break-inside: avoid;
+        break-inside: avoid;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .scenario-box {
+        page-break-inside: avoid;
+        break-inside: avoid;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .checklist-wrapper {
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>LMS Idea: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 5 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong>
+    <span class="fill-line"></span>
+    <strong>Grade/Section:</strong>
+    <span class="fill-line"></span>
+    <strong>Date:</strong>
+    <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+    <p><strong>What you will learn:</strong> Many schools use a <strong>learning platform</strong> (sometimes called an <strong>LMS</strong>, short for <em>learning management system</em>). It is like a <strong>digital classroom</strong> where announcements, lessons, files, and assignments can live in one organized place. In this worksheet you will learn how these systems are built in simple terms: who uses them, what “rooms” they have, and how work moves from <em>assigned</em> to <em>turned in</em> to <em>feedback</em>.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li>In your own words, finish this sentence: “A learning platform helps my class by…”<br>
+        <span class="fill-line" style="margin-top: 0.35rem;"></span><br>
+        <span class="fill-line"></span></li>
+      <li>Circle one: I have used a learning platform at school <strong>Yes</strong> / <strong>No</strong> / <strong>Not sure</strong></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 2 – Who does what on a learning platform? <span class="time">(about 5 minutes)</span></h2>
+    <p>People have different <strong>roles</strong>. A <strong>teacher</strong> (or instructor) usually creates the course space, posts announcements, adds materials, sets due dates, and reviews student work. A <strong>student</strong> opens lessons, reads instructions, uploads or completes work, and reads messages or grades. The <strong>system</strong> (the software) keeps lists, dates, and files in order—it does not replace good communication between people.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li>Match each task to who usually does it most often. Write <strong>T</strong> (teacher), <strong>S</strong> (student), or <strong>B</strong> (both).</li>
+    </ol>
+    <table>
+      <thead>
+        <tr><th>Task</th><th>T, S, or B?</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Post a class announcement for everyone</td><td><span class="fill-line" style="min-height: 1.2em;"></span></td></tr>
+        <tr><td>Complete a practice quiz for a science unit</td><td><span class="fill-line" style="min-height: 1.2em;"></span></td></tr>
+        <tr><td>Set a due date for a homework task</td><td><span class="fill-line" style="min-height: 1.2em;"></span></td></tr>
+        <tr><td>Ask a question in a class discussion area</td><td><span class="fill-line" style="min-height: 1.2em;"></span></td></tr>
+      </tbody>
+    </table>
+    <p><strong>Discussion (write 2–3 sentences):</strong> Why is it useful that the <em>same</em> platform shows both “what to do” and “when it is due” in one place?</p>
+    <span class="fill-line"></span>
+    <span class="fill-line"></span>
+    <span class="fill-line"></span>
+  </div>
+
+  <div class="part">
+    <h2>Part 3 – Main “areas” inside a typical platform <span class="time">(about 5 minutes)</span></h2>
+    <p>Most learning platforms split the screen into <strong>sections</strong> you can visit. Common examples:</p>
+    <table>
+      <thead>
+        <tr><th>Section</th><th>What it often holds</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Home / Stream</strong></td><td>Latest news, reminders, and new posts</td></tr>
+        <tr><td><strong>Assignments / Tasks</strong></td><td>What you must do, instructions, due dates</td></tr>
+        <tr><td><strong>Materials / Files</strong></td><td>PDFs, links, videos, or handouts</td></tr>
+        <tr><td><strong>Calendar</strong></td><td>Dates for tests, projects, and meetings</td></tr>
+        <tr><td><strong>Grades / Progress</strong></td><td>Scores or “completed / not completed” (depends on the school)</td></tr>
+      </tbody>
+    </table>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li>You need the study guide for math. Which section would you try <strong>first</strong>? Which would you try <strong>second</strong> if the first was empty? Write your plan in one sentence each.
+        <ul style="margin: 0.35rem 0 0 0; padding-left: 1.25rem; list-style: none;">
+          <li>First: <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+          <li>Second: <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+        </ul>
+      </li>
+      <li><strong>Real-life scenario:</strong> Your friend says, “I only look at email for school work.” List <strong>two reasons</strong> a learning platform might still be helpful <em>even if</em> email exists.<br>
+        <span class="fill-line" style="margin-top: 0.35rem;"></span><br>
+        <span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 4 – How work flows: assign → submit → feedback <span class="time">(about 5 minutes)</span></h2>
+    <p>A simple <strong>workflow</strong> is a path work follows:</p>
+    <ol style="margin-top: 0.25rem;">
+      <li><strong>Assigned</strong> — The teacher publishes a task with instructions and a due date.</li>
+      <li><strong>Submitted</strong> — The student sends or uploads the work before or on the due date.</li>
+      <li><strong>Feedback</strong> — The teacher (or sometimes a rubric) returns comments, a score, or “revise and resubmit.”</li>
+    </ol>
+    <p><strong>Notifications</strong> (little alerts or badges) remind you that something changed—but they can be wrong if you misread them, so you still check the <strong>Assignments</strong> list.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li>Write the numbers <strong>1</strong>, <strong>2</strong>, and <strong>3</strong> next to each line to show the correct time order (1 = happens first, 3 = happens last):
+        <table style="margin-top: 0.5rem;">
+          <thead>
+            <tr><th>Step</th><th>Your number (1, 2, or 3)</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Feedback reaches the student</td><td><span class="fill-line" style="min-height: 1.2em; max-width: 5rem;"></span></td></tr>
+            <tr><td>Teacher publishes the task</td><td><span class="fill-line" style="min-height: 1.2em; max-width: 5rem;"></span></td></tr>
+            <tr><td>Student turns in the work</td><td><span class="fill-line" style="min-height: 1.2em; max-width: 5rem;"></span></td></tr>
+          </tbody>
+        </table>
+      </li>
+      <li><strong>Critical thinking:</strong> Name <strong>one advantage</strong> and <strong>one disadvantage</strong> of relying only on notifications instead of checking the <strong>Calendar</strong> and <strong>Assignments</strong> pages directly.
+        <ul style="margin: 0.35rem 0 0 0; padding-left: 0; list-style: none;">
+          <li>Advantage: <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+          <li>Disadvantage: <span class="fill-line" style="margin-top: 0.25rem;"></span></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 5 – Data the platform shows <span class="time">(about 5 minutes)</span></h2>
+    <p>A platform stores <strong>information</strong> (data) such as: file names, dates, “turned in on time / late,” quiz scores, and discussion posts. You do not need to know programming—you need to know <strong>what the labels mean</strong> (e.g. <em>Missing</em> vs <em>Submitted</em>) and that <strong>two screens</strong> might show the same fact in different words.</p>
+    <div class="scenario-box">
+      <strong>Scenario — Conflicting clues</strong>
+      <p style="margin: 0.5rem 0 0 0;">You see “Due Friday” on the assignment page, but the <strong>Calendar</strong> shows Thursday for the same task.</p>
+    </div>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li>List <strong>three safe steps</strong> you would take to figure out the real due date (examples: ask the teacher after class, check written notes from class, look for the newest announcement).
+        <ol type="1" style="margin-top: 0.35rem;">
+          <li><span class="fill-line" style="margin-top: 0.2rem;"></span></li>
+          <li><span class="fill-line" style="margin-top: 0.2rem;"></span></li>
+          <li><span class="fill-line" style="margin-top: 0.2rem;"></span></li>
+        </ol>
+      </li>
+      <li><strong>Sketch:</strong> In the box below, draw a simple <strong>map</strong> of a learning platform with <strong>four boxes</strong> labeled: Home, Assignments, Materials, Calendar. Draw <strong>one arrow</strong> showing where <em>you</em> would go first on a busy Monday.</li>
+    </ol>
+    <div class="sketch-box"></div>
+  </div>
+
+  <div class="part checklist-wrapper">
+    <h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+    <p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+    <ul class="checklist">
+      <li>□ I can explain what a learning platform (LMS idea) is in simple words.</li>
+      <li>□ I know typical roles (teacher, student) and what the system helps organize.</li>
+      <li>□ I can name at least three sections (e.g. Assignments, Calendar, Materials).</li>
+      <li>□ I understand the basic workflow: assigned → submitted → feedback.</li>
+      <li>□ I have a plan for checking due dates when two sources seem to disagree.</li>
+    </ul>
+    <p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+  </div>
+
+  <p class="footer">Worksheet on LMS Idea: Technical. Central topic: Digital learning systems. Main technology area: Learning platforms.</p>
+
+</body>
+</html>
