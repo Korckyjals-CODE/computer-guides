@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impact: Technical Worksheet – Grade 10</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      color: #1a1a1a;
+      line-height: 1.5;
+      background: #fff;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #7a3e12;
+      border-bottom: 3px solid #7a3e12;
+      padding-bottom: 0.25rem;
+      margin-top: 0;
+    }
+    .subtitle {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      color: #7a3e12;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box {
+      background: #f8efe6;
+      border-left: 4px solid #7a3e12;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+    }
+    .part {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid #bbb;
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #f8efe6; }
+    .fill-line {
+      border-bottom: 1px solid #999;
+      min-height: 1.4em;
+      display: block;
+    }
+    .scenario-box {
+      background: #f5f5f5;
+      border-left: 3px solid #7a3e12;
+      padding: 0.5rem 1rem;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    .sketch-box {
+      border: 2px solid #999;
+      min-height: 120px;
+      margin: 0.5rem 0;
+      background: #fafafa;
+    }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.35rem 1.5rem;
+      align-items: baseline;
+      margin-bottom: 1.25rem;
+      padding: 0.75rem 1rem;
+      background: #f5f5f5;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #666;
+      page-break-before: avoid;
+      break-before: avoid;
+    }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .part { page-break-inside: avoid; break-inside: avoid; }
+      .scenario-box { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box {
+        page-break-inside: avoid;
+        break-inside: avoid;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      table {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Impact: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 10 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong>
+    <span class="fill-line"></span>
+    <strong>Grade/Section:</strong>
+    <span class="fill-line"></span>
+    <strong>Date:</strong>
+    <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+    <p><strong>What you will learn:</strong> <strong>Impact</strong> is the effect a system has on people and on other systems. Some effects are <strong>intended</strong>. Others are <strong>unintended</strong>. A <strong>metric</strong> is a number used to judge success, and it can hide a harm. In this worksheet you will trace a checkout system from input to output and weigh <strong>efficiency</strong> against <strong>fragility</strong>.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Name one automated service</strong> you have used (self-checkout, a ticket gate, a chatbot, an app-only door—any example).<br>
+        <span class="fill-line"></span></li>
+      <li><strong>In one sentence</strong>, what result were its designers most likely trying to produce?<br>
+        <span class="fill-line"></span></li>
+    </ol>
+  </div>
+  <div class="part">
+    <h2>Part 2 – Intended and unintended effects <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Intended impact</strong> is the result the buyer or designer names in advance: shorter lines, fewer errors, less staff time on a repeated task. <strong>Unintended impact</strong> shows up anyway: a group who cannot finish the task, a new kind of error, or a job that moves rather than disappears. <strong>Efficiency</strong> means more completed work per minute. It does not tell you whether the people who needed help are better off.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A grocery chain replaces most staffed lanes with automated checkout. The dashboard tracks items scanned per minute and how many lanes are open. Average wait for a small basket falls. Shoppers paying with cash, using coupons, or buying an item the scale does not recognize wait longer. Staff who used to run registers now spend the shift clearing machine errors.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Which effects were the point of the project? Which effects would you not see if you only read “items per minute”?</p>
+    <p><span class="fill-line"></span> <span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Write <strong>Intended</strong> or <strong>Unintended</strong>, and name who feels it.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Effect</th>
+          <th>Intended or unintended?</th>
+          <th>Who feels it?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Small baskets move through faster</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Cash and coupon payments take longer</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>The dashboard shows more items per minute</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Staff time shifts from ringing up items to fixing stalls</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="part">
+    <h2>Part 3 – A metric that misses the harm <span class="time">(about 5 minutes)</span></h2>
+    <p>An average can improve while a smaller group gets worse. If the success rule uses only the average, the harm never counts as a failure. A second measure has to be chosen before the system launches, or it will be treated as a complaint instead of a result.</p>
+    <p><strong>Critical thinking:</strong> Average wait fell, but wait time for shoppers who need a person rose. What second number would you require before calling the change a success? Say what would count as failure on that number.</p>
+    <p><span class="fill-line"></span> <span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> For each metric, write what it shows and what it can miss.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Metric</th>
+          <th>What it shows</th>
+          <th>What it can miss</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Items scanned per minute</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Number of lanes open</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Average wait for all baskets</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Share of trips that needed a staff override</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="part">
+    <h2>Part 4 – Faster, and easier to break <span class="time">(about 5 minutes)</span></h2>
+    <p>Efficiency often concentrates a dependency. If every automated lane needs the same payment network, one outage stops sales even though the food is on the shelves. <strong>Fragility</strong> is that tendency to fail together. A design can keep one <strong>local</strong> path, such as a staffed lane that can finish a sale without that network.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> On a Saturday the payment network drops. Every self-checkout freezes. The store still has one staffed lane that can take cash and write a receipt. The dashboard is blank. The local lane is not.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Which failure is urgent for shoppers in the next ten minutes, and which report can wait?</p>
+    <p><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Mark each function <strong>Must work locally</strong> or <strong>Can wait</strong>.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Function</th>
+          <th>Must work locally or can wait?</th>
+          <th>Reason</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Finish a sale when the payment network is down</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Update the company’s national items-per-minute chart</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Call a person when a scale does not recognize an item</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Email last week’s lane report to headquarters</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="part">
+    <h2>Part 5 – Draw the dependency <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Sketch</strong> the checkout system with at least four labels: scanner or scale, lane, payment network, and dashboard. Circle the link that makes the store fragile if it is the only path.</li>
+    </ol>
+    <div class="sketch-box"></div>
+    <ol start="2">
+      <li><strong>Write one design rule</strong> that keeps a basic sale possible when that link fails.<br>
+        <span class="fill-line"></span></li>
+    </ol>
+  </div>
+  <div class="part checklist-wrapper">
+    <h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+    <p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+    <ul class="checklist">
+      <li>□ I can separate <strong>intended</strong> impact from <strong>unintended</strong> impact.</li>
+      <li>□ I can explain why <strong>efficiency</strong> does not show whether people who need help are better off.</li>
+      <li>□ I can say what a <strong>metric</strong> shows and what harm it can hide.</li>
+      <li>□ I can mark which functions <strong>must work locally</strong> when a shared network fails.</li>
+      <li>□ I can sketch a fragile dependency and write a rule that survives it.</li>
+    </ul>
+    <p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+  </div>
+
+  <p class="footer">Worksheet on Impact (Technical). Central topic: Impact. Main technology area: Automated systems and how their effects are measured.</p>
+
+</body>
+</html>

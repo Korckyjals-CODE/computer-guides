@@ -1,6 +1,21 @@
 ﻿{
-    "lastUpdated":  "2026-10-09T13:11:48Z",
+    "lastUpdated":  "2026-10-09T13:33:58Z",
     "items":  [
+                  {
+                      "week":  9,
+                      "worksheets":  [
+                                         {
+                                             "file":  "Machines-Help-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "Machines-Help-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  "1",
+                      "topic":  "Machines help"
+                  },
                   {
                       "week":  34,
                       "worksheets":  [
@@ -167,6 +182,21 @@
                       "topic":  "Benefits of technology"
                   },
                   {
+                      "week":  9,
+                      "worksheets":  [
+                                         {
+                                             "file":  "Systems-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "Systems-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  "5",
+                      "topic":  "Systems"
+                  },
+                  {
                       "week":  34,
                       "worksheets":  [
                                          {
@@ -242,6 +272,21 @@
                       "topic":  "Technology pros and cons"
                   },
                   {
+                      "week":  9,
+                      "worksheets":  [
+                                         {
+                                             "file":  "Control-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "Control-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  "7",
+                      "topic":  "Control"
+                  },
+                  {
                       "week":  29,
                       "worksheets":  [
                                          {
@@ -315,6 +360,21 @@
                                      ],
                       "grade":  "9",
                       "topic":  "Education tech"
+                  },
+                  {
+                      "week":  9,
+                      "worksheets":  [
+                                         {
+                                             "file":  "Impact-Social-Worksheet.html",
+                                             "type":  "social"
+                                         },
+                                         {
+                                             "file":  "Impact-Technical-Worksheet.html",
+                                             "type":  "technical"
+                                         }
+                                     ],
+                      "grade":  "10",
+                      "topic":  "Impact"
                   },
                   {
                       "week":  34,
