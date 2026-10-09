@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sensors: Technical Worksheet – Grade 6</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      color: #1a1a1a;
+      line-height: 1.5;
+      background: #fff;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #0d5a7c;
+      border-bottom: 3px solid #0d5a7c;
+      padding-bottom: 0.25rem;
+      margin-top: 0;
+    }
+    .subtitle {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      color: #0d5a7c;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box {
+      background: #e6f3f8;
+      border-left: 4px solid #0d5a7c;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+    }
+    .part {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid #bbb;
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #e6f3f8; }
+    .fill-line {
+      border-bottom: 1px solid #999;
+      min-height: 1.4em;
+      display: block;
+    }
+    .scenario-box {
+      background: #f5f5f5;
+      border-left: 3px solid #0d5a7c;
+      padding: 0.5rem 1rem;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    .sketch-box {
+      border: 2px solid #999;
+      min-height: 120px;
+      margin: 0.5rem 0;
+      background: #fafafa;
+    }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.35rem 1.5rem;
+      align-items: baseline;
+      margin-bottom: 1.25rem;
+      padding: 0.75rem 1rem;
+      background: #f5f5f5;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #666;
+      page-break-before: avoid;
+      break-before: avoid;
+    }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .part { page-break-inside: avoid; break-inside: avoid; }
+      .scenario-box { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box {
+        page-break-inside: avoid;
+        break-inside: avoid;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      table {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sensors: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 6 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong>
+    <span class="fill-line"></span>
+    <strong>Grade/Section:</strong>
+    <span class="fill-line"></span>
+    <strong>Date:</strong>
+    <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+    <p><strong>What you will learn:</strong> A <strong>sensor</strong> detects a change in the world and sends a <strong>signal</strong> to the rest of a system. In this worksheet you will learn common sensor types, what a <strong>threshold</strong> is, how a <strong>controller</strong> and an <strong>actuator</strong> use the signal, and why a sensor can be wrong.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>List two things</strong> a machine might need to notice (for example light, heat, motion, or distance).<br>
+        - 1. <span class="fill-line"></span>  2. <span class="fill-line"></span></li>
+      <li><strong>In one sentence</strong>, why would a machine need that information before it acts?<br>
+        <span class="fill-line"></span></li>
+    </ol>
+  </div>
+  <div class="part">
+    <h2>Part 2 – What a sensor measures <span class="time">(about 5 minutes)</span></h2>
+    <p>A sensor does not “understand” a place. It measures one kind of change. A <strong>light sensor</strong> measures brightness. A <strong>temperature sensor</strong> measures how hot or cold something is. A <strong>motion sensor</strong> notices movement. A <strong>distance sensor</strong> measures how far away an object is. The measurement becomes a signal the system can use.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A streetlight stays off at noon and turns on at dusk. Nobody flips a switch at the pole.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Which sensor is doing the work, and what change is it measuring? What would go wrong if that sensor were covered with paint?</p>
+    <p><span class="fill-line"></span> <span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Match each place to the sensor that fits. Use each sensor once.</p>
+    <p><strong>Word bank:</strong> <em>Light</em> · <em>Temperature</em> · <em>Motion</em> · <em>Distance</em></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Place and job</th>
+          <th>Sensor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>A streetlight that should turn on when the sky gets dark</td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>A greenhouse alarm that should sound if the room gets too hot</td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>A door that should open when a person walks toward it</td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>A robot that should stop before it bumps a wall</td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="part">
+    <h2>Part 3 – The line that triggers an action <span class="time">(about 5 minutes)</span></h2>
+    <p>A <strong>threshold</strong> is the line the system waits for. Below that line, or above it, the system acts. A streetlight might turn on when brightness falls below a set level. A thermostat might start the heat when the room falls below the temperature people chose. If the threshold is too sensitive, the system reacts to tiny changes. If it is not sensitive enough, it reacts too late.</p>
+    <p><strong>Critical thinking:</strong> A hallway light turns on when anyone walks by, then turns off after 10 seconds of no motion. A student stands still to read a poster. What happens, and how would you change the threshold or the timer?</p>
+    <p><span class="fill-line"></span> <span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> For each row, name the sensor and write a sensible threshold in your own words.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Situation</th>
+          <th>Sensor</th>
+          <th>Threshold (when it should act)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Classroom gets too warm in the afternoon</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Porch light should come on after sunset</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Automatic faucet should run only when hands are under it</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="part">
+    <h2>Part 4 – From sensing to action <span class="time">(about 5 minutes)</span></h2>
+    <p>A sensor alone does not open a door or turn on a fan. A <strong>controller</strong> reads the signal and decides. An <strong>actuator</strong> does the physical action: a motor, a lamp, a lock, or a valve. The loop is sensor → controller → actuator. Then the world changes, and the sensor can measure again.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A robot vacuum senses a chair leg, decides to turn, and its wheels change direction. If it only sensed the leg and never turned, it would keep bumping.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Which part measures, which part decides, and which part moves?</p>
+    <p><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Label</strong> each item Sensor, Controller, or Actuator.</li>
+    </ol>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Sensor, Controller, or Actuator?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>A chip that compares the room temperature with the set temperature</td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>The thermometer inside a thermostat</td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>The heater that switches on</td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>The motor that slides a door open</td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+      </tbody>
+    </table>
+    <ol start="2">
+      <li><strong>Draw the loop</strong> for the robot vacuum: sensor → controller → actuator. Label what each part does in that example.</li>
+    </ol>
+    <div class="sketch-box"></div>
+  </div>
+  <div class="part">
+    <h2>Part 5 – When the reading is wrong <span class="time">(about 5 minutes)</span></h2>
+    <p>A sensor reports what it can detect from where it sits. Dust, glare, a bad aim, or a sensor in the wrong spot creates a <strong>false reading</strong>. The controller may then make a reasonable decision from bad information.</p>
+    <p><strong>Do this:</strong> Fill in a likely false reading and one fix that does not require replacing the whole system.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Problem</th>
+          <th>Likely false reading</th>
+          <th>One fix</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>A light sensor on a streetlight is covered in dust</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>A temperature sensor sits in direct sun on a windowsill</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>A motion sensor faces a swaying curtain, not the doorway</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="part checklist-wrapper">
+    <h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+    <p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+    <ul class="checklist">
+      <li>□ I can explain that a <strong>sensor</strong> measures a change and sends a <strong>signal</strong>.</li>
+      <li>□ I can match light, temperature, motion, and distance sensors to a job.</li>
+      <li>□ I can describe a <strong>threshold</strong> and what happens if it is too sensitive.</li>
+      <li>□ I can separate <strong>sensor</strong>, <strong>controller</strong>, and <strong>actuator</strong>.</li>
+      <li>□ I can suggest why a sensor might give a false reading and one way to fix the setup.</li>
+    </ul>
+    <p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+  </div>
+
+  <p class="footer">Worksheet on Sensors (Technical). Central topic: Sensors. Main technology area: Sensing and control systems.</p>
+
+</body>
+</html>

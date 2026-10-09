@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IoT: Technical Worksheet – Grade 9</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      color: #1a1a1a;
+      line-height: 1.5;
+      background: #fff;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #0f5c6e;
+      border-bottom: 3px solid #0f5c6e;
+      padding-bottom: 0.25rem;
+      margin-top: 0;
+    }
+    .subtitle {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      color: #0f5c6e;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box {
+      background: #e5f4f6;
+      border-left: 4px solid #0f5c6e;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+    }
+    .part {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid #bbb;
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #e5f4f6; }
+    .fill-line {
+      border-bottom: 1px solid #999;
+      min-height: 1.4em;
+      display: block;
+    }
+    .scenario-box {
+      background: #f5f5f5;
+      border-left: 3px solid #0f5c6e;
+      padding: 0.5rem 1rem;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    .sketch-box {
+      border: 2px solid #999;
+      min-height: 120px;
+      margin: 0.5rem 0;
+      background: #fafafa;
+    }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.35rem 1.5rem;
+      align-items: baseline;
+      margin-bottom: 1.25rem;
+      padding: 0.75rem 1rem;
+      background: #f5f5f5;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #666;
+      page-break-before: avoid;
+      break-before: avoid;
+    }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .part { page-break-inside: avoid; break-inside: avoid; }
+      .scenario-box { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box {
+        page-break-inside: avoid;
+        break-inside: avoid;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      table {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>IoT: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 9 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong>
+    <span class="fill-line"></span>
+    <strong>Grade/Section:</strong>
+    <span class="fill-line"></span>
+    <strong>Date:</strong>
+    <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+    <p><strong>What you will learn:</strong> The <strong>Internet of Things (IoT)</strong> is many physical objects that sense the world and share data so a larger system can react. One smart gadget is not yet a system. In this worksheet you will learn where work happens, what should stay local when a link fails, why devices need a shared way to describe data, and how to sketch a small building system without depending on a single connection.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Name two objects</strong> in a school that could report data (for example a thermostat, a door, a light, or an occupancy sensor).<br>
+        - 1. <span class="fill-line"></span>  2. <span class="fill-line"></span></li>
+      <li><strong>In one sentence</strong>, what could a school do with those reports that it could not do with either object alone?<br>
+        <span class="fill-line"></span></li>
+    </ol>
+  </div>
+  <div class="part">
+    <h2>Part 2 – One device is not a system <span class="time">(about 5 minutes)</span></h2>
+    <p>An IoT <strong>system</strong> links sensors, a local controller, a network, and a place where people read the result, such as a <strong>dashboard</strong>. A single smart bulb can change color from a phone. A building system uses many readings together: which rooms are occupied, how warm they are, and which lights are on. Sending every raw reading every second can flood the network. A device can summarize locally and send a smaller update.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A school wants to waste less energy. Occupancy sensors, thermostats, and a dashboard are supposed to work as one system. Empty rooms should ease heating. Staff should see which wing is still in use after clubs end.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Why is this different from buying one smart thermostat for the office? Why might the system send “room 12 empty for 15 minutes” instead of every tiny motion?</p>
+    <p><span class="fill-line"></span> <span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Write <strong>On the device</strong>, <strong>Local controller</strong>, or <strong>Dashboard</strong> for the best place to do each job.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Job</th>
+          <th>Best place</th>
+          <th>Why</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Detect that a person entered room 12</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Decide that the room has been empty long enough to ease the heat</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Show staff which rooms were empty after 5 p.m.</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Keep a hallway light on during a network outage</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="part">
+    <h2>Part 3 – What must survive a broken link <span class="time">(about 5 minutes)</span></h2>
+    <p>IoT systems have <strong>dependencies</strong>. Some actions need the network. Some should not. A <strong>local</strong> action uses information already in the building. A <strong>remote</strong> action can wait, or it fails until the link returns. Safety and basic access belong in the first group. Reports and remote adjustments can belong in the second.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> The school’s Wi-Fi fails on a rainy afternoon. Clubs are still meeting. A vendor dashboard is offline. Interior doors, hallway lights, and room heat are the questions that matter in the next hour. A pretty energy chart can wait.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Which failure would you treat as urgent, and which is only inconvenient?</p>
+    <p><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Mark each function <strong>Must work locally</strong> or <strong>Can wait</strong>.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Function</th>
+          <th>Must work locally or can wait?</th>
+          <th>Reason</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Unlock a stairwell door from the inside</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Email yesterday’s energy report</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Turn hallway lights on when people are present</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Let a technician in another city change a setpoint</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="part">
+    <h2>Part 4 – A shared description of the data <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Interoperability</strong> means parts from different makers can still work in one system because they describe data in a way the others understand. If a new occupancy sensor calls “empty” by a name the controller has never seen, the dashboard may show a blank room as unknown. The sensor is not broken. The system cannot interpret it. Replacing every device whenever one brand changes is expensive and wasteful.</p>
+    <p><strong>Critical thinking:</strong> A school adds a cheaper sensor brand in one wing. The dashboard stops showing that wing, while the old wing looks normal. Is the first fix “buy only the original brand forever,” or is there a better requirement to put in the purchase? Write the requirement in one or two sentences.</p>
+    <p><span class="fill-line"></span> <span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Each row is a message from a device. Write <strong>Clear enough to use</strong> or <strong>Ambiguous</strong>. If it is ambiguous, say what is missing.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Message</th>
+          <th>Clear enough or ambiguous?</th>
+          <th>What is missing, if anything</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>“Room 12, occupied, 16:05”</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>“Sensor 7: 1”</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>“Wing B average 22°C, 16:00–16:15”</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>“Door open”</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="part">
+    <h2>Part 5 – Sketch the building, then stress it <span class="time">(about 5 minutes)</span></h2>
+    <p>A diagram makes dependencies visible. Include the sensors, a local controller, the network, and the dashboard. Then mark what happens if one connection is the only path.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Sketch</strong> a school IoT diagram with at least four labels: sensors, local controller, network, and dashboard. Circle the one link that would cause the biggest problem if it were the only path.</li>
+    </ol>
+    <div class="sketch-box"></div>
+    <ol start="2">
+      <li><strong>Write one design rule</strong> that keeps a basic building function working when that link fails.<br>
+        <span class="fill-line"></span></li>
+    </ol>
+  </div>
+  <div class="part checklist-wrapper">
+    <h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+    <p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+    <ul class="checklist">
+      <li>□ I can explain <strong>IoT</strong> as many objects sharing data in a system, not as one gadget.</li>
+      <li>□ I can place a job on the device, a local controller, or a dashboard.</li>
+      <li>□ I can separate functions that <strong>must work locally</strong> from functions that can wait.</li>
+      <li>□ I can say what <strong>interoperability</strong> requires and why a vague message is not usable.</li>
+      <li>□ I can sketch a small system and name a rule that survives a broken link.</li>
+    </ul>
+    <p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+  </div>
+
+  <p class="footer">Worksheet on IoT (Technical). Central topic: IoT. Main technology area: Connected systems and networks.</p>
+
+</body>
+</html>

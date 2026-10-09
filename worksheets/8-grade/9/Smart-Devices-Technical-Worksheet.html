@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Devices: Technical Worksheet – Grade 8</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      color: #1a1a1a;
+      line-height: 1.5;
+      background: #fff;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #6c3483;
+      border-bottom: 3px solid #6c3483;
+      padding-bottom: 0.25rem;
+      margin-top: 0;
+    }
+    .subtitle {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      color: #6c3483;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box {
+      background: #f3e8f7;
+      border-left: 4px solid #6c3483;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+    }
+    .part {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid #bbb;
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #f3e8f7; }
+    .fill-line {
+      border-bottom: 1px solid #999;
+      min-height: 1.4em;
+      display: block;
+    }
+    .scenario-box {
+      background: #f5f5f5;
+      border-left: 3px solid #6c3483;
+      padding: 0.5rem 1rem;
+      margin: 0.75rem 0;
+      font-size: 0.95rem;
+    }
+    .sketch-box {
+      border: 2px solid #999;
+      min-height: 120px;
+      margin: 0.5rem 0;
+      background: #fafafa;
+    }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.35rem 1.5rem;
+      align-items: baseline;
+      margin-bottom: 1.25rem;
+      padding: 0.75rem 1rem;
+      background: #f5f5f5;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #666;
+      page-break-before: avoid;
+      break-before: avoid;
+    }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .part { page-break-inside: avoid; break-inside: avoid; }
+      .scenario-box { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box {
+        page-break-inside: avoid;
+        break-inside: avoid;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      table {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Smart Devices: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 8 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong>
+    <span class="fill-line"></span>
+    <strong>Grade/Section:</strong>
+    <span class="fill-line"></span>
+    <strong>Date:</strong>
+    <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+    <p><strong>What you will learn:</strong> A <strong>smart device</strong> is more than a sensor or a switch. It senses, decides, connects, and acts. In this worksheet you will learn its four parts, the difference between a decision made <strong>on the device</strong> and a decision made <strong>in the cloud</strong>, what <strong>data</strong> the device creates, and what should still work when the network drops.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Name one smart device</strong> you have used or seen (speaker, watch, lock, thermostat, light, or another).<br>
+        <span class="fill-line"></span></li>
+      <li><strong>In one sentence</strong>, what can it do that a simple version of the same object cannot do?<br>
+        <span class="fill-line"></span></li>
+    </ol>
+  </div>
+  <div class="part">
+    <h2>Part 2 – Four parts that work together <span class="time">(about 5 minutes)</span></h2>
+    <p>Most smart devices combine four jobs. A <strong>sensor</strong> measures something, such as temperature, motion, or sound. A <strong>processor</strong> decides what that measurement means. A <strong>connection</strong> sends or receives messages, often over Wi-Fi. An <strong>action</strong> is the response: showing a message, turning a motor, changing a setting, or playing a sound. If you remove one part, the device may still turn on, but it is no longer doing the “smart” job.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A smart thermostat measures the room, compares it with the schedule, and can also take a change from a phone app. The heater or air conditioner is what actually changes the room.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Which part senses, which part decides, which part needs the network, and which part changes the room?</p>
+    <p><span class="fill-line"></span> <span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Write Sensor, Processor, Connection, or Action.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>What happens</th>
+          <th>Which part?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>The thermostat notices the room is 18°C</td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>It compares 18°C with the 21°C schedule</td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>A phone app sends “set it to 23°C”</td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>The heater switches on</td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>The app shows the new temperature</td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="part">
+    <h2>Part 3 – On the device or in the cloud <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>On the device</strong> means the processor in the house makes the decision with information it already has. <strong>In the cloud</strong> means the device sends data to a computer somewhere else and waits for an answer. A local decision can be faster and can keep working when Wi-Fi fails. A cloud decision can use a larger history, an account, or a phone that is not at home. A good design says which jobs must work with no network.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A smart lock can be opened with a keypad code stored in the lock. It can also be opened from an app when the phone is online. During a storm, the home Wi-Fi goes out. Someone arrives with the keypad code. Someone else tries the app from the driveway.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Which method should still work, and why is that a safety choice rather than only a convenience?</p>
+    <p><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Mark where each job should be handled. Write <strong>On the device</strong> or <strong>In the cloud</strong>.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Job</th>
+          <th>Where it should work</th>
+          <th>Why</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Unlock with the keypad code during an outage</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Show a month-long temperature graph in the app</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Turn the heater on when the room is below the set point</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Let a family member who is across town change the thermostat</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="part">
+    <h2>Part 4 – The record the device keeps <span class="time">(about 5 minutes)</span></h2>
+    <p>A smart device does not only act. It often creates <strong>data</strong>: temperature over time, when a lock opened, which account sent a command, or a short voice clip after a wake word. Data can help the device learn a schedule. It can also describe people’s routines more closely than a normal appliance would.</p>
+    <p><strong>Critical thinking:</strong> A fitness watch can store heart rate on the watch or upload every reading to an account. Name one benefit of uploading and one risk. Then say which choice you would want as the default, and why.</p>
+    <p><span class="fill-line"></span> <span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> For each device, list one kind of data it might store and whether that data must leave the house for the main job to work. Write <strong>Must leave</strong> or <strong>Can stay</strong>.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Device and main job</th>
+          <th>One kind of data</th>
+          <th>Must leave or can stay?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Thermostat keeping a room comfortable</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Speaker setting a kitchen timer by voice</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+        <tr>
+          <td>Lock showing “who unlocked the door today” in an app</td>
+          <td><span class="fill-line"></span></td>
+          <td><span class="fill-line"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="part">
+    <h2>Part 5 – Trace one device <span class="time">(about 5 minutes)</span></h2>
+    <p>A clear diagram shows what stays in the home and what crosses the network. That diagram is a way to check the design before anyone buys the device.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Choose one device:</strong> smart speaker, smart lock, or smart thermostat. <strong>Sketch</strong> sensor → processor → action, and show the connection. Label one message that stays in the home and one message that leaves.</li>
+    </ol>
+    <div class="sketch-box"></div>
+    <ol start="2">
+      <li><strong>Write one sentence.</strong> What should this device still do if the connection fails?<br>
+        <span class="fill-line"></span></li>
+    </ol>
+  </div>
+  <div class="part checklist-wrapper">
+    <h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+    <p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+    <ul class="checklist">
+      <li>□ I can name the four jobs of a <strong>smart device</strong>: sensor, processor, connection, and action.</li>
+      <li>□ I can tell a decision <strong>on the device</strong> from a decision <strong>in the cloud</strong>.</li>
+      <li>□ I can say which jobs should keep working when the network drops.</li>
+      <li>□ I can identify data a device creates and whether that data must leave the home.</li>
+      <li>□ I can sketch what stays local and what crosses the connection.</li>
+    </ul>
+    <p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+  </div>
+
+  <p class="footer">Worksheet on Smart Devices (Technical). Central topic: Smart devices. Main technology area: Connected devices and networks.</p>
+
+</body>
+</html>
