@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Problemas del sistema: Hoja de trabajo técnica – DC3A</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px; margin: 0 auto; padding: 1rem 1.5rem;
+      color: #1a1a1a; line-height: 1.5; background: #fff;
+    }
+    h1 { font-size: 1.5rem; color: #00796b; border-bottom: 3px solid #00796b; padding-bottom: 0.25rem; margin-top: 0; }
+    .subtitle { font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #00796b; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .time { font-size: 0.85rem; color: #666; }
+    .intro-box { background: #e0f2f1; border-left: 4px solid #00796b; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .part { page-break-inside: avoid; break-inside: avoid; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #bbb; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #e0f2f1; }
+    .fill-line { border-bottom: 1px solid #999; min-height: 1.4em; display: block; }
+    .scenario-box { background: #f5f5f5; border-left: 3px solid #00796b; padding: 0.5rem 1rem; margin: 0.75rem 0; font-size: 0.95rem; }
+    .sketch-box { border: 2px solid #999; min-height: 120px; margin: 0.5rem 0; background: #fafafa; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1.5rem; align-items: baseline;
+      margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: #f5f5f5; border-radius: 4px; font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #666; page-break-before: avoid; break-before: avoid; }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, table { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; break-inside: avoid; }
+      .part, .scenario-box, .sketch-box, .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Problemas del sistema: Hoja de trabajo técnica</h1>
+  <p class="subtitle"><strong>DC3A · Hoja de trabajo · Unos 25 minutos</strong><br>
+  Trabaja con bolígrafo y papel. Puedes usar colores si quieres. No necesitas computadora ni internet.</p>
+
+  <div class="student-info">
+    <strong>Nombre:</strong> <span class="fill-line"></span>
+    <strong>Grado o grupo:</strong> <span class="fill-line"></span>
+    <strong>Fecha:</strong> <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>Cómo usar esta hoja de trabajo</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Haz las partes <strong>en orden</strong>, de arriba abajo.</li>
+      <li>Cada parte indica un <strong>tiempo</strong> aproximado para que organices tu ritmo.</li>
+      <li>Lee cada instrucción antes de escribir. Puedes hacer esta actividad por tu cuenta.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Parte 1 – Qué aprenderás <span class="time">(unos 3 minutos)</span></h2>
+    <p><strong>Qué aprenderás:</strong> Un <strong>problema del sistema</strong> es cuando el hardware, el software, la red o la configuración impiden que un servicio funcione como se espera. Aprenderás a distinguir <strong>tipos de problemas</strong>, describir <strong>síntomas</strong>, aplicar pasos básicos de <strong>diagnóstico</strong> y decidir cuándo reiniciar y cuándo <strong>reportar</strong>.</p>
+    <p><strong>Haz esto:</strong></p>
+    <ol>
+      <li><strong>Describe un problema</strong> que hayas visto en un sistema escolar o personal (pantalla negra, sin Wi-Fi, app que no abre, etc.).<br><span class="fill-line"></span></li>
+      <li><strong>Escribe el síntoma</strong> que se notó primero (lo que la persona vio o no pudo hacer).<br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Parte 2 – Tipos de problemas <span class="time">(unos 5 minutos)</span></h2>
+    <p>Conviene clasificar: <strong>hardware</strong> (partes físicas), <strong>software</strong> (programas y sistema operativo), <strong>red</strong> (conexión y servicios remotos) o <strong>configuración</strong> (ajustes, cuentas, permisos). La clasificación guía las primeras pruebas.</p>
+    <div class="scenario-box">
+      <strong>Escenario de la vida real:</strong> En el laboratorio nadie puede entrar al aula virtual, pero pueden abrir archivos locales y ver videos guardados en el disco. El proyector y los monitores funcionan.
+    </div>
+    <p><strong>Comenta con un compañero o escribe tu reflexión:</strong> ¿Por qué este caso apunta más a red o servicio en línea que a una pantalla rota?</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Haz esto:</strong> Clasifica cada caso como <strong>Hardware</strong>, <strong>Software</strong>, <strong>Red</strong> o <strong>Configuración</strong>.</p>
+    <table>
+      <thead><tr><th>Situación</th><th>Tipo</th></tr></thead>
+      <tbody>
+        <tr><td>El cable de red está cortado detrás del escritorio</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Una app se cierra al abrir un archivo concreto</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>La cuenta no tiene permiso para imprimir</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>El ventilador no gira y el equipo se apaga por calor</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Parte 3 – Síntomas y diagnóstico básico <span class="time">(unos 5 minutos)</span></h2>
+    <p>Un buen diagnóstico registra: <strong>qué falla</strong>, <strong>desde cuándo</strong>, <strong>en cuántos equipos o cuentas</strong>, y <strong>qué cambió recientemente</strong>. Prueba una variable a la vez. Anotar mensajes de error evita adivinanzas.</p>
+    <div class="scenario-box">
+      <strong>Escenario de la vida real:</strong> Solo la computadora 7 no imprime. Las demás sí. Ayer movieron el escritorio de la 7 y el cable quedó flojo.
+    </div>
+    <p><strong>Pensamiento crítico:</strong> ¿Qué prueba harías primero y qué evidencia buscarías?</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Haz esto:</strong> Escribe tres preguntas de aislamiento para el reporte “el Wi-Fi se cae”.</p>
+    <ol>
+      <li><span class="fill-line"></span></li>
+      <li style="margin-top:0.35rem;"><span class="fill-line"></span></li>
+      <li style="margin-top:0.35rem;"><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Parte 4 – Reiniciar, documentar y escalar <span class="time">(unos 5 minutos)</span></h2>
+    <p><strong>Reiniciar</strong> puede limpiar estados temporales, pero no sustituye el análisis si el problema vuelve. <strong>Documentar</strong> (síntoma, pruebas, resultado) ayuda al soporte. <strong>Escalar</strong> significa pedir ayuda cuando el riesgo o la complejidad supera lo que puedes resolver con seguridad.</p>
+    <div class="scenario-box">
+      <strong>Escenario de la vida real:</strong> Un estudiante reinicia tres veces un equipo que huele a quemado y sigue forzando el encendido. El olor indica un posible fallo eléctrico que requiere intervención adulta o de soporte, no más reintentos.
+    </div>
+    <p><strong>Haz esto:</strong> Marca <strong>Reiniciar primero</strong>, <strong>Documentar y reportar</strong> o <strong>Detener y pedir ayuda</strong>.</p>
+    <table>
+      <thead><tr><th>Situación</th><th>Mejor acción</th></tr></thead>
+      <tbody>
+        <tr><td>Una app se congeló una vez y no hay olor ni humo</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>El mismo error vuelve cada mañana con un código visible</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Hay chispas en el enchufe</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+    <p><strong>Escribe una nota breve de incidente</strong> (síntoma / prueba hecha / siguiente paso).</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span><br><span class="fill-line"></span></p>
+  </div>
+
+  <div class="part">
+    <h2>Parte 5 – Mapa de diagnóstico <span class="time">(unos 5 minutos)</span></h2>
+    <p><strong>Haz esto:</strong></p>
+    <ol>
+      <li><strong>Dibuja un flujo</strong>: Observar síntoma → Clasificar tipo → Preguntas de aislamiento → Prueba segura → ¿Se resolvió? → Documentar o escalar.</li>
+    </ol>
+    <div class="sketch-box"></div>
+    <ol start="2">
+      <li><strong>Marca el paso</strong> que más se olvida en tu entorno y explica por qué importa.<br><span class="fill-line"></span><br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part checklist-wrapper">
+    <h2>Parte 6 – Comprueba lo aprendido <span class="time">(unos 2 minutos)</span></h2>
+    <p><strong>Lista de comprobación.</strong> Marca con una ✓ cuando la afirmación sea cierta para ti.</p>
+    <ul class="checklist">
+      <li>□ Puedo explicar qué es un <strong>problema del sistema</strong> y dar un ejemplo.</li>
+      <li>□ Puedo clasificar problemas en <strong>hardware, software, red o configuración</strong>.</li>
+      <li>□ Puedo formular preguntas de <strong>aislamiento</strong> y usar síntomas con evidencia.</li>
+      <li>□ Sé cuándo <strong>reiniciar</strong>, cuándo <strong>documentar</strong> y cuándo <strong>pedir ayuda</strong>.</li>
+      <li>□ Puedo esbozar un flujo básico de diagnóstico.</li>
+    </ul>
+    <p>Cuando tengas todas las casillas marcadas, has repasado las ideas principales de esta hoja de trabajo.</p>
+  </div>
+
+  <p class="footer">Hoja de trabajo sobre problemas del sistema. Tema central: Diagnóstico técnico de fallos. Área tecnológica principal: Sistemas / soporte y confiabilidad.</p>
+
+</body>
+</html>
