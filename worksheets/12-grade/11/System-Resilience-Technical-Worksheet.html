@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>System Resilience: Technical Worksheet – Grade 12</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px; margin: 0 auto; padding: 1rem 1.5rem;
+      color: #1a1a1a; line-height: 1.5; background: #fff;
+    }
+    h1 { font-size: 1.5rem; color: #1a4a3a; border-bottom: 3px solid #1a4a3a; padding-bottom: 0.25rem; margin-top: 0; }
+    .subtitle { font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #1a4a3a; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .time { font-size: 0.85rem; color: #666; }
+    .intro-box { background: #e6f2ed; border-left: 4px solid #1a4a3a; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .part { page-break-inside: avoid; break-inside: avoid; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #bbb; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #e6f2ed; }
+    .fill-line { border-bottom: 1px solid #999; min-height: 1.4em; display: block; }
+    .scenario-box { background: #f5f5f5; border-left: 3px solid #1a4a3a; padding: 0.5rem 1rem; margin: 0.75rem 0; font-size: 0.95rem; }
+    .sketch-box { border: 2px solid #999; min-height: 120px; margin: 0.5rem 0; background: #fafafa; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1.5rem; align-items: baseline;
+      margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: #f5f5f5; border-radius: 4px; font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #666; page-break-before: avoid; break-before: avoid; }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, table { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; break-inside: avoid; }
+      .part, .scenario-box, .sketch-box, .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>System Resilience: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 12 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong> <span class="fill-line"></span>
+    <strong>Grade/Section:</strong> <span class="fill-line"></span>
+    <strong>Date:</strong> <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+    <p><strong>What you will learn:</strong> <strong>System resilience</strong> is the ability of a system to keep delivering essential functions during stress—and to recover quickly after disruption. You will connect resilience to <strong>redundancy</strong>, <strong>backups</strong>, <strong>failover</strong>, monitoring, and recovery objectives (RTO/RPO concepts at a high level).</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>In one sentence</strong>, what does resilience mean beyond “never fails”?<br><span class="fill-line"></span><br><span class="fill-line"></span></li>
+      <li><strong>Name one system</strong> (school, city, or personal) that must keep working under stress.<br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 2 – Resilience vs mere uptime <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Uptime</strong> measures how often a system is available. <strong>Resilience</strong> asks what happens when parts fail: Can users still complete critical tasks? How fast can the system return to a safe state? A system can have high past uptime and still be fragile if one failure cascades.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A school stores all attendance, grades, and lesson materials on a single server with no tested backup. The server has been “up” for 18 months. One disk failure takes everything offline for a week.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Why was long uptime not the same as resilience here?</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Label each property as supporting <strong>Uptime focus</strong> or <strong>Resilience focus</strong> (best fit).</p>
+    <table>
+      <thead><tr><th>Property</th><th>Focus</th></tr></thead>
+      <tbody>
+        <tr><td>Percentage of hours the portal was reachable last year</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Documented failover to a secondary site within 2 hours</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Regular restore tests from backup</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>“We have never had an outage, so we skip drills”</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 3 – Redundancy, backups, and failover <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Redundancy</strong> means extra capacity or alternate paths (second power supply, spare Wi-Fi AP, mirrored disk). A <strong>backup</strong> is a copy of data stored separately. <strong>Failover</strong> is switching to a standby when the primary fails. Backups without restore tests are optimism, not resilience.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> IT keeps nightly backups on the same rack as the production server. A room fire destroys both. Another school keeps offline and off-site copies and practices restoring a sample folder each quarter.
+    </div>
+    <p><strong>Critical thinking:</strong> Which school is more resilient, and which single design choice mattered most?</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Match each control to its primary role.</p>
+    <p><strong>Word bank:</strong> <em>Redundancy</em> · <em>Backup</em> · <em>Failover</em> · <em>Monitoring</em></p>
+    <table>
+      <thead><tr><th>Control</th><th>Role</th></tr></thead>
+      <tbody>
+        <tr><td>Second internet link that activates if the first dies</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Encrypted copy of databases stored off-site</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Alerts when disk errors rise above a threshold</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Automatic switch from primary app server to standby</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 4 – Recovery objectives and single points of failure <span class="time">(about 5 minutes)</span></h2>
+    <p>A <strong>single point of failure (SPOF)</strong> is one component whose loss stops the whole service. <strong>RTO</strong> (recovery time objective) is how quickly you need to be back; <strong>RPO</strong> (recovery point objective) is how much data loss you can tolerate (e.g. last 15 minutes). Clear objectives guide design choices.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> An online exam platform can lose at most 5 minutes of answers (tight RPO) and must reopen within 30 minutes (RTO). Designers choose frequent replication plus a hot standby—not weekly tape-only backups.
+    </div>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Circle</strong> the SPOF in this setup: One authentication server · Two mirrored databases · Dual power feeds</li>
+      <li><strong>For a school grading portal the night before report cards</strong>, propose a rough RTO and RPO in plain language (not exact numbers required—reasonable ranges).<br>
+        RTO idea: <span class="fill-line"></span><br>
+        RPO idea: <span class="fill-line"></span></li>
+      <li style="margin-top:0.5rem;"><strong>Explain</strong> one trade-off: stronger resilience often costs more money or complexity. Give one example.<br><span class="fill-line"></span><br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 5 – Resilience architecture sketch <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Sketch a resilient mini-architecture</strong> for one critical school service (portal, Wi-Fi, or file storage). Include at least: primary, backup/redundancy, monitoring, and a recovery note.</li>
+    </ol>
+    <div class="sketch-box"></div>
+    <ol start="2">
+      <li><strong>Star the SPOF</strong> you removed (or still worry about) and say why.<br><span class="fill-line"></span><br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part checklist-wrapper">
+    <h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+    <p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+    <ul class="checklist">
+      <li>□ I can distinguish <strong>uptime</strong> from <strong>resilience</strong>.</li>
+      <li>□ I can explain <strong>redundancy</strong>, <strong>backup</strong>, <strong>failover</strong>, and <strong>monitoring</strong>.</li>
+      <li>□ I can identify a <strong>single point of failure</strong>.</li>
+      <li>□ I can discuss <strong>RTO/RPO</strong> ideas in plain language.</li>
+      <li>□ I can sketch a simple resilient design with recovery in mind.</li>
+    </ul>
+    <p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+  </div>
+
+  <p class="footer">Worksheet on System Resilience (Technical). Central topic: System resilience. Main technology area: Reliability engineering / continuity.</p>
+
+</body>
+</html>

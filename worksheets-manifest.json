@@ -1,5 +1,5 @@
 {
-    "lastUpdated": "2026-10-29T13:12:10Z",
+    "lastUpdated": "2026-10-29T15:44:20Z",
     "items": [
         {
             "grade": "1",
@@ -222,6 +222,21 @@
                 },
                 {
                     "file": "Systems-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "5",
+            "week": 11,
+            "topic": "Maintenance",
+            "worksheets": [
+                {
+                    "file": "Maintenance-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Maintenance-Technical-Worksheet.html",
                     "type": "technical"
                 }
             ]
@@ -462,6 +477,21 @@
                 },
                 {
                     "file": "EdTech-Business-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "12",
+            "week": 11,
+            "topic": "System resilience",
+            "worksheets": [
+                {
+                    "file": "System-Resilience-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "System-Resilience-Technical-Worksheet.html",
                     "type": "technical"
                 }
             ]

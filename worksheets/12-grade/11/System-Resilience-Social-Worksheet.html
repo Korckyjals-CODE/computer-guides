@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>System Resilience: Social Worksheet – Grade 12</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px; margin: 0 auto; padding: 1rem 1.5rem;
+      color: #1a1a1a; line-height: 1.5; background: #fff;
+    }
+    h1 { font-size: 1.5rem; color: #1a4a3a; border-bottom: 3px solid #1a4a3a; padding-bottom: 0.25rem; margin-top: 0; }
+    .subtitle { font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #1a4a3a; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .time { font-size: 0.85rem; color: #666; }
+    .intro-box { background: #e6f2ed; border-left: 4px solid #1a4a3a; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .part { page-break-inside: avoid; break-inside: avoid; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #bbb; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #e6f2ed; }
+    .fill-line { border-bottom: 1px solid #999; min-height: 1.4em; display: block; }
+    .scenario-box { background: #f5f5f5; border-left: 3px solid #1a4a3a; padding: 0.5rem 1rem; margin: 0.75rem 0; font-size: 0.95rem; }
+    .sketch-box { border: 2px solid #999; min-height: 120px; margin: 0.5rem 0; background: #fafafa; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1.5rem; align-items: baseline;
+      margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: #f5f5f5; border-radius: 4px; font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #666; page-break-before: avoid; break-before: avoid; }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, table { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; break-inside: avoid; }
+      .part, .scenario-box, .sketch-box, .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>System Resilience: Social Worksheet</h1>
+  <p class="subtitle"><strong>Grade 12 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong> <span class="fill-line"></span>
+    <strong>Grade/Section:</strong> <span class="fill-line"></span>
+    <strong>Date:</strong> <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+    <p><strong>What you will learn:</strong> Technical resilience fails without <strong>people, policy, and trust</strong>. Outages create stress, unequal impact, and pressure to hide problems. In this worksheet you will examine communication, equity, drills, and ethical priorities when systems are under stress.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Name a disruption</strong> that affected a community you know (school portal, city power, mobile network).<br><span class="fill-line"></span></li>
+      <li><strong>Write one non-technical factor</strong> that made recovery harder or easier (communication, training, trust).<br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 2 – People as part of the resilient system <span class="time">(about 5 minutes)</span></h2>
+    <p>Operators, teachers, students, and vendors are part of the system. Unclear roles, blame culture, or missing runbooks turn a small failure into chaos. Resilience includes knowing <strong>who decides</strong>, <strong>who communicates</strong>, and <strong>who can escalate</strong>.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> The learning platform fails during finals week. IT knows a workaround. Teachers are not told for three hours. Students flood social media with rumors that grades were deleted.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Which human/process gaps reduced resilience even if servers could be fixed quickly?</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Assign each need to a role: <strong>IT</strong>, <strong>School leadership</strong>, or <strong>Teachers/students</strong> (best primary owner).</p>
+    <table>
+      <thead><tr><th>Need during an outage</th><th>Primary owner</th></tr></thead>
+      <tbody>
+        <tr><td>Technical diagnosis and restore steps</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Public status message and deadline extensions</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Following alternate submission instructions calmly</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 3 – Equity under stress <span class="time">(about 5 minutes)</span></h2>
+    <p>Disruptions hit unevenly: limited home bandwidth, shared devices, disability accommodations, or rigid timed assessments. A resilient organization plans <strong>fair alternatives</strong>, not only technical failover.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> Online exam software fails. Students with mobile data finish; others cannot. Leadership insists “the window was the same for everyone,” refusing extensions.
+    </div>
+    <p><strong>Critical thinking:</strong> Propose one fairness action that strengthens social resilience without pretending the outage did not happen.</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> List two groups who may need extra support during a school-wide tech outage.</p>
+    <ol>
+      <li><span class="fill-line"></span></li>
+      <li style="margin-top:0.35rem;"><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 4 – Drills, transparency, and ethical trade-offs <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Drills</strong> (tabletops, restore tests) build muscle memory. <strong>Transparency</strong> about known risks builds trust—hiding fragility to protect image often worsens harm. Organizations also face trade-offs: spend on resilience vs other needs; disclose vs over-alarm.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> An audit finds untested backups. Leadership delays telling the community until “after the open house,” hoping nothing fails. A ransomware event hits the next week.
+    </div>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Draft 2–3 sentences</strong> of an honest (non-panic) community update when a critical resilience gap is found.<br><span class="fill-line"></span><br><span class="fill-line"></span><br><span class="fill-line"></span></li>
+      <li style="margin-top:0.75rem;"><strong>Name one ethical tension</strong> between cost, convenience, and resilience for a school digital service.<br><span class="fill-line"></span><br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 5 – Community resilience board <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Sketch a four-box board</strong> for outage readiness: Technical controls · Roles &amp; communication · Equity supports · Drill / learn cycle.</li>
+    </ol>
+    <div class="sketch-box"></div>
+    <ol start="2">
+      <li><strong>Explain</strong> why leaving any one box empty weakens the whole plan.<br><span class="fill-line"></span><br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part checklist-wrapper">
+    <h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+    <p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+    <ul class="checklist">
+      <li>□ I see <strong>people and process</strong> as part of system resilience.</li>
+      <li>□ I can assign clear roles during an outage.</li>
+      <li>□ I can explain why outages create <strong>unequal</strong> impacts.</li>
+      <li>□ I can argue for drills and honest communication.</li>
+      <li>□ I can outline a community resilience board spanning tech and social factors.</li>
+    </ul>
+    <p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+  </div>
+
+  <p class="footer">Worksheet on System Resilience (Social). Central topic: System resilience. Main technology area: Continuity, governance, and digital citizenship.</p>
+
+</body>
+</html>
