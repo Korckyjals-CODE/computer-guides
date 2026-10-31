@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pictogramas – Cuidado de la computadora (adaptada)</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      color: #1a1a1a;
+      line-height: 1.45;
+      background: #fff;
+    }
+    h1 {
+      font-size: 1.35rem;
+      color: #1b6b4a;
+      border-bottom: 3px solid #1b6b4a;
+      padding-bottom: 0.25rem;
+      margin-top: 0;
+    }
+    .subtitle { font-size: 0.95rem; color: #555; margin-bottom: 1.25rem; }
+    h2 { font-size: 1.1rem; color: #1b6b4a; margin-top: 1.25rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+      margin: 0.75rem 0 1.25rem;
+    }
+    .card {
+      border: 2px solid #bbb;
+      border-radius: 8px;
+      padding: 0.75rem;
+      text-align: center;
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    .card strong { display: block; margin-top: 0.35rem; font-size: 0.95rem; }
+    .card .hint { font-size: 0.8rem; color: #666; }
+    svg {
+      width: 72px;
+      height: 72px;
+      stroke: #1b6b4a;
+      fill: none;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .bad svg { stroke: #8b3a3a; }
+    .note {
+      background: #e6f4ee;
+      border-left: 4px solid #1b6b4a;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+    }
+    .footer { margin-top: 1.5rem; font-size: 0.8rem; color: #666; }
+    @media print {
+      body { padding: 0.5rem; }
+      .card, .note {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+    @media (max-width: 520px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Pictogramas: Cuidado de la computadora</h1>
+  <p class="subtitle"><strong>Grado 1 · Apoyo visual (adaptado, español)</strong><br>
+  Página opcional para proyectar, repasar o pegar junto a las hojas técnica y social.</p>
+
+  <div class="note">
+    Los mismos dibujos aparecen en las hojas adaptadas. Encierra o señala el pictograma correcto con los niños.
+  </div>
+
+  <h2>Cuidado técnico</h2>
+  <div class="grid">
+    <div class="card">
+      <svg viewBox="0 0 64 64"><rect x="8" y="12" width="48" height="32" rx="3"/><line x1="20" y1="50" x2="44" y2="50"/><line x1="14" y1="54" x2="50" y2="54"/><rect x="14" y="18" width="36" height="20" rx="1"/></svg>
+      <strong>Computadora</strong>
+      <span class="hint">El equipo que cuidamos</span>
+    </div>
+    <div class="card">
+      <svg viewBox="0 0 64 64"><path d="M28 50 V28 c0-6 4-10 8-10 s8 4 8 10 v8"/><path d="M28 36 c-4 0-8 3-8 7 v7 h24 v-4"/><circle cx="40" cy="22" r="3"/></svg>
+      <strong>Manos suaves</strong>
+      <span class="hint">Toca despacio</span>
+    </div>
+    <div class="card bad">
+      <svg viewBox="0 0 64 64"><path d="M24 14 h10 v22 h-10 z"/><ellipse cx="29" cy="14" rx="5" ry="3"/><circle cx="44" cy="28" r="12"/><line x1="36" y1="20" x2="52" y2="36"/><line x1="52" y1="20" x2="36" y2="36"/></svg>
+      <strong>Sin bebidas</strong>
+      <span class="hint">Bebida lejos — ¡no encima!</span>
+    </div>
+    <div class="card">
+      <svg viewBox="0 0 64 64"><rect x="22" y="16" width="20" height="28" rx="2"/><path d="M12 40 c0-8 6-12 12-10"/><path d="M52 40 c0-8-6-12-12-10"/></svg>
+      <strong>Dos manos</strong>
+      <span class="hint">Cargar y caminar</span>
+    </div>
+  </div>
+
+  <h2>Cuidado social</h2>
+  <div class="grid">
+    <div class="card">
+      <svg viewBox="0 0 64 64"><circle cx="18" cy="18" r="7"/><circle cx="46" cy="18" r="7"/><circle cx="32" cy="22" r="7"/><path d="M6 50 c0-8 5-14 12-14"/><path d="M26 50 c0-8 3-12 6-12 s6 4 6 12"/><path d="M46 38 c6 0 10 6 10 14"/><rect x="24" y="44" width="16" height="10" rx="1"/></svg>
+      <strong>De toda la clase</strong>
+      <span class="hint">Compartimos</span>
+    </div>
+    <div class="card">
+      <svg viewBox="0 0 64 64"><rect x="10" y="18" width="44" height="24" rx="2"/><path d="M20 50 h24"/><path d="M44 10 l6 6 12-12"/></svg>
+      <strong>Dejar lista</strong>
+      <span class="hint">Lista para el siguiente</span>
+    </div>
+    <div class="card">
+      <svg viewBox="0 0 64 64"><circle cx="22" cy="20" r="8"/><circle cx="46" cy="18" r="10"/><path d="M10 48 c0-10 6-16 12-16 s12 6 12 16"/><path d="M36 48 c0-12 5-18 10-18 s10 6 10 18"/><path d="M30 28 c4 2 8 2 12 0"/></svg>
+      <strong>Decir a un adulto</strong>
+      <span class="hint">Pedir ayuda</span>
+    </div>
+    <div class="card">
+      <svg viewBox="0 0 64 64"><circle cx="20" cy="24" r="8"/><circle cx="44" cy="24" r="8"/><path d="M28 28 c4 4 8 4 12 0"/><path d="M16 48 h32"/></svg>
+      <strong>Turnos / regla justa</strong>
+      <span class="hint">Primero uno, luego otro</span>
+    </div>
+  </div>
+
+  <p class="footer">Apoyo visual opcional para las hojas adaptadas en worksheets/1-grade/11/adapted/spanish/.</p>
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Risk Management: Technical Worksheet – Grade 11</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px; margin: 0 auto; padding: 1rem 1.5rem;
+      color: #1a1a1a; line-height: 1.5; background: #fff;
+    }
+    h1 { font-size: 1.5rem; color: #0a5a5c; border-bottom: 3px solid #0a5a5c; padding-bottom: 0.25rem; margin-top: 0; }
+    .subtitle { font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #0a5a5c; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .time { font-size: 0.85rem; color: #666; }
+    .intro-box { background: #e3f1f1; border-left: 4px solid #0a5a5c; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .part { page-break-inside: avoid; break-inside: avoid; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #bbb; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #e3f1f1; }
+    .fill-line { border-bottom: 1px solid #999; min-height: 1.4em; display: block; }
+    .scenario-box { background: #f5f5f5; border-left: 3px solid #0a5a5c; padding: 0.5rem 1rem; margin: 0.75rem 0; font-size: 0.95rem; }
+    .sketch-box { border: 2px solid #999; min-height: 120px; margin: 0.5rem 0; background: #fafafa; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1.5rem; align-items: baseline;
+      margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: #f5f5f5; border-radius: 4px; font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #666; page-break-before: avoid; break-before: avoid; }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, table { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; break-inside: avoid; }
+      .part, .scenario-box, .sketch-box, .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Risk Management: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 11 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong> <span class="fill-line"></span>
+    <strong>Grade/Section:</strong> <span class="fill-line"></span>
+    <strong>Date:</strong> <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+    <p><strong>What you will learn:</strong> <strong>Risk management</strong> is a structured cycle: <strong>identify</strong> what could go wrong, <strong>assess</strong> how likely and how severe it is, then choose to <strong>mitigate</strong>, <strong>transfer</strong>, <strong>avoid</strong>, or <strong>accept</strong> the risk. You will practice separating likelihood from impact and documenting reasoned decisions for digital systems.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Name one digital risk</strong> for a school or personal project (data loss, account takeover, outage before a deadline).<br><span class="fill-line"></span></li>
+      <li>In a few words, is your concern mainly about <strong>how often</strong> it might happen, <strong>how bad</strong> it would be, or both?<br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 2 – Identify risks vs vague fears <span class="time">(about 5 minutes)</span></h2>
+    <p>A useful risk statement names an <strong>asset</strong> (what you care about), a <strong>threat</strong> or hazard, and a possible <strong>consequence</strong>. “Something bad with the network” is too vague to manage. Clear identification enables assessment and controls.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A robotics club stores competition code only on one laptop. Vague fear: “We might lose stuff.” Clear risk: “If the laptop disk fails before finals, we lose the only build and cannot compete.”
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Why does rewriting vague fears into asset–threat–consequence statements help teams act?</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Rewrite each vague statement as a clearer risk (asset + what could happen + consequence).</p>
+    <table>
+      <thead><tr><th>Vague statement</th><th>Clearer risk</th></tr></thead>
+      <tbody>
+        <tr><td>“The cloud is risky.”</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>“Phones are a problem.”</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>“Wi-Fi might mess up.”</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 3 – Likelihood vs impact <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Likelihood</strong> is how probable an event is. <strong>Impact</strong> is how severe the harm would be if it occurs. High impact + low likelihood (rare catastrophic disk failure) and high likelihood + lower impact (frequent brief Wi-Fi blips) need different responses. Rough scales (Low / Medium / High) are enough for classroom analysis.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> Risk A: ransomware encrypts the student information system (low–medium likelihood for a well-patched school, very high impact). Risk B: a club printer jams weekly (high likelihood, low impact if a backup printer exists).
+    </div>
+    <p><strong>Critical thinking:</strong> Which risk deserves priority spending if the budget allows only one major control—and why? Use likelihood and impact in your answer.</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Rate each risk <strong>L</strong> / <strong>M</strong> / <strong>H</strong> for likelihood and impact (your reasoned judgment).</p>
+    <table>
+      <thead><tr><th>Risk</th><th>Likelihood</th><th>Impact</th></tr></thead>
+      <tbody>
+        <tr><td>Forgotten USB with unencrypted club passwords is lost on a bus</td><td><span class="fill-line"></span></td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Brief Wi-Fi drop during advisory announcements</td><td><span class="fill-line"></span></td><td><span class="fill-line"></span></td></tr>
+        <tr><td>No tested backup of graduation photo archives before a disk failure</td><td><span class="fill-line"></span></td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 4 – Treat risks: mitigate, transfer, avoid, accept <span class="time">(about 5 minutes)</span></h2>
+    <p>After assessment, choose a treatment: <strong>Mitigate</strong> (reduce likelihood or impact with controls), <strong>Transfer</strong> (shift some consequence, e.g. insurance or a vendor SLA), <strong>Avoid</strong> (do not do the activity), or <strong>Accept</strong> (knowingly live with residual risk when cost of more control outweighs benefit). Acceptance should be deliberate—not accidental neglect.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A journalism site collects tips. Mitigate: MFA and encryption. Avoid: refuse anonymous uploads entirely (hurts mission). Accept: residual risk that a determined attacker still breaches despite controls—documented and reviewed yearly.
+    </div>
+    <p><strong>Do this:</strong> Choose the <strong>best-fit treatment</strong> for each case (Mitigate / Transfer / Avoid / Accept).</p>
+    <table>
+      <thead><tr><th>Situation</th><th>Treatment</th></tr></thead>
+      <tbody>
+        <tr><td>Store competition code on one laptop; add cloud + offline backups and weekly restore tests</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Cancel a public live stream of unfinished exam questions after spotting a leak risk</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Buy device insurance for loaner laptops taken on field trips</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Keep using a popular free plugin with a known low-severity bug; document why and revisit next term</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+    <p><strong>Write one residual risk</strong> you would still accept after mitigating the robotics-laptop scenario (what remains, and why acceptance is reasonable).<br><span class="fill-line"></span><br><span class="fill-line"></span></p>
+  </div>
+
+  <div class="part">
+    <h2>Part 5 – Risk register sketch <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Sketch a mini risk register</strong> with four columns for one school digital service: Risk · Likelihood · Impact · Treatment. Fill at least two rows.</li>
+    </ol>
+    <div class="sketch-box"></div>
+    <ol start="2">
+      <li><strong>Star the risk</strong> you would treat first and justify using likelihood × impact thinking.<br><span class="fill-line"></span><br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part checklist-wrapper">
+    <h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+    <p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+    <ul class="checklist">
+      <li>□ I can write a clear risk (asset, threat, consequence)—not only a vague fear.</li>
+      <li>□ I can separate <strong>likelihood</strong> from <strong>impact</strong>.</li>
+      <li>□ I can choose among <strong>mitigate / transfer / avoid / accept</strong>.</li>
+      <li>□ I can explain deliberate acceptance of residual risk.</li>
+      <li>□ I can sketch a simple risk register and prioritize a treatment.</li>
+    </ul>
+    <p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+  </div>
+
+  <p class="footer">Worksheet on Risk Management (Technical). Central topic: Risk management. Main technology area: Digital risk assessment and controls.</p>
+
+</body>
+</html>

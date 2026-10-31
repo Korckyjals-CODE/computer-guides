@@ -1,470 +1,690 @@
-﻿{
-    "lastUpdated":  "2026-10-09T13:33:58Z",
-    "items":  [
-                  {
-                      "week":  9,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Machines-Help-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Machines-Help-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "1",
-                      "topic":  "Machines help"
-                  },
-                  {
-                      "week":  34,
-                      "worksheets":  [
-                                         {
-                                             "file":  "School-Tech-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "School-Tech-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "1",
-                      "topic":  "School tech"
-                  },
-                  {
-                      "week":  29,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Safe-Internet-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Safe-Internet-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "2",
-                      "topic":  "Safe internet"
-                  },
-                  {
-                      "week":  34,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Learning-Tools-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Learning-Tools-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "2",
-                      "topic":  "Learning tools"
-                  },
-                  {
-                      "week":  38,
-                      "worksheets":  [
-                                         {
-                                             "file":  "How-I-Use-Technology-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "How-I-Use-Technology-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "2",
-                      "topic":  "How I use technology"
-                  },
-                  {
-                      "week":  9,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Everyday-Automation-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Everyday-Automation-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "3",
-                      "topic":  "Everyday automation"
-                  },
-                  {
-                      "week":  31,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Solve-Creatively-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Solve-Creatively-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "3",
-                      "topic":  "Design ideas"
-                  },
-                  {
-                      "week":  34,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Digital-Learning-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Digital-Learning-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "3",
-                      "topic":  "Digital learning"
-                  },
-                  {
-                      "week":  38,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Technology-In-My-Day-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Technology-In-My-Day-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "3",
-                      "topic":  "Technology in my day"
-                  },
-                  {
-                      "week":  29,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Protection-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Protection-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "4",
-                      "topic":  "Protection"
-                  },
-                  {
-                      "week":  34,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Systems-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Systems-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "4",
-                      "topic":  "Systems"
-                  },
-                  {
-                      "week":  38,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Benefits-Of-Technology-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Benefits-Of-Technology-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "4",
-                      "topic":  "Benefits of technology"
-                  },
-                  {
-                      "week":  9,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Systems-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Systems-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "5",
-                      "topic":  "Systems"
-                  },
-                  {
-                      "week":  34,
-                      "worksheets":  [
-                                         {
-                                             "file":  "LMS-Idea-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "LMS-Idea-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "5",
-                      "topic":  "LMS idea"
-                  },
-                  {
-                      "week":  9,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Sensors-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Sensors-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "6",
-                      "topic":  "Sensors"
-                  },
-                  {
-                      "week":  31,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Design-Thinking-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Design-Thinking-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "6",
-                      "topic":  "Design thinking"
-                  },
-                  {
-                      "week":  34,
-                      "worksheets":  [
-                                         {
-                                             "file":  "EdTech-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "EdTech-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "6",
-                      "topic":  "EdTech"
-                  },
-                  {
-                      "week":  38,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Problems-Technology-Solves-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Problems-Technology-Solves-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "6",
-                      "topic":  "Technology pros and cons"
-                  },
-                  {
-                      "week":  9,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Control-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Control-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "7",
-                      "topic":  "Control"
-                  },
-                  {
-                      "week":  29,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Security-Layers-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Security-Layers-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "7",
-                      "topic":  "Cyber basics"
-                  },
-                  {
-                      "week":  9,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Smart-Devices-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Smart-Devices-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "8",
-                      "topic":  "Smart devices"
-                  },
-                  {
-                      "week":  38,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Impact-Of-Technology-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Impact-Of-Technology-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "8",
-                      "topic":  "Impact of technology"
-                  },
-                  {
-                      "week":  9,
-                      "worksheets":  [
-                                         {
-                                             "file":  "IoT-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "IoT-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "9",
-                      "topic":  "IoT"
-                  },
-                  {
-                      "week":  34,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Education-Tech-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Education-Tech-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "9",
-                      "topic":  "Education tech"
-                  },
-                  {
-                      "week":  9,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Impact-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Impact-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "10",
-                      "topic":  "Impact"
-                  },
-                  {
-                      "week":  34,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Product-Design-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Product-Design-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "10",
-                      "topic":  "Product design"
-                  },
-                  {
-                      "week":  34,
-                      "worksheets":  [
-                                         {
-                                             "file":  "EdTech-Business-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "EdTech-Business-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "11",
-                      "topic":  "EdTech business"
-                  },
-                  {
-                      "week":  29,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Cyber-Strategy-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Cyber-Strategy-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "12",
-                      "topic":  "Cyber strategy"
-                  },
-                  {
-                      "week":  34,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Platforms-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Platforms-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "DC3A",
-                      "topic":  "Plataformas"
-                  },
-                  {
-                      "week":  9,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Technology-Impact-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Technology-Impact-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "DC3B",
-                      "topic":  "Impacto"
-                  },
-                  {
-                      "week":  34,
-                      "worksheets":  [
-                                         {
-                                             "file":  "Product-Design-Social-Worksheet.html",
-                                             "type":  "social"
-                                         },
-                                         {
-                                             "file":  "Product-Design-Technical-Worksheet.html",
-                                             "type":  "technical"
-                                         }
-                                     ],
-                      "grade":  "DC3B",
-                      "topic":  "Diseño de producto"
-                  }
-              ]
+{
+    "lastUpdated": "2026-10-31T02:57:19Z",
+    "items": [
+        {
+            "grade": "1",
+            "week": 9,
+            "topic": "Machines help",
+            "worksheets": [
+                {
+                    "file": "Machines-Help-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Machines-Help-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "1",
+            "week": 11,
+            "topic": "Computer care",
+            "worksheets": [
+                {
+                    "file": "Computer-Care-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Computer-Care-Technical-Worksheet.html",
+                    "type": "technical"
+                },
+                {
+                    "file": "adapted/spanish/Cuidado-De-La-Computadora-Social-Worksheet.html",
+                    "type": "social",
+                    "locale": "es-adapted"
+                },
+                {
+                    "file": "adapted/spanish/Cuidado-De-La-Computadora-Tecnica-Worksheet.html",
+                    "type": "technical",
+                    "locale": "es-adapted"
+                }
+            ]
+        },
+        {
+            "grade": "1",
+            "week": 34,
+            "topic": "School tech",
+            "worksheets": [
+                {
+                    "file": "School-Tech-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "School-Tech-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "2",
+            "week": 11,
+            "topic": "Taking care devices",
+            "worksheets": [
+                {
+                    "file": "Taking-Care-Devices-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Taking-Care-Devices-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "2",
+            "week": 29,
+            "topic": "Safe internet",
+            "worksheets": [
+                {
+                    "file": "Safe-Internet-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Safe-Internet-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "2",
+            "week": 34,
+            "topic": "Learning tools",
+            "worksheets": [
+                {
+                    "file": "Learning-Tools-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Learning-Tools-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "2",
+            "week": 38,
+            "topic": "How I use technology",
+            "worksheets": [
+                {
+                    "file": "How-I-Use-Technology-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "How-I-Use-Technology-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "3",
+            "week": 9,
+            "topic": "Everyday automation",
+            "worksheets": [
+                {
+                    "file": "Everyday-Automation-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Everyday-Automation-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "3",
+            "week": 11,
+            "topic": "Safe use",
+            "worksheets": [
+                {
+                    "file": "Safe-Use-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Safe-Use-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "3",
+            "week": 31,
+            "topic": "Design ideas",
+            "worksheets": [
+                {
+                    "file": "Solve-Creatively-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Solve-Creatively-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "3",
+            "week": 34,
+            "topic": "Digital learning",
+            "worksheets": [
+                {
+                    "file": "Digital-Learning-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Digital-Learning-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "3",
+            "week": 38,
+            "topic": "Technology in my day",
+            "worksheets": [
+                {
+                    "file": "Technology-In-My-Day-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Technology-In-My-Day-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "4",
+            "week": 11,
+            "topic": "Lab rules",
+            "worksheets": [
+                {
+                    "file": "Lab-Rules-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Lab-Rules-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "4",
+            "week": 29,
+            "topic": "Protection",
+            "worksheets": [
+                {
+                    "file": "Protection-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Protection-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "4",
+            "week": 34,
+            "topic": "Systems",
+            "worksheets": [
+                {
+                    "file": "Systems-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Systems-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "4",
+            "week": 38,
+            "topic": "Benefits of technology",
+            "worksheets": [
+                {
+                    "file": "Benefits-Of-Technology-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Benefits-Of-Technology-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "5",
+            "week": 9,
+            "topic": "Systems",
+            "worksheets": [
+                {
+                    "file": "Systems-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Systems-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "5",
+            "week": 11,
+            "topic": "Maintenance",
+            "worksheets": [
+                {
+                    "file": "Maintenance-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Maintenance-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "5",
+            "week": 34,
+            "topic": "LMS idea",
+            "worksheets": [
+                {
+                    "file": "LMS-Idea-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "LMS-Idea-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "6",
+            "week": 9,
+            "topic": "Sensors",
+            "worksheets": [
+                {
+                    "file": "Sensors-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Sensors-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "6",
+            "week": 11,
+            "topic": "Troubleshooting steps",
+            "worksheets": [
+                {
+                    "file": "Troubleshooting-Steps-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Troubleshooting-Steps-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "6",
+            "week": 31,
+            "topic": "Design thinking",
+            "worksheets": [
+                {
+                    "file": "Design-Thinking-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Design-Thinking-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "6",
+            "week": 34,
+            "topic": "EdTech",
+            "worksheets": [
+                {
+                    "file": "EdTech-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "EdTech-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "6",
+            "week": 38,
+            "topic": "Technology pros and cons",
+            "worksheets": [
+                {
+                    "file": "Problems-Technology-Solves-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Problems-Technology-Solves-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "7",
+            "week": 9,
+            "topic": "Control",
+            "worksheets": [
+                {
+                    "file": "Control-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Control-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "7",
+            "week": 11,
+            "topic": "Preventive care",
+            "worksheets": [
+                {
+                    "file": "Preventive-Care-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Preventive-Care-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "7",
+            "week": 29,
+            "topic": "Cyber basics",
+            "worksheets": [
+                {
+                    "file": "Security-Layers-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Security-Layers-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "8",
+            "week": 9,
+            "topic": "Smart devices",
+            "worksheets": [
+                {
+                    "file": "Smart-Devices-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Smart-Devices-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "8",
+            "week": 11,
+            "topic": "System issues",
+            "worksheets": [
+                {
+                    "file": "System-Issues-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "System-Issues-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "8",
+            "week": 38,
+            "topic": "Impact of technology",
+            "worksheets": [
+                {
+                    "file": "Impact-Of-Technology-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Impact-Of-Technology-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "9",
+            "week": 9,
+            "topic": "IoT",
+            "worksheets": [
+                {
+                    "file": "IoT-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "IoT-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "9",
+            "week": 11,
+            "topic": "Reliability",
+            "worksheets": [
+                {
+                    "file": "Reliability-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Reliability-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "9",
+            "week": 34,
+            "topic": "Education tech",
+            "worksheets": [
+                {
+                    "file": "Education-Tech-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Education-Tech-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "10",
+            "week": 9,
+            "topic": "Impact",
+            "worksheets": [
+                {
+                    "file": "Impact-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Impact-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "10",
+            "week": 11,
+            "topic": "Failure analysis",
+            "worksheets": [
+                {
+                    "file": "Failure-Analysis-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Failure-Analysis-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "10",
+            "week": 34,
+            "topic": "Product design",
+            "worksheets": [
+                {
+                    "file": "Product-Design-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Product-Design-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "11",
+            "week": 11,
+            "topic": "Risk management",
+            "worksheets": [
+                {
+                    "file": "Risk-Management-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Risk-Management-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "11",
+            "week": 34,
+            "topic": "EdTech business",
+            "worksheets": [
+                {
+                    "file": "EdTech-Business-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "EdTech-Business-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "12",
+            "week": 11,
+            "topic": "System resilience",
+            "worksheets": [
+                {
+                    "file": "System-Resilience-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "System-Resilience-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "12",
+            "week": 29,
+            "topic": "Cyber strategy",
+            "worksheets": [
+                {
+                    "file": "Cyber-Strategy-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Cyber-Strategy-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "DC3A",
+            "week": 11,
+            "topic": "Problemas del sistema",
+            "worksheets": [
+                {
+                    "file": "Problemas-Del-Sistema-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Problemas-Del-Sistema-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "DC3A",
+            "week": 34,
+            "topic": "Plataformas",
+            "worksheets": [
+                {
+                    "file": "Platforms-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Platforms-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "DC3B",
+            "week": 9,
+            "topic": "Impacto",
+            "worksheets": [
+                {
+                    "file": "Technology-Impact-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Technology-Impact-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "DC3B",
+            "week": 11,
+            "topic": "Análisis de fallos",
+            "worksheets": [
+                {
+                    "file": "Analisis-De-Fallos-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Analisis-De-Fallos-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "DC3B",
+            "week": 34,
+            "topic": "Diseño de producto",
+            "worksheets": [
+                {
+                    "file": "Product-Design-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Product-Design-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        }
+    ]
 }

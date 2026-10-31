@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Failure Analysis: Technical Worksheet – Grade 10</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px; margin: 0 auto; padding: 1rem 1.5rem;
+      color: #1a1a1a; line-height: 1.5; background: #fff;
+    }
+    h1 { font-size: 1.5rem; color: #8b2e1a; border-bottom: 3px solid #8b2e1a; padding-bottom: 0.25rem; margin-top: 0; }
+    .subtitle { font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #8b2e1a; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .time { font-size: 0.85rem; color: #666; }
+    .intro-box { background: #f8ebe7; border-left: 4px solid #8b2e1a; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .part { page-break-inside: avoid; break-inside: avoid; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #bbb; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #f8ebe7; }
+    .fill-line { border-bottom: 1px solid #999; min-height: 1.4em; display: block; }
+    .scenario-box { background: #f5f5f5; border-left: 3px solid #8b2e1a; padding: 0.5rem 1rem; margin: 0.75rem 0; font-size: 0.95rem; }
+    .sketch-box { border: 2px solid #999; min-height: 120px; margin: 0.5rem 0; background: #fafafa; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1.5rem; align-items: baseline;
+      margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: #f5f5f5; border-radius: 4px; font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #666; page-break-before: avoid; break-before: avoid; }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, table { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; break-inside: avoid; }
+      .part, .scenario-box, .sketch-box, .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Failure Analysis: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 10 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong> <span class="fill-line"></span>
+    <strong>Grade/Section:</strong> <span class="fill-line"></span>
+    <strong>Date:</strong> <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+    <p><strong>What you will learn:</strong> <strong>Failure analysis</strong> is a structured way to understand why a system stopped working as expected. You separate <strong>symptoms</strong> from <strong>causes</strong>, isolate variables, use error clues, and document findings so the same failure is less likely to repeat.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Describe one failure</strong> you have seen (app crash, Wi-Fi drop, printer jam, login error).<br><span class="fill-line"></span></li>
+      <li>In a few words, what was the <strong>symptom</strong> people noticed first?<br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 2 – Symptoms vs causes <span class="time">(about 5 minutes)</span></h2>
+    <p>A <strong>symptom</strong> is what users observe (slow, blank screen, error code). A <strong>cause</strong> is the underlying condition (full disk, faulty cable, buggy update, misconfiguration). Treating only symptoms (rebooting forever) without finding causes invites repeats.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> Students say “the projector is broken.” The symptom is no image. Possible causes: sleep mode, loose HDMI, wrong input source, dead bulb, or laptop output disabled.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Why is “the projector is broken” too vague for analysis?</p>
+    <p><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Mark each statement <strong>S</strong> (symptom) or <strong>C</strong> (possible cause).</p>
+    <table>
+      <thead><tr><th>Statement</th><th>S or C?</th></tr></thead>
+      <tbody>
+        <tr><td>The login page never loads</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>DNS settings point to an unreachable server</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>“Disk almost full” warning ignored for weeks</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Files take minutes to open</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 3 – Isolate and gather clues <span class="time">(about 5 minutes)</span></h2>
+    <p>Good analysis <strong>isolates</strong> factors: Does it happen on one device or many? One account or all? Wired and wireless? After a change (update, new cable)? Capture <strong>error messages</strong>, times, and recent changes. Guessing without evidence wastes effort.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> Only Room 12 cannot print. Rooms 11 and 13 work. The shared printer is online. Someone swapped Room 12's network cable yesterday during a desk move.
+    </div>
+    <p><strong>Critical thinking:</strong> Which clue most strongly points you toward the cable or local connection first? Why?</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> List three questions you would ask to isolate a “Wi-Fi keeps dropping” report.</p>
+    <ol>
+      <li><span class="fill-line"></span></li>
+      <li style="margin-top:0.35rem;"><span class="fill-line"></span></li>
+      <li style="margin-top:0.35rem;"><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 4 – Hardware, software, and documentation <span class="time">(about 5 minutes)</span></h2>
+    <p>Failures may be <strong>hardware</strong> (physical parts), <strong>software</strong> (apps/OS), <strong>configuration</strong>, or <strong>human process</strong> (wrong steps). Writing a short <strong>incident note</strong>—what happened, evidence, likely cause, fix, prevention—turns a one-off repair into organizational learning.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A club laptop overheats and shuts down. Dust blocks the vents (hardware/environment). Fans spin at 100%. After cleaning, the team also writes: “Monthly vent check; don't block side vents with binders.”
+    </div>
+    <p><strong>Do this:</strong> Classify each failure mainly as <strong>Hardware</strong>, <strong>Software</strong>, or <strong>Process</strong> (best fit).</p>
+    <table>
+      <thead><tr><th>Failure</th><th>Category</th></tr></thead>
+      <tbody>
+        <tr><td>App crashes after a rushed update with no test</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Frayed power cable arcs and cuts power</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Two people overwrite the same file because there is no naming rule</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+    <p><strong>Write a 3-line incident note</strong> for one failure from Part 1 (symptom / likely cause / prevention).</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span><br><span class="fill-line"></span></p>
+  </div>
+
+  <div class="part">
+    <h2>Part 5 – Analysis flow sketch <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Draw a flow</strong>: Observe symptom → Gather clues → Form hypothesis → Test/isolate → Fix → Document prevention.</li>
+    </ol>
+    <div class="sketch-box"></div>
+    <ol start="2">
+      <li><strong>Star the step</strong> teams most often skip, and say why skipping it is costly.<br><span class="fill-line"></span><br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part checklist-wrapper">
+    <h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+    <p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+    <ul class="checklist">
+      <li>□ I can separate <strong>symptoms</strong> from likely <strong>causes</strong>.</li>
+      <li>□ I can ask isolating questions and use error/time/change clues.</li>
+      <li>□ I can classify failures as hardware, software, or process-related.</li>
+      <li>□ I can write a short <strong>incident note</strong> with prevention.</li>
+      <li>□ I can sketch an analysis flow from observe to document.</li>
+    </ul>
+    <p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+  </div>
+
+  <p class="footer">Worksheet on Failure Analysis (Technical). Central topic: Failure analysis. Main technology area: Troubleshooting and system reliability.</p>
+
+</body>
+</html>
