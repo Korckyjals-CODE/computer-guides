@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>System Issues: Technical Worksheet – Grade 8</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px; margin: 0 auto; padding: 1rem 1.5rem;
+      color: #1a1a1a; line-height: 1.5; background: #fff;
+    }
+    h1 { font-size: 1.5rem; color: #475569; border-bottom: 3px solid #475569; padding-bottom: 0.25rem; margin-top: 0; }
+    .subtitle { font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #475569; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .time { font-size: 0.85rem; color: #666; }
+    .intro-box { background: #e8eef3; border-left: 4px solid #475569; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .part { page-break-inside: avoid; break-inside: avoid; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #bbb; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #e8eef3; }
+    .fill-line { border-bottom: 1px solid #999; min-height: 1.4em; display: block; }
+    .scenario-box { background: #f5f5f5; border-left: 3px solid #475569; padding: 0.5rem 1rem; margin: 0.75rem 0; font-size: 0.95rem; }
+    .sketch-box { border: 2px solid #999; min-height: 120px; margin: 0.5rem 0; background: #fafafa; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1.5rem; align-items: baseline;
+      margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: #f5f5f5; border-radius: 4px; font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #666; page-break-before: avoid; break-before: avoid; }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, table { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; break-inside: avoid; }
+      .part, .scenario-box, .sketch-box, .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>System Issues: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 8 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong> <span class="fill-line"></span>
+    <strong>Grade/Section:</strong> <span class="fill-line"></span>
+    <strong>Date:</strong> <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+    <p><strong>What you will learn:</strong> A <strong>system issue</strong> is when hardware, software, network, or configuration stops a service from working as expected. You will classify issue types, describe symptoms with evidence, run basic <strong>isolation</strong> questions, and decide when to restart versus document and escalate.</p>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Describe one system issue</strong> you have seen (black screen, no Wi-Fi, app crash, login failure).<br><span class="fill-line"></span></li>
+      <li><strong>Write the first symptom</strong> people noticed.<br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 2 – Types of system issues <span class="time">(about 5 minutes)</span></h2>
+    <p>Classifying helps you choose the first tests: <strong>hardware</strong> (physical parts), <strong>software</strong> (apps/OS), <strong>network</strong> (connectivity and online services), or <strong>configuration</strong> (settings, accounts, permissions). Wrong categories waste time.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> Nobody in the lab can open the online classroom, but local files and offline videos still work. Monitors and projectors are fine.
+    </div>
+    <p><strong>Discuss with a partner or reflect in writing:</strong> Why does this case point more to network or an online service than to a broken screen?</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Label each case <strong>Hardware</strong>, <strong>Software</strong>, <strong>Network</strong>, or <strong>Configuration</strong>.</p>
+    <table>
+      <thead><tr><th>Situation</th><th>Type</th></tr></thead>
+      <tbody>
+        <tr><td>Ethernet cable is cut behind the desk</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>An app crashes whenever one specific file opens</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>The account has no permission to print</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Fan fails and the device shuts down from heat</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Part 3 – Symptoms, isolation, and evidence <span class="time">(about 5 minutes)</span></h2>
+    <p>Strong diagnosis records: <strong>what fails</strong>, <strong>since when</strong>, <strong>how many devices or accounts</strong>, and <strong>what changed recently</strong>. Change one variable at a time. Capture error text—guessing without evidence slows everyone down.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> Only computer 7 cannot print. Computers 6 and 8 work. Yesterday someone moved desk 7 and the cable looked loose afterward.
+    </div>
+    <p><strong>Critical thinking:</strong> What first test would you run, and what evidence would you look for?</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Do this:</strong> Write three isolation questions for the report “Wi-Fi keeps dropping.”</p>
+    <ol>
+      <li><span class="fill-line"></span></li>
+      <li style="margin-top:0.35rem;"><span class="fill-line"></span></li>
+      <li style="margin-top:0.35rem;"><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Part 4 – Restart, document, and escalate <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Restarting</strong> may clear temporary states, but it is not analysis if the issue returns. <strong>Documenting</strong> (symptom, tests, result) helps support staff. <strong>Escalating</strong> means requesting help when risk or complexity is beyond safe self-repair.</p>
+    <div class="scenario-box">
+      <strong>Real-life scenario:</strong> A student restarts three times a machine that smells like burning and keeps forcing power on. The odor signals a possible electrical fault that needs an adult or IT—not more retries.
+    </div>
+    <p><strong>Do this:</strong> Mark <strong>Restart first</strong>, <strong>Document &amp; report</strong>, or <strong>Stop &amp; get help</strong>.</p>
+    <table>
+      <thead><tr><th>Situation</th><th>Best action</th></tr></thead>
+      <tbody>
+        <tr><td>An app froze once; no smell or heat</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>The same error returns each morning with a visible code</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Sparks at the outlet</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+    <p><strong>Write a short incident note</strong> (symptom / test done / next step).</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span><br><span class="fill-line"></span></p>
+  </div>
+
+  <div class="part">
+    <h2>Part 5 – Diagnosis map <span class="time">(about 5 minutes)</span></h2>
+    <p><strong>Do this:</strong></p>
+    <ol>
+      <li><strong>Draw a flow</strong>: Observe symptom → Classify type → Isolation questions → Safe test → Resolved? → Document or escalate.</li>
+    </ol>
+    <div class="sketch-box"></div>
+    <ol start="2">
+      <li><strong>Mark the step</strong> people most often skip in your setting, and explain why it matters.<br><span class="fill-line"></span><br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part checklist-wrapper">
+    <h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+    <p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+    <ul class="checklist">
+      <li>□ I can explain what a <strong>system issue</strong> is and give an example.</li>
+      <li>□ I can classify issues as <strong>hardware, software, network, or configuration</strong>.</li>
+      <li>□ I can ask <strong>isolation</strong> questions and use symptoms with evidence.</li>
+      <li>□ I know when to <strong>restart</strong>, when to <strong>document</strong>, and when to ask for help.</li>
+      <li>□ I can sketch a basic diagnosis flow.</li>
+    </ul>
+    <p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+  </div>
+
+  <p class="footer">Worksheet on System Issues (Technical). Central topic: System issues. Main technology area: Systems support and reliability.</p>
+
+</body>
+</html>

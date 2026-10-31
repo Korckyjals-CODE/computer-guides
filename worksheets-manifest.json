@@ -1,5 +1,5 @@
 {
-    "lastUpdated": "2026-10-29T15:44:20Z",
+    "lastUpdated": "2026-10-31T02:57:19Z",
     "items": [
         {
             "grade": "1",
@@ -28,6 +28,16 @@
                 {
                     "file": "Computer-Care-Technical-Worksheet.html",
                     "type": "technical"
+                },
+                {
+                    "file": "adapted/spanish/Cuidado-De-La-Computadora-Social-Worksheet.html",
+                    "type": "social",
+                    "locale": "es-adapted"
+                },
+                {
+                    "file": "adapted/spanish/Cuidado-De-La-Computadora-Tecnica-Worksheet.html",
+                    "type": "technical",
+                    "locale": "es-adapted"
                 }
             ]
         },
@@ -123,6 +133,21 @@
         },
         {
             "grade": "3",
+            "week": 11,
+            "topic": "Safe use",
+            "worksheets": [
+                {
+                    "file": "Safe-Use-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Safe-Use-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "3",
             "week": 31,
             "topic": "Design ideas",
             "worksheets": [
@@ -162,6 +187,21 @@
                 },
                 {
                     "file": "Technology-In-My-Day-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "4",
+            "week": 11,
+            "topic": "Lab rules",
+            "worksheets": [
+                {
+                    "file": "Lab-Rules-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Lab-Rules-Technical-Worksheet.html",
                     "type": "technical"
                 }
             ]
@@ -273,6 +313,21 @@
         },
         {
             "grade": "6",
+            "week": 11,
+            "topic": "Troubleshooting steps",
+            "worksheets": [
+                {
+                    "file": "Troubleshooting-Steps-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Troubleshooting-Steps-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "6",
             "week": 31,
             "topic": "Design thinking",
             "worksheets": [
@@ -378,6 +433,21 @@
         },
         {
             "grade": "8",
+            "week": 11,
+            "topic": "System issues",
+            "worksheets": [
+                {
+                    "file": "System-Issues-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "System-Issues-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "8",
             "week": 38,
             "topic": "Impact of technology",
             "worksheets": [
@@ -402,6 +472,21 @@
                 },
                 {
                     "file": "IoT-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "9",
+            "week": 11,
+            "topic": "Reliability",
+            "worksheets": [
+                {
+                    "file": "Reliability-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Reliability-Technical-Worksheet.html",
                     "type": "technical"
                 }
             ]
@@ -462,6 +547,21 @@
                 },
                 {
                     "file": "Product-Design-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "11",
+            "week": 11,
+            "topic": "Risk management",
+            "worksheets": [
+                {
+                    "file": "Risk-Management-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Risk-Management-Technical-Worksheet.html",
                     "type": "technical"
                 }
             ]
@@ -552,6 +652,21 @@
                 },
                 {
                     "file": "Technology-Impact-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "DC3B",
+            "week": 11,
+            "topic": "Análisis de fallos",
+            "worksheets": [
+                {
+                    "file": "Analisis-De-Fallos-Social-Worksheet.html",
+                    "type": "social"
+                },
+                {
+                    "file": "Analisis-De-Fallos-Technical-Worksheet.html",
                     "type": "technical"
                 }
             ]

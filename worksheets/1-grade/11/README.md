@@ -37,3 +37,16 @@
 - **Tell a grown-up** when something looks wrong.
 - Suggest a **fair rule** for sharing.
 - Make a short care poster.
+
+## Adapted Spanish siblings
+
+For Spanish-speaking early readers (same week topic, simpler language, more circling/drawing, inline SVG pictograms), see:
+
+**`adapted/spanish/`**
+
+- `Cuidado-De-La-Computadora-Tecnica-Worksheet.html` (+ `.md`) — technical, adapted
+- `Cuidado-De-La-Computadora-Social-Worksheet.html` (+ `.md`) — social, adapted
+- `Pictogramas-Cuidado-De-La-Computadora.html` — optional pictogram reference page
+- `README.md` — teacher notes (who it is for and how it differs from the English standard)
+
+These do **not** replace the English worksheets above; they are a clear sibling set for print use with early Spanish readers.

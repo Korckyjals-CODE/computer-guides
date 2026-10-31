@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Análisis de fallos: Hoja de trabajo técnica – DC3B</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px; margin: 0 auto; padding: 1rem 1.5rem;
+      color: #1a1a1a; line-height: 1.5; background: #fff;
+    }
+    h1 { font-size: 1.5rem; color: #8b2e1a; border-bottom: 3px solid #8b2e1a; padding-bottom: 0.25rem; margin-top: 0; }
+    .subtitle { font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #8b2e1a; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .time { font-size: 0.85rem; color: #666; }
+    .intro-box { background: #f5e6e0; border-left: 4px solid #8b2e1a; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .part { page-break-inside: avoid; break-inside: avoid; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #bbb; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #f5e6e0; }
+    .fill-line { border-bottom: 1px solid #999; min-height: 1.4em; display: block; }
+    .scenario-box { background: #f5f5f5; border-left: 3px solid #8b2e1a; padding: 0.5rem 1rem; margin: 0.75rem 0; font-size: 0.95rem; }
+    .sketch-box { border: 2px solid #999; min-height: 120px; margin: 0.5rem 0; background: #fafafa; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1.5rem; align-items: baseline;
+      margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: #f5f5f5; border-radius: 4px; font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #666; page-break-before: avoid; break-before: avoid; }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, table { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; break-inside: avoid; }
+      .part, .scenario-box, .sketch-box, .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Análisis de fallos: Hoja de trabajo técnica</h1>
+  <p class="subtitle"><strong>DC3B · Hoja de trabajo · Unos 25 minutos</strong><br>
+  Trabaja con bolígrafo y papel. Puedes usar colores si quieres. No necesitas computadora ni internet.</p>
+
+  <div class="student-info">
+    <strong>Nombre:</strong> <span class="fill-line"></span>
+    <strong>Grado o grupo:</strong> <span class="fill-line"></span>
+    <strong>Fecha:</strong> <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>Cómo usar esta hoja de trabajo</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Haz las partes <strong>en orden</strong>, de arriba abajo.</li>
+      <li>Cada parte indica un <strong>tiempo</strong> aproximado para que organices tu ritmo.</li>
+      <li>Lee cada instrucción antes de escribir. Puedes hacer esta actividad por tu cuenta.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Parte 1 – Qué aprenderás <span class="time">(unos 3 minutos)</span></h2>
+    <p><strong>Qué aprenderás:</strong> El <strong>análisis de fallos</strong> investiga por qué un sistema dejó de funcionar como se esperaba. Aprenderás a separar <strong>síntomas</strong> de <strong>causas</strong>, reunir <strong>evidencia</strong>, buscar la <strong>causa raíz</strong> y registrar hallazgos para que el fallo no se repita.</p>
+    <p><strong>Haz esto:</strong></p>
+    <ol>
+      <li><strong>Describe un fallo</strong> que hayas visto (app que no abre, impresora muda, Wi-Fi intermitente, etc.).<br><span class="fill-line"></span></li>
+      <li><strong>Escribe el síntoma</strong> que se notó primero (lo que la persona vio o no pudo hacer).<br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Parte 2 – Síntoma frente a causa <span class="time">(unos 5 minutos)</span></h2>
+    <p>Un <strong>síntoma</strong> es lo que se observa (pantalla negra, mensaje de error, lentitud). Una <strong>causa</strong> es lo que lo provoca (cable suelto, actualización incompleta, disco lleno). Tratar solo el síntoma puede ocultar el problema real.</p>
+    <div class="scenario-box">
+      <strong>Escenario de la vida real:</strong> Varios equipos del laboratorio se reinician solos. Alguien propone “bajar el brillo de la pantalla” porque notó que se calientan. El brillo no explica reinicios en varios equipos a la vez.
+    </div>
+    <p><strong>Comenta con un compañero o escribe tu reflexión:</strong> ¿Por qué bajar el brillo ataca un síntoma posible y no una causa raíz compartida?</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Haz esto:</strong> Clasifica cada afirmación como <strong>Síntoma</strong> o <strong>Causa posible</strong>.</p>
+    <table>
+      <thead><tr><th>Afirmación</th><th>Tipo</th></tr></thead>
+      <tbody>
+        <tr><td>Aparece el mensaje “disco casi lleno”</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>La carpeta de descargas ocupa casi todo el disco</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>La impresora no responde</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>El cable USB de la impresora está medio desconectado</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Parte 3 – Evidencia y causa raíz <span class="time">(unos 5 minutos)</span></h2>
+    <p>La <strong>evidencia</strong> son hechos comprobables: códigos de error, hora del fallo, equipos afectados, cambios recientes, capturas o notas. La <strong>causa raíz</strong> es la condición que, si se corrige, evita que el mismo fallo vuelva. Pregunta “¿por qué?” varias veces, pero solo con datos, no con culpas.</p>
+    <div class="scenario-box">
+      <strong>Escenario de la vida real:</strong> Solo falla el inicio de sesión después de las 8:00. El mensaje dice “servidor no disponible”. Ayer se instaló una actualización en el servidor y no se reinició el servicio de autenticación.
+    </div>
+    <p><strong>Pensamiento crítico:</strong> ¿Qué evidencia ya tienes y qué dato pedirías antes de concluir la causa raíz?</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span></p>
+    <p><strong>Haz esto:</strong> Escribe tres piezas de evidencia que reunirías ante el reporte “el sistema va lento”.</p>
+    <ol>
+      <li><span class="fill-line"></span></li>
+      <li style="margin-top:0.35rem;"><span class="fill-line"></span></li>
+      <li style="margin-top:0.35rem;"><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part">
+    <h2>Parte 4 – Métodos: 5 porqués y línea de tiempo <span class="time">(unos 5 minutos)</span></h2>
+    <p>Dos métodos útiles: los <strong>5 porqués</strong> (encadenar “¿por qué?” hasta una causa accionable) y la <strong>línea de tiempo</strong> (ordenar síntomas, cambios y pruebas). Ambos requieren anotar resultados; sin registro, el análisis se pierde.</p>
+    <div class="scenario-box">
+      <strong>Escenario de la vida real:</strong> Un estudiante responde al primer “¿por qué no imprime?” con “porque la impresora está rota” y deja de investigar. No revisó cola de impresión, cable ni mensaje de error.
+    </div>
+    <p><strong>Haz esto:</strong> Marca <strong>Útil para el análisis</strong> o <strong>Débil / incompleto</strong>.</p>
+    <table>
+      <thead><tr><th>Acción</th><th>Valor</th></tr></thead>
+      <tbody>
+        <tr><td>Anotar hora del fallo y mensaje exacto</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Culpar a “la mala suerte” sin más datos</td><td><span class="fill-line"></span></td></tr>
+        <tr><td>Ordenar en una línea: cambio → síntoma → prueba</td><td><span class="fill-line"></span></td></tr>
+      </tbody>
+    </table>
+    <p><strong>Escribe una cadena corta de 3 “porqués”</strong> para: “la presentación no se abre en el proyector”.</p>
+    <p><span class="fill-line"></span><br><span class="fill-line"></span><br><span class="fill-line"></span></p>
+  </div>
+
+  <div class="part">
+    <h2>Parte 5 – Mapa de análisis de fallos <span class="time">(unos 5 minutos)</span></h2>
+    <p><strong>Haz esto:</strong></p>
+    <ol>
+      <li><strong>Dibuja un flujo</strong>: Observar síntoma → Reunir evidencia → Separar síntoma/causa → 5 porqués o línea de tiempo → Causa raíz → Corrección y registro.</li>
+    </ol>
+    <div class="sketch-box"></div>
+    <ol start="2">
+      <li><strong>Marca el paso</strong> que más se salta en tu entorno y explica por qué importa documentarlo.<br><span class="fill-line"></span><br><span class="fill-line"></span></li>
+    </ol>
+  </div>
+
+  <div class="part checklist-wrapper">
+    <h2>Parte 6 – Comprueba lo aprendido <span class="time">(unos 2 minutos)</span></h2>
+    <p><strong>Lista de comprobación.</strong> Marca con una ✓ cuando la afirmación sea cierta para ti.</p>
+    <ul class="checklist">
+      <li>□ Puedo explicar qué es el <strong>análisis de fallos</strong> y dar un ejemplo.</li>
+      <li>□ Distingo <strong>síntoma</strong> de <strong>causa</strong> con ejemplos claros.</li>
+      <li>□ Sé qué <strong>evidencia</strong> reunir antes de afirmar una causa raíz.</li>
+      <li>□ Puedo usar <strong>5 porqués</strong> o una <strong>línea de tiempo</strong> de forma básica.</li>
+      <li>□ Puedo esbozar un flujo de análisis y registrar hallazgos.</li>
+    </ul>
+    <p>Cuando tengas todas las casillas marcadas, has repasado las ideas principales de esta hoja de trabajo.</p>
+  </div>
+
+  <p class="footer">Hoja de trabajo sobre análisis de fallos. Tema central: Síntomas, evidencia y causa raíz. Área tecnológica principal: Sistemas / confiabilidad y diagnóstico.</p>
+
+</body>
+</html>

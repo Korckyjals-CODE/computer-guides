@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuidado de la computadora: Hoja técnica (adaptada) – Grado 1</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      color: #1a1a1a;
+      line-height: 1.45;
+      background: #fff;
+      font-size: 1.05rem;
+    }
+    h1 {
+      font-size: 1.4rem;
+      color: #1b6b4a;
+      border-bottom: 3px solid #1b6b4a;
+      padding-bottom: 0.25rem;
+      margin-top: 0;
+    }
+    .subtitle {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 1.25rem;
+    }
+    h2 {
+      font-size: 1.15rem;
+      color: #1b6b4a;
+      margin-top: 1.4rem;
+      margin-bottom: 0.45rem;
+    }
+    .time { font-size: 0.85rem; color: #666; font-weight: normal; }
+    .intro-box {
+      background: #e6f4ee;
+      border-left: 4px solid #1b6b4a;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+    }
+    .part {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    .fill-line {
+      border-bottom: 1px solid #999;
+      min-height: 1.5em;
+      display: block;
+    }
+    .scenario-box {
+      background: #f5f5f5;
+      border-left: 3px solid #1b6b4a;
+      padding: 0.5rem 1rem;
+      margin: 0.75rem 0;
+      font-size: 1rem;
+    }
+    .sketch-box {
+      border: 2px solid #999;
+      min-height: 140px;
+      margin: 0.5rem 0;
+      background: #fafafa;
+      position: relative;
+    }
+    .sketch-hint {
+      position: absolute;
+      top: 0.4rem;
+      left: 0.6rem;
+      font-size: 0.8rem;
+      color: #888;
+    }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.45rem 0; display: flex; align-items: center; gap: 0.5rem; }
+    .student-info {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.35rem 1.5rem;
+      align-items: baseline;
+      margin-bottom: 1.25rem;
+      padding: 0.75rem 1rem;
+      background: #f5f5f5;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #666;
+      page-break-before: avoid;
+      break-before: avoid;
+    }
+    .picto-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin: 0.75rem 0;
+      align-items: stretch;
+    }
+    .choice {
+      flex: 1 1 140px;
+      border: 2px solid #bbb;
+      border-radius: 8px;
+      padding: 0.6rem;
+      text-align: center;
+      min-width: 120px;
+      background: #fff;
+    }
+    .choice .label {
+      display: block;
+      margin-top: 0.35rem;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .choice .circle-hint {
+      display: block;
+      margin-top: 0.25rem;
+      font-size: 0.8rem;
+      color: #666;
+    }
+    .icon {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .icon svg {
+      width: 64px;
+      height: 64px;
+      stroke: #1b6b4a;
+      fill: none;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .icon.sm svg { width: 40px; height: 40px; }
+    .icon.bad svg { stroke: #8b3a3a; }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin: 0.25rem 0.5rem 0.25rem 0;
+    }
+    .do-this { font-weight: 700; color: #1b6b4a; }
+    .big-circle {
+      display: inline-block;
+      width: 1.35em;
+      height: 1.35em;
+      border: 2px solid #1b6b4a;
+      border-radius: 50%;
+      vertical-align: middle;
+      margin: 0 0.15rem;
+    }
+    table.simple {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+    }
+    table.simple th, table.simple td {
+      border: 1px solid #bbb;
+      padding: 0.5rem 0.55rem;
+      text-align: left;
+      vertical-align: middle;
+    }
+    table.simple th { background: #e6f4ee; }
+    .pair {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, .part, .scenario-box, .sketch-box, .picto-row, table.simple, .checklist-wrapper {
+        page-break-inside: avoid;
+        break-inside: avoid;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .choice {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Cuidado de la computadora: Hoja técnica (adaptada)</h1>
+  <p class="subtitle"><strong>Grado 1 · Hoja adaptada · Unos 25 minutos</strong><br>
+  Usa lápiz y papel. Puedes colorear. No necesitas computadora ni internet.</p>
+
+  <div class="student-info">
+    <strong>Nombre:</strong>
+    <span class="fill-line"></span>
+    <strong>Grado / Sección:</strong>
+    <span class="fill-line"></span>
+    <strong>Fecha:</strong>
+    <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>Cómo usar esta hoja</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Haz las partes <strong>en orden</strong>, de arriba a abajo.</li>
+      <li>Cada parte tiene un <strong>tiempo</strong>.</li>
+      <li>Mira los dibujos. Encierra en un círculo. Dibuja. Puedes hacerlo solo o sola.</li>
+    </ul>
+  </div>
+
+  <div class="part">
+    <h2>Parte 1 – Qué vas a aprender <span class="time">(unos 3 minutos)</span></h2>
+    <p><strong>Qué vas a aprender:</strong> <strong>Cuidar la computadora</strong> es mantenerla limpia, seca y segura.</p>
+    <p class="pair">
+      <span class="icon" aria-hidden="true">
+        <svg viewBox="0 0 64 64" role="img"><title>Computadora</title>
+          <rect x="8" y="12" width="48" height="32" rx="3"/>
+          <line x1="20" y1="50" x2="44" y2="50"/>
+          <line x1="14" y1="54" x2="50" y2="54"/>
+          <rect x="14" y="18" width="36" height="20" rx="1"/>
+        </svg>
+      </span>
+      <span>Mira: una computadora.</span>
+    </p>
+    <p><span class="do-this">Haz esto:</span> ¿Usaste una computadora o tableta en la escuela?</p>
+    <div class="picto-row">
+      <div class="choice">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="22"/><path d="M20 33 l8 8 16-18"/></svg>
+        </span>
+        <span class="label">Sí <span class="big-circle"></span></span>
+        <span class="circle-hint">Encierra</span>
+      </div>
+      <div class="choice">
+        <span class="icon bad" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="22"/><line x1="22" y1="22" x2="42" y2="42"/><line x1="42" y1="22" x2="22" y2="42"/></svg>
+        </span>
+        <span class="label">No <span class="big-circle"></span></span>
+        <span class="circle-hint">Encierra</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="part">
+    <h2>Parte 2 – Manos suaves <span class="time">(unos 5 minutos)</span></h2>
+    <p>Toca suave. No golpees. No uses el lápiz en la pantalla.</p>
+    <div class="scenario-box">
+      <strong>Historia:</strong> Maya toca suave. La pantalla se prende. Sam golpea fuerte. Queda una marca.
+    </div>
+    <p><span class="do-this">Haz esto:</span> Encierra la forma <strong>suave</strong>.</p>
+    <div class="picto-row">
+      <div class="choice">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><title>Dedo suave</title>
+            <path d="M28 50 V28 c0-6 4-10 8-10 s8 4 8 10 v8"/>
+            <path d="M28 36 c-4 0-8 3-8 7 v7 h24 v-4"/>
+            <circle cx="40" cy="22" r="3"/>
+            <path d="M18 18 c4-6 10-4 12 0" stroke-dasharray="2 2"/>
+          </svg>
+        </span>
+        <span class="label">Toque suave <span class="big-circle"></span></span>
+      </div>
+      <div class="choice">
+        <span class="icon bad" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><title>Golpe fuerte</title>
+            <rect x="18" y="28" width="28" height="18" rx="2"/>
+            <line x1="32" y1="10" x2="32" y2="26"/>
+            <path d="M24 16 l8 10 8-10"/>
+            <line x1="12" y1="12" x2="20" y2="20"/>
+            <line x1="52" y1="12" x2="44" y2="20"/>
+          </svg>
+        </span>
+        <span class="label">Golpe fuerte <span class="big-circle"></span></span>
+      </div>
+    </div>
+    <p><span class="do-this">Haz esto:</span> Encierra <strong>Suave</strong> o <strong>No suave</strong>.</p>
+    <table class="simple">
+      <thead>
+        <tr>
+          <th>Acción</th>
+          <th>¿Suave?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="pair">
+            <span class="icon sm" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><rect x="10" y="22" width="44" height="20" rx="2"/><line x1="16" y1="30" x2="22" y2="30"/><line x1="26" y1="30" x2="32" y2="30"/><line x1="36" y1="30" x2="42" y2="30"/></svg>
+            </span>
+            Teclas suaves
+          </td>
+          <td>Suave · No suave</td>
+        </tr>
+        <tr>
+          <td class="pair">
+            <span class="icon sm bad" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><rect x="12" y="14" width="40" height="28" rx="2"/><line x1="32" y1="48" x2="32" y2="36"/><circle cx="32" cy="52" r="3"/></svg>
+            </span>
+            Lápiz en la pantalla
+          </td>
+          <td>Suave · No suave</td>
+        </tr>
+        <tr>
+          <td class="pair">
+            <span class="icon sm" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><path d="M12 40 h40 v-4 l-6-18 H18 L12 36 z"/><line x1="20" y1="48" x2="44" y2="48"/></svg>
+            </span>
+            Cerrar despacio
+          </td>
+          <td>Suave · No suave</td>
+        </tr>
+        <tr>
+          <td class="pair">
+            <span class="icon sm bad" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><path d="M12 44 h40 v-2 l-4-16 H16 z"/><path d="M20 18 l12 10 12-10"/><line x1="32" y1="8" x2="32" y2="26"/></svg>
+            </span>
+            Cerrar con golpe
+          </td>
+          <td>Suave · No suave</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Parte 3 – Manténla seca <span class="time">(unos 5 minutos)</span></h2>
+    <p>El agua y el jugo dañan la computadora. Pon la bebida lejos.</p>
+    <div class="scenario-box">
+      <strong>Historia:</strong> Leo pone el jugo junto al teclado. El jugo se cae.
+    </div>
+    <p><span class="do-this">Haz esto:</span> Encierra el lugar <strong>seguro</strong>.</p>
+    <div class="picto-row">
+      <div class="choice">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><title>Bebida lejos</title>
+            <rect x="6" y="18" width="28" height="20" rx="2"/>
+            <line x1="12" y1="44" x2="28" y2="44"/>
+            <path d="M42 18 h10 v22 h-10 z"/>
+            <ellipse cx="47" cy="18" rx="5" ry="3"/>
+            <line x1="36" y1="28" x2="40" y2="28"/>
+            <line x1="36" y1="28" x2="39" y2="24"/>
+            <line x1="36" y1="28" x2="39" y2="32"/>
+          </svg>
+        </span>
+        <span class="label">Lejos <span class="big-circle"></span></span>
+      </div>
+      <div class="choice">
+        <span class="icon bad" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><title>Bebida encima — no</title>
+            <rect x="10" y="28" width="44" height="18" rx="2"/>
+            <path d="M28 8 h8 v16 h-8 z"/>
+            <ellipse cx="32" cy="8" rx="4" ry="2"/>
+            <circle cx="48" cy="16" r="12"/>
+            <line x1="40" y1="8" x2="56" y2="24"/>
+            <line x1="56" y1="8" x2="40" y2="24"/>
+          </svg>
+        </span>
+        <span class="label">Encima — ¡No! <span class="big-circle"></span></span>
+      </div>
+    </div>
+    <p><span class="do-this">Haz esto:</span> Encierra <strong>Seguro</strong> o <strong>No seguro</strong>.</p>
+    <table class="simple">
+      <thead>
+        <tr>
+          <th>¿Dónde está la bebida?</th>
+          <th>¿Seguro?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>En otra mesa, lejos</td>
+          <td>Seguro · No seguro</td>
+        </tr>
+        <tr>
+          <td>Sobre el teclado</td>
+          <td>Seguro · No seguro</td>
+        </tr>
+        <tr>
+          <td>En la mochila, lejos</td>
+          <td>Seguro · No seguro</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="part">
+    <h2>Parte 4 – Cargar con cuidado <span class="time">(unos 5 minutos)</span></h2>
+    <p>Usa <strong>dos manos</strong>. Camina despacio. No corras.</p>
+    <div class="scenario-box">
+      <strong>Historia:</strong> Ana lleva la tableta con dos manos. Ben corre con una mano.
+    </div>
+    <p><span class="do-this">Haz esto:</span> Encierra la forma <strong>segura</strong>.</p>
+    <div class="picto-row">
+      <div class="choice">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><title>Dos manos con tableta</title>
+            <rect x="20" y="16" width="24" height="32" rx="2"/>
+            <path d="M10 40 c0-8 6-12 12-10"/>
+            <path d="M54 40 c0-8-6-12-12-10"/>
+            <path d="M14 42 h10"/><path d="M40 42 h10"/>
+            <circle cx="18" cy="46" r="2"/><circle cx="46" cy="46" r="2"/>
+          </svg>
+        </span>
+        <span class="label">Dos manos + caminar <span class="big-circle"></span></span>
+      </div>
+      <div class="choice">
+        <span class="icon bad" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><title>Una mano y correr</title>
+            <rect x="28" y="8" width="18" height="26" rx="2" transform="rotate(20 37 21)"/>
+            <path d="M18 36 c4-2 10 0 12 6"/>
+            <circle cx="16" cy="40" r="3"/>
+            <path d="M22 48 l8 6 M30 46 l10 8"/>
+            <line x1="48" y1="40" x2="56" y2="36"/>
+            <line x1="48" y1="44" x2="58" y2="48"/>
+          </svg>
+        </span>
+        <span class="label">Una mano + correr <span class="big-circle"></span></span>
+      </div>
+    </div>
+    <p><span class="do-this">Haz esto:</span> Colorea el círculo del consejo bueno.</p>
+    <p class="pair">
+      <span class="big-circle"></span> Dos manos.
+      <span class="big-circle"></span> Una mano y correr.
+    </p>
+  </div>
+
+  <div class="part">
+    <h2>Parte 5 – Dibuja un consejo <span class="time">(unos 5 minutos)</span></h2>
+    <p><span class="do-this">Haz esto:</span> Dibuja una computadora o tableta <strong>bien cuidada</strong>.</p>
+    <p>Puedes mostrar: manos suaves, bebida lejos, o dos manos.</p>
+    <div class="sketch-box">
+      <span class="sketch-hint">Dibuja aquí</span>
+    </div>
+    <p>Encierra tu consejo:</p>
+    <div class="picto-row">
+      <div class="choice">
+        <span class="icon sm" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><path d="M28 50 V28 c0-6 4-10 8-10 s8 4 8 10 v8"/><path d="M28 36 c-4 0-8 3-8 7 v7 h24 v-4"/></svg>
+        </span>
+        <span class="label">Manos suaves <span class="big-circle"></span></span>
+      </div>
+      <div class="choice">
+        <span class="icon sm bad" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><path d="M24 14 h10 v22 h-10 z"/><ellipse cx="29" cy="14" rx="5" ry="3"/><circle cx="44" cy="28" r="12"/><line x1="36" y1="20" x2="52" y2="36"/><line x1="52" y1="20" x2="36" y2="36"/></svg>
+        </span>
+        <span class="label">Sin bebidas <span class="big-circle"></span></span>
+      </div>
+      <div class="choice">
+        <span class="icon sm" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><rect x="22" y="16" width="20" height="28" rx="2"/><path d="M12 40 c0-8 6-12 12-10"/><path d="M52 40 c0-8-6-12-12-10"/></svg>
+        </span>
+        <span class="label">Dos manos <span class="big-circle"></span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="part checklist-wrapper">
+    <h2>Parte 6 – Revisa lo que aprendiste <span class="time">(unos 2 minutos)</span></h2>
+    <p><strong>Lista.</strong> Marca ✓ si es verdad para ti.</p>
+    <ul class="checklist">
+      <li>□ Sé que <strong>cuidar</strong> la computadora la mantiene segura.</li>
+      <li>□ Sé tocar con manos <strong>suaves</strong>.</li>
+      <li>□ Sé poner las <strong>bebidas</strong> lejos.</li>
+      <li>□ Sé llevarla con <strong>dos manos</strong>.</li>
+      <li>□ Puedo dibujar o señalar un consejo.</li>
+    </ul>
+    <p>Cuando todas las casillas tengan ✓, revisaste las ideas importantes.</p>
+  </div>
+
+  <p class="footer">Hoja de Cuidado de la computadora (Técnica, adaptada). Tema central: Cuidado de la computadora. Área: Computadoras y cuidado del equipo.</p>
+
+</body>
+</html>
