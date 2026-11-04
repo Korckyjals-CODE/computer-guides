@@ -1,5 +1,5 @@
 {
-    "lastUpdated": "2026-10-31T02:57:19Z",
+    "lastUpdated": "2026-11-04T15:30:00Z",
     "items": [
         {
             "grade": "1",
@@ -67,6 +67,17 @@
                 },
                 {
                     "file": "Taking-Care-Devices-Technical-Worksheet.html",
+                    "type": "technical"
+                }
+            ]
+        },
+        {
+            "grade": "2",
+            "week": 12,
+            "topic": "Keys types",
+            "worksheets": [
+                {
+                    "file": "Keys-Types-Technical-Worksheet.html",
                     "type": "technical"
                 }
             ]
