@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UX Input Design: Social Worksheet – Grade 9</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px; margin: 0 auto; padding: 1rem 1.5rem;
+      color: #1a1a1a; line-height: 1.5; background: #fff;
+    }
+    h1 { font-size: 1.5rem; color: #5b2c6f; border-bottom: 3px solid #5b2c6f; padding-bottom: 0.25rem; margin-top: 0; }
+    .subtitle { font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #5b2c6f; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box { background: #ebe5ed; border-left: 4px solid #5b2c6f; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .part { page-break-inside: avoid; break-inside: avoid; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #bbb; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #ebe5ed; }
+    .fill-line { border-bottom: 1px solid #999; min-height: 1.4em; display: block; }
+    .scenario-box { background: #f5f5f5; border-left: 3px solid #5b2c6f; padding: 0.5rem 1rem; margin: 0.75rem 0; font-size: 0.95rem; }
+    .sketch-box { border: 2px solid #999; min-height: 120px; margin: 0.5rem 0; background: #fafafa; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1.5rem; align-items: baseline;
+      margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: #f5f5f5; border-radius: 4px; font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #666; page-break-before: avoid; break-before: avoid; }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, table { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; break-inside: avoid; }
+      .part, .scenario-box, .sketch-box, .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>UX Input Design: Social Worksheet</h1>
+  <p class="subtitle"><strong>Grade 9 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong> <span class="fill-line"></span>
+    <strong>Grade/Section:</strong> <span class="fill-line"></span>
+    <strong>Date:</strong> <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+<div class="part">
+<h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+<p><strong>What you will learn:</strong> Input UX has ethical weight: <strong>dark patterns</strong>, accessibility, and informed consent. Designers choose whether users are respected or tricked.</p>
+<p><strong>Do this:</strong></p>
+<ol>
+<li><strong>Describe a form</strong> that felt confusing or pushy.<br><span class="fill-line"></span></li>
+<li><strong>Circle</strong> an ethical goal: Informed choices · Hide the opt-out path</li>
+</ol>
+</div>
+<div class="part">
+<h2>Part 2 – Dark patterns in input <span class="time">(about 5 minutes)</span></h2>
+<p>Dark patterns include sneaky pre-checked boxes, confusing double negatives (“Uncheck to not not share”), and confirmshaming (“No, I hate saving money”).</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> A free app’s signup uses a giant “Share all contacts” button and a tiny gray “Customize” link.</div>
+<p><strong>Discuss with a partner or reflect in writing:</strong> How does that design steer behavior unfairly?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Do this:</strong> Circle <strong>Yes</strong> or <strong>No</strong>.</p>
+<table>
+<thead><tr><th>Pattern</th><th>Dark pattern?</th></tr></thead>
+<tbody>
+<tr><td>Pre-checked marketing emails hard to find later</td><td>Yes · No</td></tr>
+<tr><td>Clear equal-choice Accept / Decline</td><td>Yes · No</td></tr>
+<tr><td>Confirmshaming decline text</td><td>Yes · No</td></tr>
+</tbody>
+</table>
+</div>
+<div class="part">
+<h2>Part 3 – Accessibility as social duty <span class="time">(about 5 minutes)</span></h2>
+<p>Accessible input (labels for screen readers, keyboard reachability, contrast) is a social obligation, not a niche extra.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> A stylish form uses light-gray placeholder-only labels. Screen reader users hear empty fields; low-vision users struggle.</div>
+<p><strong>Critical thinking:</strong> Who is harmed when accessibility is skipped to “look clean”?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Do this:</strong></p>
+<ol>
+<li><strong>List two accessibility requirements</strong> for a fair school form.<br><span class="fill-line"></span></li>
+<li><strong>Circle</strong> better practice: Visible labels + ARIA/name · Placeholder-only text</li>
+</ol>
+</div>
+<div class="part">
+<h2>Part 4 – Consent and minors <span class="time">(about 5 minutes)</span></h2>
+<p>School tools collecting data from minors need clearer consent language and less aggressive defaults. Peers should not pressure each other to click “Allow all.”</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> Friends urge “Just smash Allow” on a permissions screen so a game loads faster—camera and mic included.</div>
+<p><strong>Discuss with a partner or reflect in writing:</strong> What questions should you ask before Allow?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Do this:</strong> Circle <strong>Yes</strong> or <strong>No</strong>.</p>
+<table>
+<thead><tr><th>Habit</th><th>Responsible?</th></tr></thead>
+<tbody>
+<tr><td>Read which inputs (camera/mic/contacts) are requested</td><td>Yes · No</td></tr>
+<tr><td>Allow all to stop peer pressure</td><td>Yes · No</td></tr>
+<tr><td>Choose least privilege that still works</td><td>Yes · No</td></tr>
+</tbody>
+</table>
+</div>
+<div class="part">
+<h2>Part 5 – Ethical redesign pitch <span class="time">(about 5 minutes)</span></h2>
+<p><strong>Do this:</strong> Redesign a pushy permission/signup screen into an ethical version (sketch + 3 bullet principles).</p>
+<div class="sketch-box"></div>
+<p><strong>Name the dark pattern</strong> you removed.</p>
+<p><span class="fill-line"></span></p>
+</div>
+<div class="part checklist-wrapper">
+<h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+<p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+<ul class="checklist">
+<li>□ I can spot <strong>dark patterns</strong> in input UX.</li>
+<li>□ I treat <strong>accessibility</strong> as required.</li>
+<li>□ I practice careful <strong>consent</strong> on permissions.</li>
+<li>□ I resist peer pressure to “Allow all.”</li>
+<li>□ I can pitch an ethical redesign.</li>
+</ul>
+<p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+</div>
+
+  <p class="footer">Worksheet on UX Input Design (Social). Central topic: UX input design. Main technology area: Ethics, accessibility, and dark patterns.</p>
+
+</body>
+</html>

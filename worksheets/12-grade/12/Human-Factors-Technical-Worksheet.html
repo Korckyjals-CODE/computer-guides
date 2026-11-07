@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Human Factors: Technical Worksheet – Grade 12</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px; margin: 0 auto; padding: 1rem 1.5rem;
+      color: #1a1a1a; line-height: 1.5; background: #fff;
+    }
+    h1 { font-size: 1.5rem; color: #212f3d; border-bottom: 3px solid #212f3d; padding-bottom: 0.25rem; margin-top: 0; }
+    .subtitle { font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #212f3d; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box { background: #e4e6e7; border-left: 4px solid #212f3d; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .part { page-break-inside: avoid; break-inside: avoid; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #bbb; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #e4e6e7; }
+    .fill-line { border-bottom: 1px solid #999; min-height: 1.4em; display: block; }
+    .scenario-box { background: #f5f5f5; border-left: 3px solid #212f3d; padding: 0.5rem 1rem; margin: 0.75rem 0; font-size: 0.95rem; }
+    .sketch-box { border: 2px solid #999; min-height: 120px; margin: 0.5rem 0; background: #fafafa; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1.5rem; align-items: baseline;
+      margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: #f5f5f5; border-radius: 4px; font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #666; page-break-before: avoid; break-before: avoid; }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, table { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; break-inside: avoid; }
+      .part, .scenario-box, .sketch-box, .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Human Factors: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 12 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong> <span class="fill-line"></span>
+    <strong>Grade/Section:</strong> <span class="fill-line"></span>
+    <strong>Date:</strong> <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+<div class="part">
+<h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+<p><strong>What you will learn:</strong> <strong>Human factors</strong> studies how humans perform with tools and systems—perception, cognition, error modes, and environment—so designs prevent harm and support reliable performance.</p>
+<p><strong>Do this:</strong></p>
+<ol>
+<li><strong>Give an example</strong> where a confusing interface contributed to a mistake.<br><span class="fill-line"></span></li>
+<li><strong>Circle</strong> a human-factors aim: Design for predictable human performance · Assume perfect users</li>
+</ol>
+</div>
+<div class="part">
+<h2>Part 2 – Error types and defenses <span class="time">(about 5 minutes)</span></h2>
+<p>Slips (right plan, wrong execution), mistakes (wrong plan), and lapses (memory failures) need different defenses: constraints, checklists, confirmations, training.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> A student intends to unshare one file (plan OK) but clicks “Anyone with the link” for the whole folder (slip). A confirm dialog naming the scope would help.</div>
+<p><strong>Discuss with a partner or reflect in writing:</strong> Is that failure best fixed by “try harder” or by better constraints?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Do this:</strong> Circle the better pairing.</p>
+<table>
+<thead><tr><th>Defense</th><th>Best for</th></tr></thead>
+<tbody>
+<tr><td>Checklist before deploy</td><td>Mistake-prone planning · Irrelevant</td></tr>
+<tr><td>Confirm dialog with consequences</td><td>Slip on destructive action · Never useful</td></tr>
+<tr><td>Remove almost-identical icons</td><td>Perception slip · Purely cosmetic always</td></tr>
+</tbody>
+</table>
+</div>
+<div class="part">
+<h2>Part 3 – Mental models and feedback <span class="time">(about 5 minutes)</span></h2>
+<p>Users act on <strong>mental models</strong>. If the system’s feedback does not match the model, performance collapses. Visibility of system state is a human-factors essential.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> A cloud sync icon looks “done” while upload still runs. The laptop closes; a draft never reaches the teacher.</div>
+<p><strong>Critical thinking:</strong> What state signals should the UI show?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Do this:</strong></p>
+<ol>
+<li><strong>Describe a misleading status indicator</strong> you have seen.<br><span class="fill-line"></span></li>
+<li><strong>Propose a clearer signal</strong> (text + icon behavior).<br><span class="fill-line"></span></li>
+</ol>
+</div>
+<div class="part">
+<h2>Part 4 – Workload, stress, and performance <span class="time">(about 5 minutes)</span></h2>
+<p>Under high workload or stress, tunnel vision and skill regression appear. Critical systems should simplify choices, shed nonessential alarms, and support recovery.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> During a timed outage drill, five red alerts flash at once with similar wording. Operators freeze.</div>
+<p><strong>Discuss with a partner or reflect in writing:</strong> How would you prioritize alerts using human-factors thinking?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Do this:</strong> Circle <strong>Yes</strong> or <strong>No</strong>.</p>
+<table>
+<thead><tr><th>Design under stress</th><th>Supportive?</th></tr></thead>
+<tbody>
+<tr><td>Tier alerts by severity with distinct cues</td><td>Yes · No</td></tr>
+<tr><td>Flood identical alarms</td><td>Yes · No</td></tr>
+<tr><td>Provide a clear recommended first action</td><td>Yes · No</td></tr>
+</tbody>
+</table>
+</div>
+<div class="part">
+<h2>Part 5 – Human-factors case card <span class="time">(about 5 minutes)</span></h2>
+<p><strong>Do this:</strong> Build a case card: Context → Human limit/factor → Failure → Design defense. Use a school or public example.</p>
+<div class="sketch-box"></div>
+<p><strong>State one measurable</strong> improvement you would expect.</p>
+<p><span class="fill-line"></span></p>
+</div>
+<div class="part checklist-wrapper">
+<h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+<p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+<ul class="checklist">
+<li>□ I can define <strong>human factors</strong> in systems.</li>
+<li>□ I distinguish slips, mistakes, and lapses at a basic level.</li>
+<li>□ I value feedback that matches mental models.</li>
+<li>□ I design simpler paths under stress/workload.</li>
+<li>□ I can propose a concrete design defense.</li>
+</ul>
+<p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+</div>
+
+  <p class="footer">Worksheet on Human Factors (Technical). Central topic: Human factors. Main technology area: Systems design and safety.</p>
+
+</body>
+</html>
