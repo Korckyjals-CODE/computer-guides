@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T02:10:00Z",
+  "lastUpdated": "2026-11-10T15:26:56Z",
   "items": [
     {
       "grade": "1",
@@ -887,6 +887,21 @@
         },
         {
           "file": "Sistemas-De-Productividad-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "DC3B",
+      "week": 13,
+      "topic": "Optimización de interfaces",
+      "worksheets": [
+        {
+          "file": "Optimizacion-De-Interfaces-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Optimizacion-De-Interfaces-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
