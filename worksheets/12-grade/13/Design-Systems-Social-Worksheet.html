@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Systems: Social Worksheet – Grade 12</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px; margin: 0 auto; padding: 1rem 1.5rem;
+      color: #1a1a1a; line-height: 1.5; background: #fff;
+    }
+    h1 { font-size: 1.5rem; color: #512e5f; border-bottom: 3px solid #512e5f; padding-bottom: 0.25rem; margin-top: 0; }
+    .subtitle { font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #512e5f; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box { background: #eae5eb; border-left: 4px solid #512e5f; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .part { page-break-inside: avoid; break-inside: avoid; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #bbb; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #eae5eb; }
+    .fill-line { border-bottom: 1px solid #999; min-height: 1.4em; display: block; }
+    .scenario-box { background: #f5f5f5; border-left: 3px solid #512e5f; padding: 0.5rem 1rem; margin: 0.75rem 0; font-size: 0.95rem; }
+    .sketch-box { border: 2px solid #999; min-height: 120px; margin: 0.5rem 0; background: #fafafa; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1.5rem; align-items: baseline;
+      margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: #f5f5f5; border-radius: 4px; font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #666; page-break-before: avoid; break-before: avoid; }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, table { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; break-inside: avoid; }
+      .part, .scenario-box, .sketch-box, .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Design Systems: Social Worksheet</h1>
+  <p class="subtitle"><strong>Grade 12 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong> <span class="fill-line"></span>
+    <strong>Grade/Section:</strong> <span class="fill-line"></span>
+    <strong>Date:</strong> <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+<div class="part">
+<h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+<p><strong>What you will learn:</strong> Design systems shape the experience of millions of people. They carry values: <strong>accessibility</strong>, <strong>inclusion</strong>, <strong>brand voice</strong>, and <strong>collaboration</strong> across teams. Who decides, and who is included, matters.</p>
+<p><strong>Do this:</strong></p>
+<ol>
+<li><strong>Write</strong> one value a company might want its design system to express.<br><span class="fill-line"></span></li>
+<li><strong>Circle</strong> the stronger system: Includes accessibility from the start · Adds accessibility later if time allows</li>
+</ol>
+</div>
+<div class="part">
+<h2>Part 2 – Accessibility built in <span class="time">(about 5 minutes)</span></h2>
+<p>If a component is accessible, every product using it inherits that benefit. If it is not, the barrier spreads everywhere.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> A button component includes keyboard focus and sufficient contrast by default.</div>
+<p><strong>Discuss with a partner or reflect in writing:</strong> Why is it efficient to fix accessibility once, in the system?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Do this:</strong> Circle <strong>Inclusive</strong> or <strong>Exclusionary</strong>.</p>
+<table>
+<thead><tr><th>Practice</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Contrast checked in tokens</td><td>Inclusive · Exclusionary</td></tr>
+<tr><td>Components work with a keyboard</td><td>Inclusive · Exclusionary</td></tr>
+<tr><td>Icons with no text alternative</td><td>Inclusive · Exclusionary</td></tr>
+<tr><td>Only English labels</td><td>Inclusive · Exclusionary</td></tr>
+</tbody>
+</table>
+</div>
+<div class="part">
+<h2>Part 3 – Collaboration and ownership <span class="time">(about 5 minutes)</span></h2>
+<p>Design systems need designers, engineers, writers, and users to work together. Clear ownership prevents neglect and conflict.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> Engineers say the system slows them; designers say it is ignored. A shared roadmap helps.</div>
+<p><strong>Critical thinking:</strong> How can a team make contribution welcoming?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Word bank:</strong> <em>Roadmap</em> · <em>Office hours</em> · <em>Feedback form</em> · <em>Credit</em></p>
+<p><strong>Do this:</strong> Choose a helpful practice.</p>
+<table>
+<thead><tr><th>Problem</th><th>Practice</th></tr></thead>
+<tbody>
+<tr><td>Teams do not know the roadmap</td><td><span class="fill-line"></span></td></tr>
+<tr><td>Contributors feel ignored</td><td><span class="fill-line"></span></td></tr>
+<tr><td>People need guidance</td><td><span class="fill-line"></span></td></tr>
+</tbody>
+</table>
+</div>
+<div class="part">
+<h2>Part 4 – Culture and inclusion <span class="time">(about 5 minutes)</span></h2>
+<p>Names, icons, examples, and imagery can include or exclude cultures and genders. Inclusive language matters.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> An example form requires a gender choice with two options. Users complain.</div>
+<p><strong>Discuss with a partner or reflect in writing:</strong> How could the design be more respectful?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Do this:</strong></p>
+<ol>
+<li><strong>Write</strong> one change that makes a component more inclusive.<br><span class="fill-line"></span></li>
+<li><strong>Circle</strong> the inclusive choice: Flexible, optional fields · Forced narrow categories</li>
+</ol>
+</div>
+<div class="part">
+<h2>Part 5 – Values poster <span class="time">(about 5 minutes)</span></h2>
+<p><strong>Do this:</strong> Draw a poster of three values your design system will protect.</p>
+<div class="sketch-box"></div>
+<p>Write how you would measure one of them.</p>
+<p><span class="fill-line"></span></p>
+</div>
+<div class="part checklist-wrapper">
+<h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+<p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+<ul class="checklist">
+<li>□ I know a system carries <strong>values</strong>.</li>
+<li>□ I can describe <strong>accessibility by default</strong>.</li>
+<li>□ I know ownership and <strong>collaboration</strong> matter.</li>
+<li>□ I can think about <strong>inclusive language</strong>.</li>
+<li>□ I can propose a value for a system.</li>
+</ul>
+<p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+</div>
+
+  <p class="footer">Worksheet on Design Systems (Social). Central topic: Design systems at scale. Main technology area: UI design and front-end engineering.</p>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI Navigation: Technical Worksheet – Grade 5</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px; margin: 0 auto; padding: 1rem 1.5rem;
+      color: #1a1a1a; line-height: 1.5; background: #fff;
+    }
+    h1 { font-size: 1.5rem; color: #1e8449; border-bottom: 3px solid #1e8449; padding-bottom: 0.25rem; margin-top: 0; }
+    .subtitle { font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #1e8449; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box { background: #e4f0e9; border-left: 4px solid #1e8449; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .part { page-break-inside: avoid; break-inside: avoid; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #bbb; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #e4f0e9; }
+    .fill-line { border-bottom: 1px solid #999; min-height: 1.4em; display: block; }
+    .scenario-box { background: #f5f5f5; border-left: 3px solid #1e8449; padding: 0.5rem 1rem; margin: 0.75rem 0; font-size: 0.95rem; }
+    .sketch-box { border: 2px solid #999; min-height: 120px; margin: 0.5rem 0; background: #fafafa; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1.5rem; align-items: baseline;
+      margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: #f5f5f5; border-radius: 4px; font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #666; page-break-before: avoid; break-before: avoid; }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, table { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; break-inside: avoid; }
+      .part, .scenario-box, .sketch-box, .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>UI Navigation: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 5 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong> <span class="fill-line"></span>
+    <strong>Grade/Section:</strong> <span class="fill-line"></span>
+    <strong>Date:</strong> <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+<div class="part">
+<h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+<p><strong>What you will learn:</strong> A <strong>user interface (UI)</strong> is what you see and use on a screen: icons, menus, buttons, and windows. <strong>UI navigation</strong> means moving through these parts to complete tasks.</p>
+<p><strong>Do this:</strong></p>
+<ol>
+<li><strong>Name</strong> one app you use and one UI element in it (for example, a button).<br><span class="fill-line"></span></li>
+<li><strong>Circle</strong> the part of a UI you click to perform an action: Button · Wallpaper</li>
+</ol>
+</div>
+<div class="part">
+<h2>Part 2 – Parts of a UI <span class="time">(about 5 minutes)</span></h2>
+<p>Common UI elements are <strong>icons</strong> (small pictures), <strong>menus</strong> (lists of options), <strong>buttons</strong>, <strong>toolbars</strong>, and <strong>windows</strong>. They are designed to be recognizable.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> In a drawing app, Paula clicks the pencil icon on the toolbar to start drawing.</div>
+<p><strong>Discuss with a partner or reflect in writing:</strong> Why do icons use pictures instead of words?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Do this:</strong> Circle the UI element.</p>
+<table>
+<thead><tr><th>Description</th><th>Element</th></tr></thead>
+<tbody>
+<tr><td>A small picture of a printer</td><td>Icon · Menu · Window</td></tr>
+<tr><td>A list with Open, Save, Close</td><td>Icon · Menu · Window</td></tr>
+<tr><td>A box with a title bar that you can move</td><td>Icon · Menu · Window</td></tr>
+</tbody>
+</table>
+</div>
+<div class="part">
+<h2>Part 3 – Navigation patterns <span class="time">(about 5 minutes)</span></h2>
+<p>Many apps share patterns: a <strong>menu bar</strong> at the top, <strong>tabs</strong> to switch sections, <strong>breadcrumbs</strong> that show where you are, and a <strong>search bar</strong>.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> On a school portal, Eli sees Home > Grades > Math in the breadcrumbs.</div>
+<p><strong>Critical thinking:</strong> How do breadcrumbs help you?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Word bank:</strong> <em>Tabs</em> · <em>Menu bar</em> · <em>Breadcrumbs</em> · <em>Search bar</em></p>
+<p><strong>Do this:</strong> Choose the pattern that fits.</p>
+<table>
+<thead><tr><th>Need</th><th>Pattern</th></tr></thead>
+<tbody>
+<tr><td>Switch between sections</td><td><span class="fill-line"></span></td></tr>
+<tr><td>Find a topic fast</td><td><span class="fill-line"></span></td></tr>
+<tr><td>See where you are</td><td><span class="fill-line"></span></td></tr>
+</tbody>
+</table>
+</div>
+<div class="part">
+<h2>Part 4 – Finding features <span class="time">(about 5 minutes)</span></h2>
+<p>If you do not see a feature, check the menu, right-click, or use the <strong>Help</strong> option. Exploring carefully helps you learn a new UI.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> Zoe cannot find Print. She opens the File menu and sees it.</div>
+<p><strong>Discuss with a partner or reflect in writing:</strong> What steps would you follow to find a feature?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Do this:</strong></p>
+<ol>
+<li><strong>List</strong> three places to look for a feature.<br><span class="fill-line"></span></li>
+<li><strong>Circle</strong> the best approach: Explore menus step by step · Click everything very fast</li>
+</ol>
+</div>
+<div class="part">
+<h2>Part 5 – UI sketch <span class="time">(about 5 minutes)</span></h2>
+<p><strong>Do this:</strong> Draw a simple app screen with a menu bar, a toolbar, and a button. Label each part.</p>
+<div class="sketch-box"></div>
+<p>Write one UI tip for a new user.</p>
+<p><span class="fill-line"></span></p>
+</div>
+<div class="part checklist-wrapper">
+<h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+<p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+<ul class="checklist">
+<li>□ I can name UI parts (icon, menu, toolbar, window).</li>
+<li>□ I know common navigation patterns.</li>
+<li>□ I can use breadcrumbs and search.</li>
+<li>□ I know where to look for hidden features.</li>
+<li>□ I can explore a new UI carefully.</li>
+</ul>
+<p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+</div>
+
+  <p class="footer">Worksheet on UI Navigation (Technical). Central topic: Navigating user interfaces. Main technology area: Computers (user interfaces).</p>
+
+</body>
+</html>

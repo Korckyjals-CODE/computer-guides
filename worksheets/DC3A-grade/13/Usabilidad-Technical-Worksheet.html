@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usabilidad: Hoja de trabajo técnica – DC3A</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px; margin: 0 auto; padding: 1rem 1.5rem;
+      color: #1a1a1a; line-height: 1.5; background: #fff;
+    }
+    h1 { font-size: 1.5rem; color: #00796b; border-bottom: 3px solid #00796b; padding-bottom: 0.25rem; margin-top: 0; }
+    .subtitle { font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #00796b; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box { background: #e0eeed; border-left: 4px solid #00796b; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .part { page-break-inside: avoid; break-inside: avoid; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #bbb; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #e0eeed; }
+    .fill-line { border-bottom: 1px solid #999; min-height: 1.4em; display: block; }
+    .scenario-box { background: #f5f5f5; border-left: 3px solid #00796b; padding: 0.5rem 1rem; margin: 0.75rem 0; font-size: 0.95rem; }
+    .sketch-box { border: 2px solid #999; min-height: 120px; margin: 0.5rem 0; background: #fafafa; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1.5rem; align-items: baseline;
+      margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: #f5f5f5; border-radius: 4px; font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #666; page-break-before: avoid; break-before: avoid; }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, table { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; break-inside: avoid; }
+      .part, .scenario-box, .sketch-box, .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Usabilidad: Hoja de trabajo técnica</h1>
+  <p class="subtitle"><strong>DC3A · Hoja de trabajo · Unos 25 minutos</strong><br>
+  Trabaja con bolígrafo y papel. Puedes usar colores si quieres. No necesitas computadora ni internet.</p>
+
+  <div class="student-info">
+    <strong>Nombre:</strong> <span class="fill-line"></span>
+    <strong>Grado o grupo:</strong> <span class="fill-line"></span>
+    <strong>Fecha:</strong> <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>Cómo usar esta hoja de trabajo</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Haz las partes <strong>en orden</strong>, de arriba abajo.</li>
+      <li>Cada parte indica un <strong>tiempo</strong> aproximado para que organices tu ritmo.</li>
+      <li>Lee cada instrucción antes de escribir. Puedes hacer esta actividad por tu cuenta.</li>
+    </ul>
+  </div>
+
+<div class="part">
+<h2>Parte 1 – Qué aprenderás <span class="time">(unos 3 minutos)</span></h2>
+<p><strong>Qué aprenderás:</strong> La <strong>usabilidad</strong> mide qué tan fácil, rápido y agradable es usar un producto digital. Sus metas principales son <strong>aprendizaje</strong>, <strong>eficiencia</strong>, <strong>memorabilidad</strong>, <strong>tolerancia a errores</strong> y <strong>satisfacción</strong>.</p>
+<p><strong>Haz esto:</strong></p>
+<ol>
+<li><strong>Nombra</strong> una aplicación o sitio web fácil de usar y otro difícil de usar.<br><span class="fill-line"></span></li>
+<li><strong>Encierra</strong> la meta que significa “fácil de aprender”: Aprendizaje · Color</li>
+</ol>
+</div>
+<div class="part">
+<h2>Parte 2 – Metas de usabilidad <span class="time">(unos 5 minutos)</span></h2>
+<p>Las cinco metas guían el diseño: <strong>aprendizaje</strong> (fácil de aprender), <strong>eficiencia</strong> (rápido de usar), <strong>memorabilidad</strong> (fácil de recordar), <strong>errores</strong> (pocos y fáciles de corregir) y <strong>satisfacción</strong> (agradable).</p>
+<div class="scenario-box"><strong>Escenario de la vida real:</strong> Kai abre una aplicación nueva y termina la tarea en un minuto sin ayuda.</div>
+<p><strong>Comenta con un compañero o reflexiona por escrito:</strong> ¿Qué metas muestra la experiencia de Kai?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Haz esto:</strong> Une cada situación con una meta. Encierra la mejor.</p>
+<table>
+<thead><tr><th>Situación</th><th>Meta</th></tr></thead>
+<tbody>
+<tr><td>Un usuario nuevo termina sin ayuda</td><td>Aprendizaje · Eficiencia · Errores</td></tr>
+<tr><td>Un usuario frecuente termina en pocos pasos</td><td>Aprendizaje · Eficiencia · Errores</td></tr>
+<tr><td>Un error se arregla con Deshacer</td><td>Aprendizaje · Eficiencia · Errores</td></tr>
+</tbody>
+</table>
+</div>
+<div class="part">
+<h2>Parte 3 – Pruebas de usabilidad <span class="time">(unos 5 minutos)</span></h2>
+<p>Una <strong>prueba de usabilidad</strong> consiste en que una persona intenta tareas mientras un observador anota problemas. Se miden el <strong>tiempo</strong>, el <strong>éxito</strong> y los <strong>errores</strong>.</p>
+<div class="scenario-box"><strong>Escenario de la vida real:</strong> Cinco estudiantes prueban el sitio de la escuela. Tres no encuentran el horario.</div>
+<p><strong>Pensamiento crítico:</strong> ¿Qué cambiarías después de ver este resultado?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Banco de palabras:</strong> <em>Tarea</em> · <em>Observador</em> · <em>Tasa de éxito</em> · <em>Tiempo</em></p>
+<p><strong>Haz esto:</strong> Completa cada descripción.</p>
+<table>
+<thead><tr><th>Descripción</th><th>Término</th></tr></thead>
+<tbody>
+<tr><td>Trabajo que recibe quien prueba</td><td><span class="fill-line"></span></td></tr>
+<tr><td>Persona que observa y anota</td><td><span class="fill-line"></span></td></tr>
+<tr><td>Porcentaje que termina la tarea</td><td><span class="fill-line"></span></td></tr>
+</tbody>
+</table>
+</div>
+<div class="part">
+<h2>Parte 4 – Mejorar un diseño <span class="time">(unos 5 minutos)</span></h2>
+<p>Después de probar, el equipo corrige primero los problemas más graves. Cambios pequeños, como etiquetas más claras, ayudan mucho.</p>
+<div class="scenario-box"><strong>Escenario de la vida real:</strong> El enlace “Recursos” se renombra “Horario de clases” y más estudiantes lo encuentran.</div>
+<p><strong>Comenta con un compañero o reflexiona por escrito:</strong> ¿Cómo decides qué problema corregir primero?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Haz esto:</strong></p>
+<ol>
+<li><strong>Escribe</strong> un problema de usabilidad que hayas visto y una solución.<br><span class="fill-line"></span></li>
+<li><strong>Encierra</strong> la mejor etiqueta: Horario de clases · Recursos y varios</li>
+</ol>
+</div>
+<div class="part">
+<h2>Parte 5 – Boceto de usabilidad <span class="time">(unos 5 minutos)</span></h2>
+<p><strong>Haz esto:</strong> Dibuja un antes y un después de una pantalla donde mejoraste una etiqueta o un botón.</p>
+<div class="sketch-box"></div>
+<p>Escribe la meta de usabilidad que apoya tu cambio.</p>
+<p><span class="fill-line"></span></p>
+</div>
+<div class="part checklist-wrapper">
+<h2>Parte 6 – Revisa lo que aprendiste <span class="time">(unos 2 minutos)</span></h2>
+<p><strong>Lista de verificación.</strong> Marca con ✓ cuando sea cierto para ti.</p>
+<ul class="checklist">
+<li>□ Conozco las cinco <strong>metas de usabilidad</strong>.</li>
+<li>□ Puedo explicar una <strong>prueba de usabilidad</strong>.</li>
+<li>□ Puedo medir <strong>tiempo</strong> y <strong>éxito</strong>.</li>
+<li>□ Puedo proponer una mejora.</li>
+<li>□ Puedo comparar dos diseños.</li>
+</ul>
+<p>Cuando todas las casillas estén marcadas, habrás repasado las ideas principales de esta hoja.</p>
+</div>
+
+  <p class="footer">Hoja sobre Usabilidad (Técnica). Tema central: Usabilidad de productos digitales. Área tecnológica principal: Experiencia de usuario y evaluación.</p>
+
+</body>
+</html>

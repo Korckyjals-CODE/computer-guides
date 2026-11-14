@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T15:26:56Z",
+  "lastUpdated": "2026-11-14T00:26:25Z",
   "items": [
     {
       "grade": "1",
@@ -68,6 +68,21 @@
     },
     {
       "grade": "1",
+      "week": 13,
+      "topic": "Mouse use",
+      "worksheets": [
+        {
+          "file": "Mouse-Use-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Mouse-Use-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "1",
       "week": 34,
       "topic": "School tech",
       "worksheets": [
@@ -107,6 +122,21 @@
         },
         {
           "file": "Keys-Types-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "2",
+      "week": 13,
+      "topic": "Click actions",
+      "worksheets": [
+        {
+          "file": "Click-Actions-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Click-Actions-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -203,6 +233,21 @@
     },
     {
       "grade": "3",
+      "week": 13,
+      "topic": "Precision",
+      "worksheets": [
+        {
+          "file": "Precision-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Precision-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "3",
       "week": 31,
       "topic": "Design ideas",
       "worksheets": [
@@ -272,6 +317,21 @@
         },
         {
           "file": "Shortcuts-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "4",
+      "week": 13,
+      "topic": "Navigation",
+      "worksheets": [
+        {
+          "file": "Navigation-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Navigation-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -368,6 +428,21 @@
     },
     {
       "grade": "5",
+      "week": 13,
+      "topic": "UI navigation",
+      "worksheets": [
+        {
+          "file": "UI-Navigation-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "UI-Navigation-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "5",
       "week": 34,
       "topic": "LMS idea",
       "worksheets": [
@@ -422,6 +497,21 @@
         },
         {
           "file": "Workflow-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "6",
+      "week": 13,
+      "topic": "Efficiency",
+      "worksheets": [
+        {
+          "file": "Efficiency-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Efficiency-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -518,6 +608,21 @@
     },
     {
       "grade": "7",
+      "week": 13,
+      "topic": "Interaction design",
+      "worksheets": [
+        {
+          "file": "Interaction-Design-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Interaction-Design-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "7",
       "week": 29,
       "topic": "Cyber basics",
       "worksheets": [
@@ -572,6 +677,21 @@
         },
         {
           "file": "Human-Input-Limits-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "8",
+      "week": 13,
+      "topic": "Usability",
+      "worksheets": [
+        {
+          "file": "Usability-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Usability-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -638,6 +758,21 @@
     },
     {
       "grade": "9",
+      "week": 13,
+      "topic": "UX evaluation",
+      "worksheets": [
+        {
+          "file": "UX-Evaluation-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "UX-Evaluation-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "9",
       "week": 34,
       "topic": "Education tech",
       "worksheets": [
@@ -698,6 +833,21 @@
     },
     {
       "grade": "10",
+      "week": 13,
+      "topic": "Interface optimization",
+      "worksheets": [
+        {
+          "file": "Interface-Optimization-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Interface-Optimization-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "10",
       "week": 34,
       "topic": "Product design",
       "worksheets": [
@@ -737,6 +887,21 @@
         },
         {
           "file": "Ergonomics-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "11",
+      "week": 13,
+      "topic": "UX metrics",
+      "worksheets": [
+        {
+          "file": "UX-Metrics-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "UX-Metrics-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -788,6 +953,21 @@
     },
     {
       "grade": "12",
+      "week": 13,
+      "topic": "Design systems",
+      "worksheets": [
+        {
+          "file": "Design-Systems-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Design-Systems-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "12",
       "week": 29,
       "topic": "Cyber strategy",
       "worksheets": [
@@ -827,6 +1007,21 @@
         },
         {
           "file": "Limites-De-La-Entrada-Humana-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "DC3A",
+      "week": 13,
+      "topic": "Usabilidad",
+      "worksheets": [
+        {
+          "file": "Usabilidad-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Usabilidad-Technical-Worksheet.html",
           "type": "technical"
         }
       ]

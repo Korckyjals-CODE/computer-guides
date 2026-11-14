@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interface Optimization: Technical Worksheet – Grade 10</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px; margin: 0 auto; padding: 1rem 1.5rem;
+      color: #1a1a1a; line-height: 1.5; background: #fff;
+    }
+    h1 { font-size: 1.5rem; color: #a04000; border-bottom: 3px solid #a04000; padding-bottom: 0.25rem; margin-top: 0; }
+    .subtitle { font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #a04000; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box { background: #f3e8e0; border-left: 4px solid #a04000; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .part { page-break-inside: avoid; break-inside: avoid; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #bbb; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #f3e8e0; }
+    .fill-line { border-bottom: 1px solid #999; min-height: 1.4em; display: block; }
+    .scenario-box { background: #f5f5f5; border-left: 3px solid #a04000; padding: 0.5rem 1rem; margin: 0.75rem 0; font-size: 0.95rem; }
+    .sketch-box { border: 2px solid #999; min-height: 120px; margin: 0.5rem 0; background: #fafafa; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1.5rem; align-items: baseline;
+      margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: #f5f5f5; border-radius: 4px; font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #666; page-break-before: avoid; break-before: avoid; }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, table { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; break-inside: avoid; }
+      .part, .scenario-box, .sketch-box, .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Interface Optimization: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 10 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong> <span class="fill-line"></span>
+    <strong>Grade/Section:</strong> <span class="fill-line"></span>
+    <strong>Date:</strong> <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+<div class="part">
+<h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+<p><strong>What you will learn:</strong> <strong>Interface optimization</strong> is improving a UI so users finish tasks faster, with fewer errors and less effort. Designers use <strong>Fitts's Law</strong>, <strong>Hick's Law</strong>, clear <strong>hierarchy</strong>, and <strong>performance</strong> improvements.</p>
+<p><strong>Do this:</strong></p>
+<ol>
+<li><strong>Name</strong> one interface you use often that you would improve.<br><span class="fill-line"></span></li>
+<li><strong>Circle</strong> the law about target size and distance: Fitts's Law · Newton's Law</li>
+</ol>
+</div>
+<div class="part">
+<h2>Part 2 – Fitts and Hick <span class="time">(about 5 minutes)</span></h2>
+<p><strong>Fitts's Law</strong>: big, close targets are faster to hit. <strong>Hick's Law</strong>: more choices make decisions slower.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> A page has 15 equal buttons. Users take longer to pick. The designer groups them into 4 clear sections.</div>
+<p><strong>Discuss with a partner or reflect in writing:</strong> How does reducing choices speed users up?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Do this:</strong> Circle the faster design.</p>
+<table>
+<thead><tr><th>Design</th><th>Faster?</th></tr></thead>
+<tbody>
+<tr><td>Large Submit button near the form</td><td>Faster · Slower</td></tr>
+<tr><td>Tiny Submit button far away</td><td>Faster · Slower</td></tr>
+<tr><td>4 clear menu options</td><td>Faster · Slower</td></tr>
+<tr><td>20 unlabeled options</td><td>Faster · Slower</td></tr>
+</tbody>
+</table>
+</div>
+<div class="part">
+<h2>Part 3 – Visual hierarchy <span class="time">(about 5 minutes)</span></h2>
+<p><strong>Hierarchy</strong> shows what matters most using size, color, contrast, and position. The eye goes first to the biggest, boldest element.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> In a sign-up form, the main button is large and colorful; Cancel is a plain link.</div>
+<p><strong>Critical thinking:</strong> What happens if everything is the same size and color?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Word bank:</strong> <em>Size</em> · <em>Contrast</em> · <em>Position</em> · <em>Whitespace</em></p>
+<p><strong>Do this:</strong> Choose the tool used.</p>
+<table>
+<thead><tr><th>Change</th><th>Hierarchy tool</th></tr></thead>
+<tbody>
+<tr><td>Make title larger</td><td><span class="fill-line"></span></td></tr>
+<tr><td>Use dark text on light background</td><td><span class="fill-line"></span></td></tr>
+<tr><td>Leave space around a button</td><td><span class="fill-line"></span></td></tr>
+</tbody>
+</table>
+</div>
+<div class="part">
+<h2>Part 4 – Performance <span class="time">(about 5 minutes)</span></h2>
+<p>Speed is part of the interface. <strong>Load time</strong>, <strong>lazy loading</strong>, and <strong>compressed images</strong> make pages feel faster.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> A page loads in 8 seconds. After compressing images, it loads in 2.</div>
+<p><strong>Discuss with a partner or reflect in writing:</strong> Why do users leave slow pages?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Do this:</strong></p>
+<ol>
+<li><strong>Write</strong> two ways to make a web page load faster.<br><span class="fill-line"></span></li>
+<li><strong>Circle</strong> the faster approach: Compress images · Use huge uncompressed photos</li>
+</ol>
+</div>
+<div class="part">
+<h2>Part 5 – Before and after <span class="time">(about 5 minutes)</span></h2>
+<p><strong>Do this:</strong> Draw a cluttered screen and an optimized version with labels.</p>
+<div class="sketch-box"></div>
+<p>Write the metric you would measure to prove it is better.</p>
+<p><span class="fill-line"></span></p>
+</div>
+<div class="part checklist-wrapper">
+<h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+<p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+<ul class="checklist">
+<li>□ I know <strong>Fitts's</strong> and <strong>Hick's</strong> laws.</li>
+<li>□ I can use <strong>hierarchy</strong>.</li>
+<li>□ I know load time affects users.</li>
+<li>□ I can compare two designs with a metric.</li>
+<li>□ I can propose optimizations.</li>
+</ul>
+<p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+</div>
+
+  <p class="footer">Worksheet on Interface Optimization (Technical). Central topic: Optimizing interfaces. Main technology area: UI performance and design.</p>
+
+</body>
+</html>
