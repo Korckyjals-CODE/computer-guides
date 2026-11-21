@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T00:26:25Z",
+  "lastUpdated": "2026-11-21T00:07:04Z",
   "items": [
     {
       "grade": "1",
@@ -83,6 +83,21 @@
     },
     {
       "grade": "1",
+      "week": 14,
+      "topic": "Files",
+      "worksheets": [
+        {
+          "file": "Files-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Files-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "1",
       "week": 34,
       "topic": "School tech",
       "worksheets": [
@@ -137,6 +152,21 @@
         },
         {
           "file": "Click-Actions-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "2",
+      "week": 14,
+      "topic": "Saving work",
+      "worksheets": [
+        {
+          "file": "Saving-Work-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Saving-Work-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -248,6 +278,21 @@
     },
     {
       "grade": "3",
+      "week": 14,
+      "topic": "File types",
+      "worksheets": [
+        {
+          "file": "File-Types-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "File-Types-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "3",
       "week": 31,
       "topic": "Design ideas",
       "worksheets": [
@@ -332,6 +377,21 @@
         },
         {
           "file": "Navigation-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "4",
+      "week": 14,
+      "topic": "File organization",
+      "worksheets": [
+        {
+          "file": "File-Organization-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "File-Organization-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -443,6 +503,21 @@
     },
     {
       "grade": "5",
+      "week": 14,
+      "topic": "Folders",
+      "worksheets": [
+        {
+          "file": "Folders-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Folders-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "5",
       "week": 34,
       "topic": "LMS idea",
       "worksheets": [
@@ -512,6 +587,21 @@
         },
         {
           "file": "Efficiency-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "6",
+      "week": 14,
+      "topic": "Structures",
+      "worksheets": [
+        {
+          "file": "Structures-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Structures-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -623,6 +713,21 @@
     },
     {
       "grade": "7",
+      "week": 14,
+      "topic": "Data organization",
+      "worksheets": [
+        {
+          "file": "Data-Organization-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Data-Organization-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "7",
       "week": 29,
       "topic": "Cyber basics",
       "worksheets": [
@@ -692,6 +797,21 @@
         },
         {
           "file": "Usability-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "8",
+      "week": 14,
+      "topic": "File systems",
+      "worksheets": [
+        {
+          "file": "File-Systems-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "File-Systems-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -773,6 +893,21 @@
     },
     {
       "grade": "9",
+      "week": 14,
+      "topic": "Storage systems",
+      "worksheets": [
+        {
+          "file": "Storage-Systems-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Storage-Systems-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "9",
       "week": 34,
       "topic": "Education tech",
       "worksheets": [
@@ -848,6 +983,21 @@
     },
     {
       "grade": "10",
+      "week": 14,
+      "topic": "Data lifecycle",
+      "worksheets": [
+        {
+          "file": "Data-Lifecycle-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Data-Lifecycle-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "10",
       "week": 34,
       "topic": "Product design",
       "worksheets": [
@@ -902,6 +1052,21 @@
         },
         {
           "file": "UX-Metrics-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "11",
+      "week": 14,
+      "topic": "Data governance",
+      "worksheets": [
+        {
+          "file": "Data-Governance-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Data-Governance-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -968,6 +1133,21 @@
     },
     {
       "grade": "12",
+      "week": 14,
+      "topic": "Data architecture",
+      "worksheets": [
+        {
+          "file": "Data-Architecture-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Data-Architecture-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "12",
       "week": 29,
       "topic": "Cyber strategy",
       "worksheets": [
@@ -1022,6 +1202,21 @@
         },
         {
           "file": "Usabilidad-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "DC3A",
+      "week": 14,
+      "topic": "Sistemas de archivos",
+      "worksheets": [
+        {
+          "file": "Sistemas-De-Archivos-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Sistemas-De-Archivos-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -1097,6 +1292,21 @@
         },
         {
           "file": "Optimizacion-De-Interfaces-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "DC3B",
+      "week": 14,
+      "topic": "Ciclo de vida de los datos",
+      "worksheets": [
+        {
+          "file": "Ciclo-De-Vida-De-Los-Datos-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Ciclo-De-Vida-De-Los-Datos-Technical-Worksheet.html",
           "type": "technical"
         }
       ]

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Systems: Technical Worksheet – Grade 8</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 700px; margin: 0 auto; padding: 1rem 1.5rem;
+      color: #1a1a1a; line-height: 1.5; background: #fff;
+    }
+    h1 { font-size: 1.5rem; color: #117a65; border-bottom: 3px solid #117a65; padding-bottom: 0.25rem; margin-top: 0; }
+    .subtitle { font-size: 0.9rem; color: #555; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #117a65; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .time { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+    .intro-box { background: #e2efec; border-left: 4px solid #117a65; padding: 0.75rem 1rem; margin: 1rem 0; }
+    .part { page-break-inside: avoid; break-inside: avoid; }
+    table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #bbb; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #e2efec; }
+    .fill-line { border-bottom: 1px solid #999; min-height: 1.4em; display: block; }
+    .scenario-box { background: #f5f5f5; border-left: 3px solid #117a65; padding: 0.5rem 1rem; margin: 0.75rem 0; font-size: 0.95rem; }
+    .sketch-box { border: 2px solid #999; min-height: 120px; margin: 0.5rem 0; background: #fafafa; }
+    .checklist { list-style: none; padding-left: 0; }
+    .checklist li { margin: 0.4rem 0; }
+    .student-info {
+      display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1.5rem; align-items: baseline;
+      margin-bottom: 1.25rem; padding: 0.75rem 1rem; background: #f5f5f5; border-radius: 4px; font-size: 0.95rem;
+    }
+    .student-info span.fill-line { min-width: 120px; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #666; page-break-before: avoid; break-before: avoid; }
+    @media print {
+      body { padding: 0.5rem; }
+      h2 { page-break-after: avoid; }
+      .intro-box, table { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; break-inside: avoid; }
+      .part, .scenario-box, .sketch-box, .checklist-wrapper { page-break-inside: avoid; break-inside: avoid; }
+      .sketch-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>File Systems: Technical Worksheet</h1>
+  <p class="subtitle"><strong>Grade 8 · Worksheet · About 25 minutes</strong><br>
+  Work with pen and paper. Use color pencils if you like. You do not need a computer or the internet.</p>
+
+  <div class="student-info">
+    <strong>Name:</strong> <span class="fill-line"></span>
+    <strong>Grade/Section:</strong> <span class="fill-line"></span>
+    <strong>Date:</strong> <span class="fill-line"></span>
+  </div>
+
+  <div class="intro-box">
+    <strong>How to use this worksheet</strong>
+    <ul style="margin: 0.25rem 0 0 1rem; padding: 0;">
+      <li>Do the parts <strong>in order</strong> from top to bottom.</li>
+      <li>Each part has a <strong>time</strong> so you know how long to spend.</li>
+      <li>Read every instruction before you write. You can do this on your own.</li>
+    </ul>
+  </div>
+
+<div class="part">
+<h2>Part 1 – What you will learn <span class="time">(about 3 minutes)</span></h2>
+<p><strong>What you will learn:</strong> A <strong>file system</strong> is how an operating system names, stores, and finds files on a drive. Examples: <strong>NTFS</strong>, <strong>FAT32</strong>, <strong>exFAT</strong>, <strong>ext4</strong>, and <strong>APFS</strong>. It tracks <strong>names</strong>, <strong>locations</strong>, <strong>sizes</strong>, and <strong>permissions</strong>.</p>
+<p><strong>Do this:</strong></p>
+<ol>
+<li><strong>Name</strong> one operating system you have used and where it saves files.<br><span class="fill-line"></span></li>
+<li><strong>Circle</strong> the part that stores file locations: File system · Monitor</li>
+</ol>
+</div>
+<div class="part">
+<h2>Part 2 – What a file system does <span class="time">(about 5 minutes)</span></h2>
+<p>It splits a drive into small blocks, keeps a table of where each file's blocks are, and records details like size and date.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> When you open Report.docx, the file system finds its blocks and delivers them.</div>
+<p><strong>Discuss with a partner or reflect in writing:</strong> Why is a table of locations important?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Do this:</strong> Match each job with the right part. Circle one.</p>
+<table>
+<thead><tr><th>Job</th><th>Part</th></tr></thead>
+<tbody>
+<tr><td>Finds file blocks</td><td>File system · Application · Monitor</td></tr>
+<tr><td>Edits the text</td><td>File system · Application · Monitor</td></tr>
+<tr><td>Shows the screen</td><td>File system · Application · Monitor</td></tr>
+</tbody>
+</table>
+</div>
+<div class="part">
+<h2>Part 3 – Common file systems <span class="time">(about 5 minutes)</span></h2>
+<p>Different file systems fit different needs. <strong>FAT32</strong> works widely but has a 4 GB file limit. <strong>NTFS</strong> adds permissions. <strong>exFAT</strong> is good for large files on USB drives.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> A 6 GB video will not copy to a FAT32 USB.</div>
+<p><strong>Critical thinking:</strong> Which file system could fix this?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Word bank:</strong> <em>FAT32</em> · <em>NTFS</em> · <em>exFAT</em></p>
+<p><strong>Do this:</strong> Write the best file system.</p>
+<table>
+<thead><tr><th>Need</th><th>File system</th></tr></thead>
+<tbody>
+<tr><td>Works on many devices but small file limit</td><td><span class="fill-line"></span></td></tr>
+<tr><td>Windows with permissions</td><td><span class="fill-line"></span></td></tr>
+<tr><td>Large files on USB</td><td><span class="fill-line"></span></td></tr>
+</tbody>
+</table>
+</div>
+<div class="part">
+<h2>Part 4 – Formatting and fragmentation <span class="time">(about 5 minutes)</span></h2>
+<p><strong>Formatting</strong> prepares a drive with a file system and erases data. <strong>Fragmentation</strong> means a file's pieces are scattered, which can slow old hard drives.</p>
+<div class="scenario-box"><strong>Real-life scenario:</strong> A student formats a USB without copying the files first.</div>
+<p><strong>Discuss with a partner or reflect in writing:</strong> What was lost and why?</p>
+<p><span class="fill-line"></span></p>
+<p><strong>Do this:</strong></p>
+<ol>
+<li><strong>Write</strong> one step to do before formatting.<br><span class="fill-line"></span></li>
+<li><strong>Circle</strong> the safer habit: Back up first · Format right away</li>
+</ol>
+</div>
+<div class="part">
+<h2>Part 5 – File system sketch <span class="time">(about 5 minutes)</span></h2>
+<p><strong>Do this:</strong> Draw a drive split into blocks with a table pointing to a file.</p>
+<div class="sketch-box"></div>
+<p>Write what the table stores.</p>
+<p><span class="fill-line"></span></p>
+</div>
+<div class="part checklist-wrapper">
+<h2>Part 6 – Check what you learned <span class="time">(about 2 minutes)</span></h2>
+<p><strong>Checklist.</strong> Put a ✓ in the box when it is true for you.</p>
+<ul class="checklist">
+<li>□ I know what a <strong>file system</strong> is.</li>
+<li>□ I can name <strong>three</strong> file systems.</li>
+<li>□ I know the <strong>4 GB</strong> FAT32 limit.</li>
+<li>□ I know <strong>formatting</strong> erases data.</li>
+<li>□ I back up before formatting.</li>
+</ul>
+<p>When all boxes are checked, you have reviewed the main ideas from this worksheet.</p>
+</div>
+
+  <p class="footer">Worksheet on File Systems (Technical). Central topic: How file systems work. Main technology area: Operating systems and storage.</p>
+
+</body>
+</html>
