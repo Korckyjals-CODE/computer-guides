@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T00:07:04Z",
+  "lastUpdated": "2026-11-28T00:07:55Z",
   "items": [
     {
       "grade": "1",
@@ -98,6 +98,21 @@
     },
     {
       "grade": "1",
+      "week": 15,
+      "topic": "Names",
+      "worksheets": [
+        {
+          "file": "Names-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Names-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "1",
       "week": 34,
       "topic": "School tech",
       "worksheets": [
@@ -167,6 +182,21 @@
         },
         {
           "file": "Saving-Work-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "2",
+      "week": 15,
+      "topic": "Naming files",
+      "worksheets": [
+        {
+          "file": "Naming-Files-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Naming-Files-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -293,6 +323,21 @@
     },
     {
       "grade": "3",
+      "week": 15,
+      "topic": "Good names",
+      "worksheets": [
+        {
+          "file": "Good-Names-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Good-Names-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "3",
       "week": 31,
       "topic": "Design ideas",
       "worksheets": [
@@ -392,6 +437,21 @@
         },
         {
           "file": "File-Organization-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "4",
+      "week": 15,
+      "topic": "Naming rules",
+      "worksheets": [
+        {
+          "file": "Naming-Rules-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Naming-Rules-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -518,6 +578,21 @@
     },
     {
       "grade": "5",
+      "week": 15,
+      "topic": "Standards",
+      "worksheets": [
+        {
+          "file": "Standards-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Standards-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "5",
       "week": 34,
       "topic": "LMS idea",
       "worksheets": [
@@ -602,6 +677,21 @@
         },
         {
           "file": "Structures-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "6",
+      "week": 15,
+      "topic": "Conventions",
+      "worksheets": [
+        {
+          "file": "Conventions-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Conventions-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -728,6 +818,21 @@
     },
     {
       "grade": "7",
+      "week": 15,
+      "topic": "System naming",
+      "worksheets": [
+        {
+          "file": "System-Naming-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "System-Naming-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "7",
       "week": 29,
       "topic": "Cyber basics",
       "worksheets": [
@@ -812,6 +917,21 @@
         },
         {
           "file": "File-Systems-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "8",
+      "week": 15,
+      "topic": "Metadata",
+      "worksheets": [
+        {
+          "file": "Metadata-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Metadata-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -908,6 +1028,21 @@
     },
     {
       "grade": "9",
+      "week": 15,
+      "topic": "Data labeling",
+      "worksheets": [
+        {
+          "file": "Data-Labeling-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Data-Labeling-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "9",
       "week": 34,
       "topic": "Education tech",
       "worksheets": [
@@ -998,6 +1133,21 @@
     },
     {
       "grade": "10",
+      "week": 15,
+      "topic": "Data quality",
+      "worksheets": [
+        {
+          "file": "Data-Quality-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Data-Quality-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "10",
       "week": 34,
       "topic": "Product design",
       "worksheets": [
@@ -1067,6 +1217,21 @@
         },
         {
           "file": "Data-Governance-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "11",
+      "week": 15,
+      "topic": "Governance",
+      "worksheets": [
+        {
+          "file": "Governance-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Governance-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -1148,6 +1313,21 @@
     },
     {
       "grade": "12",
+      "week": 15,
+      "topic": "Information systems",
+      "worksheets": [
+        {
+          "file": "Information-Systems-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Information-Systems-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "12",
       "week": 29,
       "topic": "Cyber strategy",
       "worksheets": [
@@ -1217,6 +1397,21 @@
         },
         {
           "file": "Sistemas-De-Archivos-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "DC3A",
+      "week": 15,
+      "topic": "Metadatos",
+      "worksheets": [
+        {
+          "file": "Metadatos-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Metadatos-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
@@ -1307,6 +1502,21 @@
         },
         {
           "file": "Ciclo-De-Vida-De-Los-Datos-Technical-Worksheet.html",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "grade": "DC3B",
+      "week": 15,
+      "topic": "Calidad de los datos",
+      "worksheets": [
+        {
+          "file": "Calidad-De-Los-Datos-Social-Worksheet.html",
+          "type": "social"
+        },
+        {
+          "file": "Calidad-De-Los-Datos-Technical-Worksheet.html",
           "type": "technical"
         }
       ]
